@@ -92,10 +92,6 @@ export default {
           "routeBasePath": "/",
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
-        },
         "theme": {
           "customCss": "/Users/torquilharkness/Documents/TQ Files/Docusaurus/Git Clone Docusaurus/test-quality-doc/src/css/custom.css"
         }
