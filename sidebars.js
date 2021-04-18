@@ -2,14 +2,15 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'Docusaurus Tutorial',
+      label: 'TestQuality Documentation',
       items: [
         'getting-started',
-        'create-a-page',
-        'create-a-document',
-        'create-a-blog-post',
-        'markdown-features',
-        'thank-you',
+        'Overview',
+        'Tests',
+        'Run',
+        'Cycles',
+        'Analyse',
+        'Whats_New',
       ],
     },
   ],

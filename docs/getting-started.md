@@ -3,26 +3,18 @@ title: Getting Started
 slug: /
 ---
 
-## Step 1: Generate a new Docusaurus site
+### What is TestQuality?
 
-If you haven't already, generate a new Docusaurus site using the classic template:
+TestQuality is a test management application that enables you to easily monitor your testing efforts.
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+There are many different reasons for running tests. you could be a software company that is producing an application and you have tests that check the effects of changes that your developers make to the code as they fix bugs and add features. You could be a mining company that tests drilling core samples and you want to monitor your lab tests.
 
-## Step 2: Start your Docusaurus site
+At TestQuality we know that the backbone of your testing, is your tests. So we have built an interface to match your priorities, with tests at the core of operations, but enabling the surrounding tasks to ensure success, once your tests are in place.
 
-Run the development server in the newly created `my-website` folder:
+The interface is divided in to 4 main areas that are designed to be used at a single click. So as your focus on a set of tasks is in a single pane for each of your test management tasks.
 
-```shell
-cd my-website
 
-npx docusaurus start
-```
 
-Open `docs/getting-started.md` and edit some lines. The site reloads automatically and display your changes.
 
-## That's it!
+Did you try Light/Dark mode yet?
 
-Congratulations! You've successfully run and modified your Docusaurus project.
