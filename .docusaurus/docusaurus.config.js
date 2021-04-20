@@ -26,7 +26,7 @@ export default {
           "items": [
             {
               "label": "Getting Started",
-              "to": "docs/"
+              "to": "/"
             }
           ]
         },
@@ -34,12 +34,8 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "TestQuality Integrations",
+              "href": "https://www.testquality.com/integrations/"
             },
             {
               "label": "Twitter",
@@ -51,17 +47,13 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "blog"
-            },
-            {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/marketplace/testquality"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2021 Bitmodern, Inc."
     },
     "colorMode": {
       "defaultMode": "light",
@@ -90,7 +82,7 @@ export default {
         "docs": {
           "sidebarPath": "/Users/torquilharkness/Documents/TQ Files/Docusaurus/Git Clone Docusaurus/test-quality-doc/sidebars.js",
           "routeBasePath": "/",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "editUrl": "https://github.com/BitModern/test-quality-doc"
         },
         "theme": {
           "customCss": "/Users/torquilharkness/Documents/TQ Files/Docusaurus/Git Clone Docusaurus/test-quality-doc/src/css/custom.css"

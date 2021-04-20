@@ -30,20 +30,16 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'docs/',
+              to: '/',
             },
           ],
         },
         {
           title: 'Community',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+                        {
+              label: 'TestQuality Integrations',
+              href: 'https://www.testquality.com/integrations/',
             },
             {
               label: 'Twitter',
@@ -54,18 +50,15 @@ module.exports = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
+
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/marketplace/testquality',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Bitmodern, Inc.`,
     },
   },
   presets: [
@@ -77,7 +70,7 @@ module.exports = {
           routeBasePath: '/',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/BitModern/test-quality-doc',
         },
 
         theme: {
