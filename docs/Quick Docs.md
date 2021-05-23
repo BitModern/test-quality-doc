@@ -9,7 +9,7 @@ Here's the basics: TestQuality is a test management solution that natively integ
 
 
 ### The screens:
-## Overview 
+## [Overview](Overview.md)
 Edit and check your Milestones, view your test run results, and monitor logged defects/bugs over time.
 This view is great for your daily check-in.
   
@@ -19,11 +19,17 @@ This view is great for your daily check-in.
 </div>
 
 
-## Tests 
+## [Tests](Tests.md) 
 Your tests. This is the best place to author and organise your tests. Add steps and expected results,link to requirements, group them in folders and more.
 - The 'Command' feature gives you extreme power over your tests.
   
   <img src="\img\Screens\command.png" alt="command menu image" width="400"/>
   
-## Run
-Tests that you would like to run over
+## [Run](Run.md)
+A test run is when you create a branch of your tests to check against a system in test. 
+View each run's overview, the results. and defects. 
+
+## [Cycles](Cycles.md)
+
+
+## [Analyze](Analyze.md)
