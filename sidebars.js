@@ -9,9 +9,10 @@ module.exports = {
         'Tests',
         'Run',
         'Cycles',
-        'Analyse',
+        'Analyze',
+        'SPARE',
         'Whats New',
-        'Quick Docs',
+
       ],
     },
   ],

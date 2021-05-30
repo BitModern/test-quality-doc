@@ -44,11 +44,15 @@ export default {
           ]
         },
         {
-          "title": "More",
+          "title": "Integrations",
           "items": [
             {
               "label": "GitHub",
               "href": "https://github.com/marketplace/testquality"
+            },
+            {
+              "label": "JIRA",
+              "href": "https://marketplace.atlassian.com/apps/1218190/testquality-for-jira-test-management"
             }
           ]
         }
