@@ -2,17 +2,23 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'TestQuality Documentation',
+      label: 'Guides',
       items: [
         'getting-started',
-        'Overview',
-        'Tests',
-        'Run',
-        'Cycles',
-        'Analyze',
-        'SPARE',
+        'Integrations',
         'Whats New',
 
+
+        {
+          type: 'category',
+          label: 'The Interface',
+          items:
+              ['Overview',
+                'Tests',
+                'Run',
+                'Cycles',
+                'Analyze'],
+        },
       ],
     },
   ],

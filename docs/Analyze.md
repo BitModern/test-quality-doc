@@ -21,9 +21,9 @@ When you select a test in the test list you will open the sliding Test Drawer.
 The test drawer has 3 tabs that give further information about the test. 
 
 ###  Overview 
-The Overview tab is a list of all of the items that make up the test itself. 
+The Overview tab is a list of all the items that make up the test itself. 
 
-- Precondition - Anything that nees to be in place, or done before the test steps are carried out. 
+- Precondition - Anything that needs to be in place, or done before the test steps are carried out. 
 - Steps - The steps of the test are what is carried out and comprise your test. There  must always be at least one step in any test. 
 - Expected result - In each step, you have the option of adding an expected result. This is because at any step, a test could fail, and the tester may want to know what to expect during each step. To add an expected result, edit the test step and you will see the text box for Expected Result at the bottom of the edit pane. If you add text to the Expected Result, it will be visible when you close the editing pane. If no text is added, the Expected result will be hidden.
 - Case Type - The default test case types are: Accessibility, Compatibility, Destructive, Functionality, Performance, Security, Usability, Internationalisation. It is possible to add custom Case Types in the administration section 'Lookup Data'.

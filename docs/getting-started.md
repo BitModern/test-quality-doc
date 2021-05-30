@@ -13,9 +13,6 @@ At TestQuality we know that the backbone of your testing, is your tests. So we h
 
 The interface is divided in to 4 main areas that are designed to be used at a single click. So as your focus on a set of tasks is in a single pane for each of your test management tasks.
 
----
-
-## The basics
 
 TestQuality is a test management solution that natively integrates with GitHub and Jira for defects and requirements and many other CI solutions using XML or Gherkin integration. Author tests, create milestones, test runs, and group common tests into cycles. The metrics and reports give you instant understanding of  your test results over time.
 Jump in at http://web.testquality.com
@@ -36,13 +33,13 @@ This view is great for your daily check-in.
 Your tests. This is the best place to author and organise your tests. Add steps and expected results,link to requirements, group them in folders and more.
 - The 'Command' feature gives you extreme power over your tests.
 
-  <img src="\img\Screens\command.png" alt="command menu image" width="400"/>
+  <img src="\img\Screens\command.png" alt="command menu image" width="400" class="center"/>
 
 ### [Run](Run.md)
 A test run is when you create a branch of your tests to check against a system in test.
 View each run's overview, the results. and defects.
 
- <img src="\img\Screens\run.png" alt="Run Screen" width="400"/>
+ <img src="\img\Screens\run.png" alt="Run Screen" width="400" class="center"/>
 
 ### [Cycles](Cycles.md)
 

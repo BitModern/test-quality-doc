@@ -1,7 +1,6 @@
 
 
 
-## Cycles
 Cycles are collections of tests and folders that you want to run over and over again, perhaps you want to specify a particular environment or a particular tester, Cycles are part of your test plan and are used to achieve a particular testing goal.
 
 ###  Overview 
