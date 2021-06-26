@@ -41,6 +41,6 @@ Add to folder -
 A list of all your tests. Great for searching, organising and managing.
 Create folders and sub-folders to arrange your tests in to logical sequences.
 
-## [The Test Drawer](Test Drawer.md)
+## [The Test Drawer](Test_Drawer.md)
 When you select a test in the test list you will open the sliding Test Drawer.
 The test drawer has 3 tabs that give further information about the test.
