@@ -1,23 +1,32 @@
 module.exports = {
   docs: [
+      'getting-started',
+      'Integrations',
+      'Whats New',
     {
       type: 'category',
-      label: 'Guides',
+      label: 'The Main Interface',
       items: [
-        'getting-started',
-        'Integrations',
-        'Whats New',
+          'Overview',
+          'Tests',
+          'Run',
+          'Cycles',
+          'Analyze',
 
 
         {
           type: 'category',
-          label: 'The Interface',
+          label: 'Administration',
           items:
-              ['Overview',
-                'Tests',
-                'Run',
-                'Cycles',
-                'Analyze'],
+              ['Administration_Pages/Profile',
+                'Administration_Pages/Company',
+                'Administration_Pages/Users',
+                'Administration_Pages/Roles',
+                'Administration_Pages/Integration_config',
+              'Administration_Pages/Lookup_Data',
+                  'Administration_Pages/Customizaton',
+                  'Administration_Pages/Subscriptions',
+              ],
         },
       ],
     },

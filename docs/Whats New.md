@@ -14,7 +14,7 @@ We are very pleased to announce a simpler, yet more capable interface to your Te
 	
 *The same but different...*
 
-**A new structure** -  You may be used to our test management framework of Project, Plan, Suite, (Sub Suite), Test Case, however because your test cases are very often the focus of your test management, it makes sense that the interface has a similar focus. In our new interface you have a dedicated tab for your tests, which you can organise into folders (and sub folders) and that's it. We have reduced the requirements for the full tree structure so you can focus on what is important to you.
+**A new structure** -  You may be familiar with our old framework of Project, Plan, Suite, (Sub Suite), Test Case, however because your test cases are very often the focus of your test management, it makes sense that the interface has a similar focus. In our new interface you have a dedicated tab for your tests, which you can organise into folders (and sub folders) and that's it. We have reduced the requirements for the full tree structure, so you can focus on what is important to you.
 
 The user interface is now arranged into 4 tabs to group the functions that are often used together, but divided into common test management tasks. 
 	

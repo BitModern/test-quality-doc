@@ -2,14 +2,40 @@
 title: Tests
 ---
 
-The tests tab of the TestQuality app is your test authoring page, here you create and organise your tests.
+Tests is where you create, edit, organise your tests in to folders, and arrange their run order. 
+
+<div class="img-with-text">
+    <img src="\img\Screens\tests.png" alt="Tests screen image" width="400"  class="center"/>
+    <p></p> 
+</div>
 
 - Clone test
 - Delete test
 
+## The Command menu
+<div class="img-with-text">
+    <img src="\img\Screens\multi_command.png" alt="command image" width="400"  class="center"/>
+    <p></p> 
+</div>
+The Command menu will appear as soon as you select a test or folder by clicking in the test selector box .
 
-## Cycles
-Cycles are collections of tests and folders that you want to run over and over again, perhaps you want to specify a particular environment or a particular tester, Cycles are part of your test plan and are used to achieve a particular testing goal.
+
+<div class="img-with-text">
+    <img src="\img\Screens\selector.png" alt="selector screen image" width="300" /></div> 
+Clicking on the ">_ Command" button will open the commands selector where you can type to filter the available commands, or scroll through the available command options.
+<div class="img-with-text">
+    <img src="\img\Screens\commands.png" alt="commands screen image" width="400"  class="center"/>
+    <p></p> 
+</div> 
+The commands available are:
+Assign to - 
+Set case type - 
+Set case priority - 
+Export tests - 
+Delete - 
+Add to folder - 
+
+
 
 ## All Tests
 A list of all your tests. Great for searching, organising and managing.
