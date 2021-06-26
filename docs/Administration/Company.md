@@ -1,9 +1,9 @@
 ---
-title: Integrations
+title: Company
 
 ---
 
-### GitHub
+### Site
 
 All about GitHub integration
 

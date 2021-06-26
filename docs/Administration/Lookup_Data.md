@@ -1,5 +1,5 @@
 ---
-title: Integrations
+title: Lookup Data
 
 ---
 

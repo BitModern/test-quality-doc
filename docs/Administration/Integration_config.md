@@ -1,5 +1,5 @@
 ---
-title: Integrations configuration
+title: Integrations
 ---
 
 

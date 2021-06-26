@@ -1,6 +1,6 @@
 module.exports = {
   docs: [
-      'getting-started',
+      'Quick_Start',
       'Integrations',
       'Whats New',
     {
@@ -18,14 +18,14 @@ module.exports = {
           type: 'category',
           label: 'Administration',
           items:
-              ['Administration_Pages/Profile',
-                'Administration_Pages/Company',
-                'Administration_Pages/Users',
-                'Administration_Pages/Roles',
-                'Administration_Pages/Integration_config',
-              'Administration_Pages/Lookup_Data',
-                  'Administration_Pages/Customizaton',
-                  'Administration_Pages/Subscriptions',
+              ['Administration/Profile',
+                  'Administration/Company',
+                   'Administration/Users',
+                  'Administration/Roles',
+                  'Administration/Integration_config',
+                  'Administration/Lookup_Data',
+                  'Administration/Customization',
+                  'Administration/Subscriptions',
               ],
         },
       ],
