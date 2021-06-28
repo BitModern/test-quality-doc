@@ -5,13 +5,21 @@ title: Company
 
 ### Site
 
-All about GitHub integration
+This is the name of your TestQuality site. It is also reflected in the web address of the site, so if it is changed, any links to items in your site that you may have saved in 3rd party locations will need to be changed to reflect the new address.
 
-### JIRA
+### Email
 
-All ABout the JIRA integration
+The email address used for your company. 
 
-### Continuous Integration
+### Phone
+A contact phone number for your company.
 
-Jenkins, Cloudbees, Circle CI, Travis CI
-All about adding CI from XML integration
+### Company
+The name of your company.
+
+### Website
+Your company website.
+
+### Delete 
+
+**WARNING** This will remove your site entirely. This action is not reversible. 

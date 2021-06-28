@@ -3,6 +3,11 @@
 
 Cycles are collections of tests and folders that you want to run over and over again, perhaps you want to specify a particular environment or a particular tester, Cycles are part of your test plan and are used to achieve a particular testing goal.
 
+<div class="img-with-text">
+    <img src="\img\Screens\cycles.png" alt="Cycles Screen image" width="400"  class="center"/>
+    <p></p> 
+</div>
+
 ###  Overview 
 The Overview tab is a list of all the items that make up the test itself. 
 
