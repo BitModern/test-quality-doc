@@ -11,7 +11,7 @@ The integrations that you have connected to your projects are listed on this pag
     <p></p> 
 </div>
 
-Clicking on the name of the integration will open the configuration for that integration.
+Clicking on the name of the integration will open the configuration for that integrated project.
 
 
 

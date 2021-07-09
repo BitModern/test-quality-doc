@@ -5,7 +5,7 @@ slug: /
 
 ## What is TestQuality?
 
-TestQuality is a test management solution to easily monitor your testing efforts. TestQuality natively integrates with GitHub and Jira for defects and requirements and many other CI solutions using XML or Gherkin integration. 
+TestQuality is a test management solution to easily monitor your testing efforts. TestQuality natively integrates with GitHub and Jira for defects and requirements, and many other CI solutions using XML or Gherkin integration. 
 
 With TestQuality you can author tests, create test runs, and group common tests into cycles. Set these against your own milestones to monitor your progress. The metrics and reports give you instant understanding of your test results over time.
 Jump in at http://web.testquality.com
@@ -16,7 +16,7 @@ At TestQuality we understand that your tests, are the backbone of your testing. 
 The interface is divided into 5 main areas that are easily navigated to at any time with a single click. Meaning that each set of your test management tasks has a single pane for each.
 ## 5 task screens:
 ### [Overview](Overview.md)
-Your daily check-up. Edit and check your milestones, view your test run results, and monitor logged defects/bugs over time.
+Edit and check your milestones, view your test run results, and monitor logged defects/bugs over time.
 
 <div class="img-with-text">
     <img src="\img\Screens\overview.png" alt="overview screen image" width="400"  class="center"/>
@@ -25,7 +25,7 @@ Your daily check-up. Edit and check your milestones, view your test run results,
 
 
 ### [Tests](Tests.md)
-Create and organise your tests. You have visibility for all tests, and can organise and manage a single test, or edit multiple tests at once with ease. 
+Create and organise your tests. You have visibility for all tests and can organise and manage a single test or edit multiple tests at once with ease. 
 
 For each test you can add steps, preconditions, and expected results. Link your tests to requirements, group in folders and more.
 * The 'Command' feature gives you extreme power over your tests.

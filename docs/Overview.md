@@ -3,9 +3,9 @@ title: Overview
 ---
 
 
-The Overview page is where you can get an instant understanding of how things are going for your project.
+The Overview is where you can get an instant understanding of your project. The progress of your testing and number of defects or bugs.
 
-Select any of your projects using the Project Selector in the top left. Whenever you log in to TestQuality, you will see the last project that you had open.
+Select any of your projects or choose a date range to view the status and progress of your projects. Whenever you log in to TestQuality, you will see the last project that you had open.
 
 <div class="img-with-text">
     <img src="\img\Screens\overview_2.png" alt="Overview screen image" width="400"  class="center"/>
@@ -14,7 +14,7 @@ Select any of your projects using the Project Selector in the top left. Whenever
 
 ## Milestones
 
-Your Milestones are listed in the top pane, and the graph shows you the results from your Test Runs in that milestone. The view is dependent on the date range that you select in the top right of the graph.
+Your Milestones are how you track progress of an event that is planned by you. It could be a , and the graph shows you the results from your Test Runs in that milestone. The view is dependent on the date range that you select in the top right of the graph.
 
 The graph is colour coded, so you can see what number of tests passed and what failed etc.
 

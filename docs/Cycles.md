@@ -1,4 +1,6 @@
-
+---
+title: Cycles
+---
 
 
 Cycles are collections of tests and folders that you want to run over and over again, perhaps you want to specify a particular environment or a particular tester, Cycles are part of your test plan and are used to achieve a particular testing goal.
@@ -30,7 +32,7 @@ The Overview tab is a list of all the items that make up the test itself.
 A list of all your tests. Great for searching, organising and managing.
 Create folders and sub-folders to arrange your tests in to logical sequences.
 
-
+### [Filtering](Filtering.md) your tests
 
 
 
@@ -54,3 +56,4 @@ List of requirements that are linked to this test.
 Requirements come from a third party system, such as GitHub and Jira. Tracing test cases back to requirements helps us understand the origin of the tests. Also associated tests help us determine if we have created coverage for our requirements.
 
 It is also possible to link or add a new requirement here, using the Add Requirement button at the bottom of the drawer.
+
