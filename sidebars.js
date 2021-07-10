@@ -9,11 +9,21 @@ module.exports = {
       items: [
           'Overview',
           'Tests',
+
+
           'Run',
           'Cycles',
           'Analyze',
 
+          {
+              type: 'category',
+              label: 'Test Management',
+              items:
+                  ['Filtering',
+                      'Test_Drawer',
 
+                  ],
+          },
         {
           type: 'category',
           label: 'Administration',

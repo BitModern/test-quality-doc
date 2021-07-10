@@ -2,6 +2,11 @@
 title: Profile
 
 ---
+<div class="img-with-text">
+    <img src="\img\Screens\profile.png" alt="Profile Screen image" width="400"  class="center"/>
+    <p></p> 
+</div>
+
 
 ### Your details
 

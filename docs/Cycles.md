@@ -32,7 +32,7 @@ The Overview tab is a list of all the items that make up the test itself.
 A list of all your tests. Great for searching, organising and managing.
 Create folders and sub-folders to arrange your tests in to logical sequences.
 
-### [Filtering](Filtering.md) your tests
+### [Filtering](Filtering) your tests
 
 
 

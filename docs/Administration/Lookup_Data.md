@@ -2,6 +2,10 @@
 title: Lookup Data
 
 ---
+<div class="img-with-text">
+    <img src="\img\Screens\lookup_data.png" alt="Lookup data Screen image" width="800"/>
+    <p></p> 
+</div>
 
 ### GitHub
 

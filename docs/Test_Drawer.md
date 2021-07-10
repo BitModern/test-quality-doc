@@ -4,7 +4,10 @@ title: The Test Drawer
 
 When you click on a test in a test list, the Test Drawer opens to give you more details. 
 
-
+<div class="img-with-text">
+    <img src="\img\Screens\test_drawer.png" alt="Test Drawer image" width="400"  class="center"/>
+    <p></p> 
+</div>
 ## Overview
 
 ### Precondition
@@ -16,7 +19,7 @@ Steps are the procedure that your tester will follow to complete the test execut
 Expected Result - When you add text to the Expected Result field, it will become visible when you close the edit. Leaving the field empty will keep the field hidden. The expected result can be added to any step, which you may wish to use to help your tester ensure each step is successful. Or you may wish to only use an Expected Result on the final step, so the tester can know what the test result should be overall.
 
 ### Case Type
-
+Depending on your type of test you can set a Case Type to define if your test is for example a Functionality, Performance, Security, Usability, Accessibility, Compatibility, Destructive etc. You can also set your own Case Type in the [Lookup Data](Administration/Lookup_Data) section.  
 ### Case Priority
 
 ### Assigned to
