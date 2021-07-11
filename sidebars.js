@@ -5,7 +5,7 @@ module.exports = {
       'Whats New',
     {
       type: 'category',
-      label: 'The Main Interface',
+      label: 'Interface Elements',
       items: [
           'Overview',
           'Tests',

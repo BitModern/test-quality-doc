@@ -8,6 +8,7 @@ When you click on a test in a test list, the Test Drawer opens to give you more 
     <img src="\img\Screens\test_drawer.png" alt="Test Drawer image" width="400"  class="center"/>
     <p></p> 
 </div>
+
 ## Overview
 
 ### Precondition
@@ -21,9 +22,9 @@ Expected Result - When you add text to the Expected Result field, it will become
 ### Case Type
 Depending on your type of test you can set a Case Type to define if your test is for example a Functionality, Performance, Security, Usability, Accessibility, Compatibility, Destructive etc. You can also set your own Case Type in the [Lookup Data](Administration/Lookup_Data) section.  
 ### Case Priority
-
+Test Priority is a way to prioritise and schedule your test cases. You can modify the priority options in the [Lookup Data](Administration/Lookup_Data) section. By default, TestQuality comes with the following priority modes: Lowest, Low, Medium, High, Highest. This can help you plan your testing schedules, and also help you view your testing efforts by  [filtering](Filtering) those tests that you consider a higher priority. 
 ### Assigned to
-
+Assigning a test to a user in your organisation will help you identify the tests that are handled by different members of your team, but also when a [Run](Run) is made that includes the assigned test, the Test in executable mode will be added to the assigned user's [ToDo list](ToDo_List).  
 ### Is Automated
 
 ### Cycles
