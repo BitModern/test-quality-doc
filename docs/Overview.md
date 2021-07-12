@@ -14,9 +14,11 @@ Select any of your projects or choose a date range to view the status and progre
 
 ## Milestones
 
-Your Milestones are how you track progress of an event that is planned by you. It could be a , and the graph shows you the results from your Test Runs in that milestone. The view is dependent on the date range that you select in the top right of the graph.
+Your Milestones are how you track progress of a planned event. It could be a new release, or feature or whatever you choose to track. The graph at the top of the page shows you the results from your Test Runs in that milestone. The view is dependent on the date range or milestone that you select in the top right of the graph.
 
-The graph is colour coded, so you can see what number of tests passed and what failed etc.
+To help identify the different test results over time, the results in the graph are colour coded. 
+
+Filtering the displayed results - Clicking on the different statuses at the base of the graph will hide or show those results on the graph.
 
 ## Run History
 
