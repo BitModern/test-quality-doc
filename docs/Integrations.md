@@ -3,7 +3,8 @@ title: Integrations
 
 ---
 
-### GitHub
+
+### <img src="/static/img/GitHub_Logo.png" alt="GitHub" width="200"/>
 
 TestQuality extends your Github DevOps workflow to provide powerful and modern GitHub issue powered test case creation and management. TestQuality is FREE for GitHub public repo’s and affordable for teams on private repo's.
 
@@ -14,12 +15,12 @@ Seamless test workflows and defect coverage analysis
 Your GitHub workflows are transparently extended with test management capabilities so you never need to leave your workflows.
 
 
-### JIRA
+### <img src="/static/img/jira_logo.png" alt="JIRA" width="200"/>
 
 Test Management dashboards in JIRA provide for easy access and to promote knowledge of your testing effort. Including test quality analysis to help you determine test value, trouble tests, coverage, and more.
 
 
-### Continuous Integration
+## Continuous Integration
 
 If you are using a CI platform such as Jenkins, Cloudbees, Circle CI, Travis CI and want to upload your test results, you can add TestQuality to your scripts.
 
