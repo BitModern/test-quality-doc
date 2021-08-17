@@ -3,7 +3,6 @@ title: Integrations
 
 ---
 
-test text
 
 ### <img src="/static/img/GitHub_Logo.png" alt="GitHub" width="200"/>
 
@@ -28,6 +27,23 @@ If you are using a CI platform such as Jenkins, Cloudbees, Circle CI, Travis CI 
 To connect via command line, you can use the command files from http://cli.testquality.com/ then using the file from your system, log in with username and password, or we can provide you with a personal access token so you do not have to provide your login details in the command.
 
 ### Personal Access Token
+In the Integrations section of the settings menu you can create yourself a token.
+
+Click on your username in the top right of any page.
+
+Choose Integrations ![img_3.png](img_3.png)
+
+The Integrations section will open within the settings menu.
+
+On the right of the main window, you can choose to add a new Personal Access Token from the menu.
+
+Click on the '+' sign in the Personal Access Token section.
+
+Choose a name for your token. Click 'Create'.
+
+![img_1.png](img_1.png)
+
+## TestQuality CLI
 
 To integrate your tests you can use the TestQuality CLI and an access token to authenticate your test system and push your results.
 
