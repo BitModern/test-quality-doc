@@ -2,22 +2,62 @@
 title: What's New
 ---
 
-# Release Notes - TestQuality
-tes test test
-ToDo list
-simple navigating from one test to the next while working in a run
-View by milestone on overview page
-User Management
-Customisation pages
-Notifications
-list test by label
-list test by comments added
-filtering of tests
-Import
-Export
+## Release Notes - August 2021
+### ToDo Items
+
+Instantly know how many outstanding tasks you have waiting for you with the ToDo list feature. The total are listed under the project name so you can quickly find which project needs your attention. 
+
+![img_15.png](img_15.png)
+
+### Test navigation 
+While working in a test run, you can now easily move to the next or previous test, meaning that working with your tests is even simpler and faster.
+
+![img_6.png](img_6.png)
+
+
+### Display by Milestone
+The Overview page for your project is now able to be filtered not only by date range, but also by your Milestone.
+
+![img_7.png](img_7.png)
+
+### [Profile](Administration/Profile) and [Settings](Administration/Company)
+Configure your user or your site. The new Profile and Company pages are now available and ready for you to customise your TestQuality experience.
+
+![img_9.png](img_9.png)
+
+### [Customisation](Administration/Customization) pages
+Manage your User permissions, Roles, and customise your site. You can add your own fields to your tests and different Status, Purpose, Case Type, Priority or Labels.
+
+By adding a new status you can match a different use case for your testing.
+
+![img_10.png](img_10.png)
+### Notifications
+Stay up to date with changes and information for your site.
+
+![img_11.png](img_11.png)
+
+### [Filter](Filtering) test list
+Filter and display your tests to help you organise and manage by Author, Assigned, Type, Priority, Automated, Label, Cycle, Name.
+
+![img_12.png](img_12.png)
+
+### Import test results
+
+Import test results using the Automation XML import feature using Junit XML files. You can also upload your Gherkin feature files, creating or updating suites and tests following the gherkin syntax.
+
+Included is the ability to import Gherkin based test results from json files.
+
+![img_14.png](img_14.png)
+
+### Export of test cases and Gherkin feature files
+
+Select multiple tests and export to CSV, Excel, or Gherkin feature file format.
+
 ![img_5.png](img_5.png)
 
-## Major Release - Summer 2021
+
+## Previous Releases
+### Major Release - Summer 2021
 ### New Features
 - **New UI**.
 

@@ -3,6 +3,16 @@ title: Roles
 
 ---
 
+
+To open Roles, Click on your profile icon in the top right of the screen.
+
+![img_2.png](img_2.png)
+
+In the new page that opens, choose Roles from the menu on the left.
+
+![img_1.png](img_1.png)
+
+
 ### Name
 
 Each different role identified by a name describing the common permissions of that role. It may be required that for that role in your workflow, thr role may need additional, or less permissions. If this is the case, you can edit the role and change the default permissions. 
