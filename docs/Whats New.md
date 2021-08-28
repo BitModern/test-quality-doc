@@ -4,6 +4,18 @@ title: What's New
 
 # Release Notes - TestQuality
 
+ToDo list
+simple navigating from one test to the next while working in a run
+View by milestone on overview page
+User Management
+Customisation pages
+Notifications
+list test by label
+list test by comments added
+filtering of tests
+Import
+Export
+![img_5.png](img_5.png)
 
 ## Spring Release - 2021-xx-xx
 ### New Features

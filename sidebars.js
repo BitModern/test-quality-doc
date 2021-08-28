@@ -3,6 +3,7 @@ module.exports = {
       'Quick_Start',
       'Integrations',
       'Whats New',
+
     {
       type: 'category',
       label: 'Interface Elements',
