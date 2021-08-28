@@ -3,7 +3,7 @@ title: What's New
 ---
 
 # Release Notes - TestQuality
-
+tes test test
 ToDo list
 simple navigating from one test to the next while working in a run
 View by milestone on overview page
@@ -17,7 +17,7 @@ Import
 Export
 ![img_5.png](img_5.png)
 
-## Spring Release - 2021-xx-xx
+## Major Release - Summer 2021
 ### New Features
 - **New UI**.
 

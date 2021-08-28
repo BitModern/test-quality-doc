@@ -1,9 +1,9 @@
 module.exports = {
   docs: [
       'Quick_Start',
-      'Integrations',
-      'Whats New',
 
+      'Whats New',
+      'Integrations',
     {
       type: 'category',
       label: 'Interface Elements',
