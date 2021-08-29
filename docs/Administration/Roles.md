@@ -2,7 +2,9 @@
 title: Roles
 
 ---
+Roles are groups of permissions that you can assign to your site users. You can assign only one role to a user, but you can create multiple versions of different roles to match your different use cases. 
 
+For example you may wish to have your QA Team members with permissions to execute a Test Run, but only the Team Lead role that can create a new defect.
 
 To open Roles, Click on your profile icon in the top right of the screen.
 
