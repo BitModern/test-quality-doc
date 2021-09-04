@@ -28,12 +28,16 @@ Clicking on the ">_ Command" button will open the commands selector where you ca
     <p></p> 
 </div> 
 The commands available are:
-Assign to - 
-Set case type - 
-Set case priority - 
-Export tests - 
-Delete - 
-Add to folder - 
+
+- Add to Cycle - Add the selected tests to an existing Cycle. 
+- Assign to - Assign the selected tests to a user in your site. 
+- Set case type - Set the type of test type to the selected tests. The [Case Type](Lookup Data) can be one of the default types, or you can set your own by adding a custom case type.  
+- Set case priority - Set the priority of selected tests. The [Case Priority](Lookup Data) can be one of the default priorities, or you can set your own by adding a custom test case priority.
+- Export tests - Export the selected tests to Gherkin, CSV or Excel format.
+- Labels - Add the selected tests to an existing Label. You can create labels in the [Lookup Data](Lookup Data) section in Administration.
+- Delete - Delete the selected tests.
+- Add to folder - Add the selected tests to an existing folder.
+- Clone tests - Make a copy of the selected tests in to the same folder. The cloned tests will be identical except the name "Copy of" will be added to the name of each test.
 
 
 
