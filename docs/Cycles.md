@@ -19,9 +19,9 @@ The Overview tab is a list of all the items that make up the test itself.
 - Case Type - The default test case types are: Accessibility, Compatibility, Destructive, Functionality, Performance, Security, Usability, Internationalisation. It is possible to add custom Case Types in the administration section 'Lookup Data'.
 - Case Priority - The priority setting for your test cases. The default settings are Lowest, Low, Medium, High, Highest. It is possible to add custom Case Types in the administration section 'Lookup Data'.
 - Assigned to - You can assign tests to a user. This will also assign the 
-- Is Automated
-- Cycles
-- Folders
+- Is Automated - A flag on the test to indicate if it is a manual or automated test. 
+- Cycles - This indicates which Cycles your test is linked to.
+- Folders - 
 - Label(s)
 - Test Quality
 - Estimate
@@ -43,7 +43,7 @@ Create folders and sub-folders to arrange your tests in to logical sequences.
 - Defects
 
 
-## The Test Drawer
+## The [Test Drawer](The Test Drawer)
 When you select a test in the test list you will open the sliding Test Drawer.
 The test drawer has 3 tabs that give further information about the test.
 

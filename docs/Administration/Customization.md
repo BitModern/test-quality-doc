@@ -3,15 +3,10 @@ title: Customization
 
 ---
 
-### GitHub
+### Adding a custom field
 
-All about GitHub integration
+In the customization page you can add and manage custom objects for [Tests](/Tests) or for [Cycles](/Cycles).
 
-### JIRA
+It can be useful to add a field or object for information in a test or as a mandatory field that requires data before you can, for example, create a test.
 
-All ABout the JIRA integration
-
-### Continuous Integration
-
-Jenkins, Cloudbees, Circle CI, Travis CI
-All about adding CI from XML integration
+![img_4.png](img_4.png)

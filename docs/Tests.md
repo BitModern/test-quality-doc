@@ -37,7 +37,7 @@ The commands available are:
 - Labels - Add the selected tests to an existing Label. You can create labels in the [Lookup Data](Lookup Data) section in Administration.
 - Delete - Delete the selected tests.
 - Add to folder - Add the selected tests to an existing folder.
-- Clone tests - Make a copy of the selected tests in to the same folder. The cloned tests will be identical except the name "Copy of" will be added to the name of each test.
+- Clone tests - Make a copy of the selected tests in to the same folder. The cloned tests will be identical except the name "Clone" will be added to the name of each copied test.
 
 
 
@@ -45,6 +45,13 @@ The commands available are:
 A list of all your tests. Great for searching, organising and managing.
 Create folders and sub-folders to arrange your tests in to logical sequences.
 
-## [The Test Drawer](Test_Drawer)
+### [Filter](Filtering) test list
+Filter and display your tests to help you organise and manage by Author, Assigned, Type, Priority, Automated, Label, Cycle, Name.
+
+![img_12.png](img_12.png)
+
+
+## The [Test Drawer](Test_Drawer)
 When you select a test in the test list you will open the sliding Test Drawer.
 The test drawer has 3 tabs that give further information about the test.
+ [Click here to see more details](Test_Drawer)

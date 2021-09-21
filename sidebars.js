@@ -6,7 +6,7 @@ module.exports = {
       'Integrations',
     {
       type: 'category',
-      label: 'Interface Elements',
+      label: 'User Guide',
       items: [
           'Overview',
           'Tests',
@@ -34,6 +34,7 @@ module.exports = {
                   'Administration/Company',
                    'Administration/Users',
                   'Administration/Roles',
+                  'Administration/Watches',
                   'Administration/Integration_config',
                   'Administration/Lookup_Data',
                   'Administration/Customization',
