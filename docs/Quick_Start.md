@@ -22,7 +22,6 @@ Edit and check your milestones, view your test run results, and monitor logged d
     <img src="\img\Screens\overview.png" alt="overview screen image" width="400"  class="center"/>
     <p>This view is great for your daily check-in.</p> 
 </div>
-![img_17.png](img_17.png)
 
 ### [Tests](Tests.md)
 Create and organise your tests. You have visibility for all tests and can organise and manage a single test or edit multiple tests at once with ease. 
@@ -50,4 +49,4 @@ From here you can also send a Cycle to a Run, generating a new test Run, from yo
 
 ### [Analyze](Analyze.md)
 
-<img src="\img\Screens\img_17.png" alt="Analyze screen image" width="400"  class="center"/>
+<img src="\img\Screens\analyze.png" alt="Analyze screen image" width="400"  class="center"/>

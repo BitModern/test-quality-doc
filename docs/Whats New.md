@@ -2,7 +2,19 @@
 title: What's New
 ---
 
-## Release Notes - August 2021
+## Release Notes - September 2021
+### Following and Watch List 
+
+Follow status changes of Tests and Cycles using the 'Watch' menu option found in the ellipses menu in Tests and Cycles. 
+
+![img_19.png](img_19.png)
+
+This will notify you of any changes to the status of these watched Tests or tests in the watched Cycle. You can check all of the notifications in the Recent Watches menu drop-down.
+
+![img_17.png](img_17.png)
+
+
+## Previous release - August 2021
 ### ToDo Items
 
 Instantly know how many outstanding tasks you have waiting for you with the ToDo list feature. The total are listed under the project name so you can quickly find which project needs your attention. 
@@ -35,6 +47,7 @@ By adding a new status you can match a different use case for your testing.
 Stay up to date with changes and information for your site.
 
 ![img_11.png](img_11.png)
+
 
 ### [Filter](Filtering) test list
 Filter and display your tests to help you organise and manage by Author, Assigned, Type, Priority, Automated, Label, Cycle, Name.
