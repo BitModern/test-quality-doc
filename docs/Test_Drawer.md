@@ -26,23 +26,42 @@ Test Priority is a way to prioritise and schedule your test cases. You can modif
 ### Assigned to
 Assigning a test to a user in your organisation will help you identify the tests that are handled by different members of your team, but also when a [Run](Run) is made that includes the assigned test, the Test in executable mode will be added to the assigned user's [ToDo list](ToDo_List).  
 ### Is Automated
+This can be set manually on a test to indicate that it is an automated test, or when importing results.
 
 ### Cycles
+The Cycles that the test is linked to.
 
 ### Folders
 
 ### Label(s)
+A list of any labels that have been added to the test.
 
 ### Test Quality
+An indicator of the test value. Calculated from the behaviour surrounding this test. If a defect was logged, if the defect was fixed, and other actions surrounding the test all affect the Quality score.
 
 ### Estimate
-
+An estimate of how long the test takes to process.
 ### Attachments
 
 ### Activity
 
 ### Leave a comment
 
+
+- Precondition - Anything that nees to be in place, or done before the test steps are carried out.
+- Steps - The steps of the test are what is carried out and comprise your test. There  must always be at least one step in any test.
+- Expected result - In each step, you have the option of adding an expected result. This is because at any step, a test could fail, and the tester may want to know what to expect during each step. To add an expected result, edit the test step and you will see the text box for Expected Result at the bottom of the edit pane. If you add text to the Expected Result, it will be visible when you close the editing pane. If no text is added, the Expected result will be hidden.
+- Case Type - The default test case types are: Accessibility, Compatibility, Destructive, Functionality, Performance, Security, Usability, Internationalisation. It is possible to add custom Case Types in the administration section 'Lookup Data'.
+- Case Priority - The priority setting for your test cases. The default settings are Lowest, Low, Medium, High, Highest. It is possible to add custom Case Types in the administration section 'Lookup Data'.
+- Assigned to - You can assign tests to a user. This will also assign the
+- Is Automated - 
+
+- Folders - The folders that the test is linked to.
+- Label(s) - A list of any labels that have been added to the test.
+- Test Quality - An indicator of the test value. Calculated from the behaviour surrounding this test. If a defect was logged, if the defect was fixed, and other actions surrounding the test all affect the Quality score.
+- Estimate - An estimate of how long the test takes to process.
+- Custom Properties - Any custom properties that you have applied to your tests. Custom properties can be added in the [Customization](Administration/Customization)
+- Attachments - A list of any attachments that have been linked to the test.
 
 ##  Runs and Defects
 

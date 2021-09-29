@@ -2,48 +2,42 @@
 title: Run
 ---
 
-
-The tests tab of the TestQuality app is your test authoring page, here you create and organise your tests.
-
-- Clone test
-- Delete test
+What is a Run? - Your tests are authored to include a number of steps, preconditions, or expected results. The test that you create is designed to be executed by a QA tester, or a test automation system that will go through all of the steps and check that the expected result is a match with the process they have done. This is test execution and when you create a Run, you are choosing to add a test or tests to be executed or run.
 
 
+The Run tab is where you will find all the information about your tests in execution mode. 
 
-## All Tests
-A list of all your tests. Great for searching, organising and managing.
-Create folders and sub-folders to arrange your tests in to logical sequences.
+You can send a single test to a test run, or a Cycle of many tests. 
 
-## The Test Drawer
-When you select a test in the test list you will open the sliding Test Drawer.
-The test drawer has 3 tabs that give further information about the test.
+On the left of the Run page, you will see a list of your test runs. Each Run tile has an overview of the Run information, such as the name, originating location of the tests (e.g. Cycle name), number of bugs, completed date if the run has finished.
+![img_20.png](img_20.png)
+
+Clicking on the Elipses(...) in the top right of the selected run shows a menu for the following commands:
+ - Start/Finish Run - Depending on the run status, it will display start or finish run. If you choose to finish the run, the run will be marked as complete. Starting an already completed run will create a new run that is a duplicate of the currently selected run.
+ - Create Cycle - This will create a [Cycle](Cycles) that contains all of the tests in the currently selected run. 
+ - Delete Run - This deletes the currently selected run. 
+
 
 ###  Overview
-The Overview tab is a list of all of the items that make up the test itself.
+The Overview tab is a summary of the run information and contains the following:
+ - Run Details - A breakdown of statuses for all included tests.
+ - Test Status Chart - A visual representation of the run and its statuses. Clicking on any square will take you directly to the test.
+ - Milestone - The Milestone that is linked to this run.
+ - Cycle - If the run originated from a Cycle, the Cycle name is listed here. The "All Tests" label signifies that the run was created Ad-hoc from the list of all tests.
+ - Start Time - When the run was started.
+ - End Time - The time the run was completed.
+ - End Permanently - If the run results should be saved permanently and not purged when storage space is low.
 
-- Precondition - Anything that nees to be in place, or done before the test steps are carried out.
-- Steps - The steps of the test are what is carried out and comprise your test. There  must always be at least one step in any test.
-- Expected result - In each step, you have the option of adding an expected result. This is because at any step, a test could fail, and the tester may want to know what to expect during each step. To add an expected result, edit the test step and you will see the text box for Expected Result at the bottom of the edit pane. If you add text to the Expected Result, it will be visible when you close the editing pane. If no text is added, the Expected result will be hidden.
-- Case Type - The default test case types are: Accessibility, Compatibility, Destructive, Functionality, Performance, Security, Usability, Internationalisation. It is possible to add custom Case Types in the administration section 'Lookup Data'.
-- Case Priority - The priority setting for your test cases. The default settings are Lowest, Low, Medium, High, Highest. It is possible to add custom Case Types in the administration section 'Lookup Data'.
-- Assigned to - You can assign tests to a user. This will also assign the
-- Is Automated
-- Cycles
-- Folders
-- Label(s)
-- Test Quality
-- Estimate
-- Custom Properties
-- Attachments
+###  Test Runs/Run Results
+Depending on the Run status, this tab will be a list of tests results of a completed run, or a list of the tests that are included in the in-progress run. It keeps the same order and folder structure as in the Tests page so the order in which the tests are run is kept the same.
+The status/result of each test is shown on the right. 
 
-###  Runs and Defects
+Filtering - To work on the tests in the order you prefer, or if you would like to see progress of status of some tests, you can use the filter command, located in the Run window menu, to show only those tests that you choose to view. The filter does not remove the tests from the run, only the current view.
 
-- Run Results
-- Defects
 
-###  Requirements
+###  Runs & Defects
 
-List of requirements that are linked to this test.
-Requirements come from a third party system, such as GitHub and Jira. Tracing test cases back to requirements helps us understand the origin of the tests. Also associated tests help us determine if we have created coverage for our requirements.
+The previous Run history gives you instant access to the details of your run activity. Clicking on the name of another run will change the selected run.
 
-It is also possible to link or add a new requirement here, using the Add Requirement button at the bottom of the drawer.
+The defect list is a list of defects that have been linked to your runs.
+
