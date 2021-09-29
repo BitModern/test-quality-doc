@@ -4,6 +4,7 @@ title: Run
 
 What is a Run? - Your tests are authored to include a number of steps, preconditions, or expected results. The test that you create is designed to be executed by a QA tester, or a test automation system that will go through all of the steps and check that the expected result is a match with the process they have done. This is test execution and when you create a Run, you are choosing to add a test or tests to be executed or run.
 
+![img_21.png](img_21.png)
 
 The Run tab is where you will find all the information about your tests in execution mode. 
 
