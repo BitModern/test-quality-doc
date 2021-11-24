@@ -15,7 +15,7 @@ You can send a single test to a test run, or a Cycle of many tests.
 On the left of the Run page, you will see a list of your test runs. Each Run tile has an overview of the Run information, such as the name, originating location of the tests (e.g. Cycle name), number of bugs, completed date if the run has finished.
 ![img_20.png](img_20.png)
 
-Clicking on the Elipses(...) in the top right of the selected run shows a menu for the following commands:
+Clicking on the elipses(...) in the top right of the selected run shows a menu for the following commands:
  - Start/Finish Run - Depending on the run status, it will display start or finish run. If you choose to finish the run, the run will be marked as complete. Starting an already completed run will create a new run that is a duplicate of the currently selected run.
  - Create Cycle - This will create a [Cycle](Cycles) that contains all of the tests in the currently selected run. 
  - Delete Run - This deletes the currently selected run. 

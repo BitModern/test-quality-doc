@@ -40,8 +40,10 @@ module.exports = {
                   'Administration/Customization',
                   'Administration/Subscriptions',
               ],
+
+
         },
-      ],
+      'API_CLI', ],
     },
   ],
 };

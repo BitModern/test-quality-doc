@@ -31,7 +31,7 @@ export default {
           ]
         },
         {
-          "title": "Community",
+          "title": "Links",
           "items": [
             {
               "label": "TestQuality Integrations",
@@ -39,7 +39,11 @@ export default {
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "https://twitter.com/_TestQuality"
+            },
+            {
+              "label": "TestQuality Homepage",
+              "href": "https://twitter.com/_TestQuality"
             }
           ]
         },
