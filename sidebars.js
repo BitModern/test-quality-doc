@@ -1,28 +1,28 @@
 module.exports = {
   docs: [
-      'Quick_Start',
+      'quick_start',
 
-      'Whats New',
-      'Integrations',
+      'whats_new',
+      'integrations',
     {
       type: 'category',
       label: 'User Guide',
       items: [
-          'Overview',
-          'Tests',
+          'overview',
+          'tests',
 
 
-          'Run',
-          'Cycles',
-          'Analyze',
+          'run',
+          'cycles',
+          'analyze',
 
           {
               type: 'category',
               label: 'Test Management',
               items:
-                  ['Filtering',
-                      'Test_Drawer',
-                      'Importing',
+                  ['filtering',
+                      'test_drawer',
+                      'importing',
 
                   ],
           },
@@ -30,20 +30,20 @@ module.exports = {
           type: 'category',
           label: 'Administration',
           items:
-              ['Administration/Profile',
-                  'Administration/Company',
-                   'Administration/Users',
-                  'Administration/Roles',
-                  'Administration/Watches',
-                  'Administration/Integration_config',
-                  'Administration/Lookup_Data',
-                  'Administration/Customization',
-                  'Administration/Subscriptions',
+              ['administration/profile',
+                  'administration/company',
+                   'administration/users',
+                  'administration/roles',
+                  'administration/watches',
+                  'administration/integration_config',
+                  'administration/lookup_data',
+                  'administration/customization',
+                  'administration/subscriptions',
               ],
 
 
         },
-      'API_CLI', ],
+      'api_cli', ],
     },
   ],
 };

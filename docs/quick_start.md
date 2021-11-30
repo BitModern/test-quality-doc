@@ -15,7 +15,7 @@ At TestQuality we understand that your tests, are the backbone of your testing. 
 
 The interface is divided into 5 main areas that are easily navigated to at any time with a single click. Meaning that each set of your test management tasks has a single pane for each.
 ## 5 task screens:
-### [Overview](Overview.md)
+### [Overview](overview.md)
 Edit and check your milestones, view your test run results, and monitor logged defects/bugs over time.
 
 <div class="img-with-text">
@@ -23,7 +23,7 @@ Edit and check your milestones, view your test run results, and monitor logged d
     <p>This view is great for your daily check-in.</p> 
 </div>
 
-### [Tests](Tests.md)
+### [Tests](tests.md)
 Create and organise your tests. You have visibility for all tests and can organise and manage a single test or edit multiple tests at once with ease. 
 
 For each test you can add steps, preconditions, and expected results. Link your tests to requirements, group in folders and more.
@@ -31,13 +31,13 @@ For each test you can add steps, preconditions, and expected results. Link your 
 
   <img src="\img\Screens\command.png" alt="command menu image" width="400" class="center"/>
 
-### [Run](Run.md)
+### [Run](run.md)
 Add a single test, or multiple tests and folders to a run. A test run, is your test in 'execute' mode. Where you create a branch of your tests to check against a system in test.
 In the Run screen, you can view the run overview, the results, and any logged defects.
 
  <img src="\img\Screens\run.png" alt="Run Screen" width="400" class="center"/>
 
-### [Cycles](Cycles.md)
+### [Cycles](cycles.md)
 
 If you have tests that are often grouped together, for a task that you would run on a regular basis, creating a Cycle gives you the flexibility to ensure that the same tests are made every time. 
 
@@ -47,6 +47,6 @@ From here you can also send a Cycle to a Run, generating a new test Run, from yo
 
 <img src="\img\Screens\cycles.png" alt="Cycles screen image" width="400"  class="center"/>
 
-### [Analyze](Analyze.md)
+### [Analyze](analyze.md)
 
 <img src="\img\Screens\analyze.png" alt="Analyze screen image" width="400"  class="center"/>

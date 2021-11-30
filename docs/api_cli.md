@@ -4,10 +4,10 @@ title: Importing Data
 ---
 ## Importing Tests
 
-You can import tests from a file using our [Import](Importing.md) function.
+You can import tests from a file using our [Import](importing.md) function.
 
 ## Importing Test results
-You can import test result XML files manually using the [Import](Importing.md) function, or connect via the CLI tool or API.
+You can import test result XML files manually using the [Import](importing.md) function, or connect via the CLI tool or API.
 
 ## Continuous Integration
 
