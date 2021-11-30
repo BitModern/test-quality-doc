@@ -2,10 +2,7 @@
 title: Company
 
 ---
-<div class="img-with-text">
-    <img src="\img\Screens\company.png" alt="Company Screen image" width="400"  class="center"/>
-    <p></p> 
-</div>
+![img_10.png](img_10.png)
 
 ### Site
 

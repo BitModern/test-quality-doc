@@ -22,4 +22,4 @@ Test Management dashboards in JIRA provide for easy access and to promote knowle
 
 ## Integrations configuration
 
-Add an integration with GitHub or Jira in the [configuration page](administration/integration_config.md)
+Add an integration with GitHub or Jira in the [configuration page](administration/integration_config)

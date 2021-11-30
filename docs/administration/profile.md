@@ -2,10 +2,7 @@
 title: Profile
 
 ---
-<div class="img-with-text">
-    <img src="\img\Screens\profile.png" alt="Profile Screen image" width="400"  class="center"/>
-    <p></p> 
-</div>
+![img_9.png](img_9.png)
 
 
 ### Your details
@@ -20,7 +17,7 @@ Last Name - A required field
 
 Email - Your email may be used for notifications from the TestQuality app, either for status changes for tests cases assigned to you, or for invoices if you have your account set up to be the account to receive invoices notifications. It is a required field as it may also be needed to reset your password. 
 
-[Roles](Roles) - The security roles that are assigned to your user. Roles can be edited in the Roles tab. You need to have at least one role assigned to your user.
+[Roles](roles) - The security roles that are assigned to your user. Roles can be edited in the Roles tab. You need to have at least one role assigned to your user.
 
 ### Change Password
 This will popup a change password dialogue. We recommend changing your password every few months.

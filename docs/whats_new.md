@@ -32,12 +32,12 @@ The Overview page for your project is now able to be filtered not only by date r
 
 ![img_7.png](img_7.png)
 
-### [Profile](Administration/Profile) and [Settings](Administration/Company)
+### [Profile](administration/profile) and [Settings](administration/company)
 Configure your user or your site. The new Profile and Company pages are now available and ready for you to customise your TestQuality experience.
 
 ![img_9.png](img_9.png)
 
-### [Customisation](Administration/Customization) pages
+### [Customisation](administration/customization) pages
 Manage your User permissions, Roles, and customise your site. You can add your own fields to your tests and different Status, Purpose, Case Type, Priority or Labels.
 
 By adding a new status you can match a different use case for your testing.

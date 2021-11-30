@@ -7,10 +7,7 @@ The Overview is where you can get an instant understanding of your project. The 
 
 Select any of your projects or choose a date range to view the status and progress of your projects. Whenever you log in to TestQuality, you will see the last project that you had open.
 
-<div class="img-with-text">
-    <img src="\img\Screens\overview_2.png" alt="Overview screen image" width="400"  class="center"/>
-    <p></p> 
-</div>
+![img_4.png](img_4.png)
 
 ## Milestones
 

@@ -17,7 +17,7 @@ On the left of the Run page, you will see a list of your test runs. Each Run til
 
 Clicking on the elipses(...) in the top right of the selected run shows a menu for the following commands:
  - Start/Finish Run - Depending on the run status, it will display start or finish run. If you choose to finish the run, the run will be marked as complete. Starting an already completed run will create a new run that is a duplicate of the currently selected run.
- - Create Cycle - This will create a [Cycle](Cycles) that contains all of the tests in the currently selected run. 
+ - Create Cycle - This will create a [Cycle](cycles) that contains all of the tests in the currently selected run. 
  - Delete Run - This deletes the currently selected run. 
 
 
