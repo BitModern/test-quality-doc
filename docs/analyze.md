@@ -1,13 +1,25 @@
 ---
 title: Analyze
 ---
-
+![img_39.png](img_39.png)
 
 
 ## Test Growth
+Measure your test growth over time. How many tests you have and what is the breakdown of those tests, automated or manual. 
 
+## Test Quality
+Based on the execution of your tests, which were useful and those that were not as useful. You will also see those tests that are highlighted for quality reasons. Tests that have not been run yet etc.
 
+## Reliability
+How flaky are your tests? Do they fail and then succeed many times? Are they useful to you, or will they be ignored by your team? Test reliability will help you identify those tests that are flaky.
+Below the graph each test's flakiness is displayed as icons. 
 
+![img_38.png](img_38.png)
+
+Help;ing you identify the reasons behind the reliability. Clicking on the icons takes you directly to the linked test run.
+
+## Requirements
+Identifies which of your tests are linked to requirements in your linked repository.
 
 ### Filtering the graph.
 
