@@ -4,12 +4,15 @@ title: The Test Drawer
 
 When you click on a test in a test list, the Test Drawer opens to give you more details. 
 
-<div class="img-with-text">
-    <img src="\img\Screens\test_drawer.png" alt="Test Drawer image" width="400"  class="center"/>
-    <p></p> 
-</div>
+**NOTE:** _The contents of the drawer will depend on the view. The information displayed for a test in a run execution will contain information related to the run, such as configurations. Or some fields will not be visible e.g. Preconditions is only visible in the test run when it has information to display._
+
+![img_40.png](img_40.png)
+
 
 ## Overview
+
+### Configurations
+A list of [configurations](administration/configurations) that you have applied to the test in a cycle.
 
 ### Precondition
 A Markdown based free text field that you can add anything that needs to be in place, or done before the test steps are carried out.

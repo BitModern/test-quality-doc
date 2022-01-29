@@ -61,7 +61,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 Bitmodern, Inc."
+      "copyright": "Copyright © 2022 Bitmodern, Inc."
     },
     "colorMode": {
       "defaultMode": "light",

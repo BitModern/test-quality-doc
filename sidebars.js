@@ -38,12 +38,14 @@ module.exports = {
                   'administration/integration_config',
                   'administration/lookup_data',
                   'administration/customization',
+                  'administration/configurations',
                   'administration/subscriptions',
               ],
 
 
         },
-      'api_cli', ],
+      'api_cli',
+      ],
     },
   ],
 };
