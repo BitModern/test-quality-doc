@@ -45,6 +45,7 @@ module.exports = {
 
         },
       'api_cli',
+          'api',
       ],
     },
   ],

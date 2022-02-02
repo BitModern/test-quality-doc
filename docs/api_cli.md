@@ -88,6 +88,11 @@ To use a Personal Access Token, you can add it right in to the command.
 
 
 ## Personal Access Token
+
+A PAT (Personal Access Token) can be used with either the API or CLI. It is long-lived token typically used for personal use or in CI pipeline. PATs are useful for automating tasks you plan to repeat and want to avoid re-authentication. 
+
+**Please Note** We do not store the PAT in your UI and once displayed in the create screen, it is not possible to see the PAT again. This is to reduce the security risk of someone getting your PAT. You should not save your PAT anywhere vulnerable as anyone with your PAT could gain full access to your account in TestQuality.
+
 In the Integrations section of the settings menu you can create yourself a token.
 
 Click on your username in the top right of any page.
