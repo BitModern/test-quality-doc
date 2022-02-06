@@ -2,7 +2,37 @@
 title: What's New
 ---
 
-## Release Notes - September 2021
+### Release Notes - February 2022
+## [Configurations](administration/configurations)
+
+![img_41.png](img_41.png)
+
+Add Run Configurations to your testing cycles. 
+
+Custom Configurations are also really easy to add. To add a Configuration to your Cycle, click on the ellipsis menu in the Cycles tab and choose Configurations.
+
+## [Save Filters](filtering)
+
+![img_42.png](img_42.png)
+
+Save your favourite view filters!
+
+Instantly see your favourite tests by saving complex filters in to a single custom filter.
+
+## Space Used 
+It is almost impossible to use up your allocated space in TestQuality as we increase your site allocation for every subscription added to your site, but so you can understand what your site data contains, we have added this easy to read chart of site space.  
+
+![img_44.png](img_44.png)
+
+### Other improvements
+- Updated the colour of tests in Light Mode to be more visible.
+- When you clone a test in a cycle, it now adds the test to the cycle.
+- Added documentation links to the in-app menu.
+- other bug fixes.
+
+
+
+## Previous Release - September 2021
 ### Following and Watch List 
 
 Follow status changes of Tests and Cycles using the 'Watch' menu option found in the ellipses menu in Tests and Cycles. 
