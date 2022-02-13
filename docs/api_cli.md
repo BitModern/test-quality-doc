@@ -9,6 +9,8 @@ You can import tests from a file using our [Import](importing) function.
 ## Importing Test results
 You can import test result XML files manually using the [Import](importing) function, or connect via the CLI tool or API.
 
+You can find the open-source CLI tool on GitHub here: https://github.com/BitModern/testQualityCli
+
 ## Continuous Integration
 
 If you are using a CI platform such as Jenkins, Cloudbees, Circle CI, Travis CI and want to upload your test results, you can add TestQuality to your scripts.
