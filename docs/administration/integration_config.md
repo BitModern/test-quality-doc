@@ -12,6 +12,9 @@ The integrations that you have connected to your projects are listed on this pag
 
 Clicking on the configuration icon ![gear_icon.png](gear_icon.png) for your configuration will open the settings page for your connection to your 3rd party repository.
 
+**Admin Privileges** - To set up an integration, you will need to have administration rights to the repository that you are setting up. Once the connection is made, your users will not need to have admin rights, it is only during the initial setup.
+
+
 ![jira_config.png](jira_config.png)
 
 
@@ -23,6 +26,7 @@ Clicking on the configuration icon ![gear_icon.png](gear_icon.png) for your conf
 
 Clicking on the name of the integration will open the configuration for that integrated project.
 ![project_integration.png](project_integration.png)
+
 
 Project - The name of the project in TestQuality that your repository is linked to. 
 
