@@ -4,6 +4,15 @@ slug: /
 
 ---
 
+<a href="https://www.youtube.com/watch?v=x9TJeLVYB4Y"> <div style={{textAlign: 'center'}}>
+
+![image](img_47.png)
+
+</div></a>
+
+
+
+
 TestQuality is a test management solution to easily monitor your testing efforts. TestQuality natively integrates with GitHub and Jira with a two-way integration for defects and requirements, and many other CI solutions using XML or Gherkin integration. 
 
 With TestQuality you can author tests, create test runs, and group common tests into cycles. Set these against your own milestones to monitor your progress. The metrics and reports give you instant understanding of your test results over time.
