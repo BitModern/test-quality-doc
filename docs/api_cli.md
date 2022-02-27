@@ -13,6 +13,14 @@ You can find the open-source CLI tool on GitHub here: https://github.com/BitMode
 
 ## Continuous Integration
 
+<a href="https://www.youtube.com/watch?v=-pVzAUUtpcI"> <div style={{textAlign:'center'}}>
+
+![image](img_48.png)
+
+</div></a>
+
+
+
 If you are using a CI platform such as Jenkins, Cloudbees, Circle CI, Travis CI and want to upload your test results, you can add TestQuality to your scripts.
 
 To connect via command line, you can use the command files from http://cli.testquality.com/ then using the file from your system, log in with username and password, or we can provide you with a personal access token so you do not have to provide your login details in the command.

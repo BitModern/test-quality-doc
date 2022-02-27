@@ -19,8 +19,9 @@ Your GitHub workflows are transparently extended with test management capabiliti
 
 Test Management dashboards in JIRA provide for easy access and to promote knowledge of your testing effort. Including test quality analysis to help you determine test value, trouble tests, coverage, and more.
 
+How to set up your [Jira integration](jira_setup)
 
-## Integrations configuration
+## Configuration
 
 Add an integration with GitHub or Jira in the [configuration page](administration/integration_config)
 

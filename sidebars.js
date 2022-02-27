@@ -46,6 +46,7 @@ module.exports = {
         },
       'api_cli',
           'api',
+          'jira_setup',
       ],
     },
   ],
