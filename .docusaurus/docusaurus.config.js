@@ -67,7 +67,7 @@ export default {
       "appId": "9U0R4XCNQK",
       "apiKey": "c6b1dd0bdd29bd194bfac83ba5ae39e6",
       "indexName": "testqualitydoc",
-      "contextualSearch": true,
+      "contextualSearch": false,
       "externalUrlRegex": "testquality\\.com",
       "searchParameters": {},
       "searchPagePath": "search"
