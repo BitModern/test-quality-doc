@@ -3,7 +3,9 @@ module.exports = {
       'quick_start',
 
       'whats_new',
+      'demo',
       'integrations',
+      'jira_setup',
     {
       type: 'category',
       label: 'User Guide',
@@ -46,7 +48,7 @@ module.exports = {
         },
       'api_cli',
           'api',
-          'jira_setup',
+
       ],
     },
   ],

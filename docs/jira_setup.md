@@ -1,8 +1,16 @@
 ---
-title: Jira integration
+title: Jira/GitHub integration
 
 ---
-## Setting up your Jira integration
+# Setting up your GitHub integration
+
+<a href="https://www.youtube.com/watch?v=N_6zCIpWG6U"> <div style={{textAlign:'center'}}>
+
+![image](img_65.png)
+
+</div></a>
+
+# Setting up your Jira integration
 
 Click your username in the top right corner of the screen and choose Integrations from the drop down menu.
 
@@ -14,7 +22,7 @@ Click the configure integration link as shown in red in the image below.
 
 ![img_51.png](img_51.png)
 
-Sign in to Jira and copy your subdomain.
+Sign in to Jira and copy your subdomain (The example here is a test for creating this page. You will have something different than _jiratest33_).
 
 
 ![img_52.png](img_52.png)

@@ -6,7 +6,7 @@ slug: /
 
 <a href="https://www.youtube.com/watch?v=x9TJeLVYB4Y"> <div style={{textAlign:'center'}}>
 
-![image](img_47.png)
+![image](img_66.png)
 
 </div></a>
 

@@ -1,5 +1,5 @@
 ---
-title: Issue Tracking
+title: Bug/Defect Tracking
 
 ---
 
