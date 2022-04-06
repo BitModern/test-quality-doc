@@ -63,6 +63,15 @@ export default {
       ],
       "copyright": "Copyright © 2022 Bitmodern, Inc."
     },
+    "algolia": {
+      "appId": "9U0R4XCNQK",
+      "apiKey": "c6b1dd0bdd29bd194bfac83ba5ae39e6",
+      "indexName": "testqualitydoc",
+      "contextualSearch": true,
+      "externalUrlRegex": "testquality\\.com",
+      "searchParameters": {},
+      "searchPagePath": "search"
+    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
@@ -88,12 +97,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/torquilharkness/Documents/TQ Files/Docusaurus/Git Clone Docusaurus/test-quality-doc/sidebars.js",
+          "sidebarPath": "/Users/jamespitts/Dev/tq/test-quality-doc/sidebars.js",
           "routeBasePath": "/",
           "editUrl": "https://github.com/BitModern/test-quality-doc"
         },
         "theme": {
-          "customCss": "/Users/torquilharkness/Documents/TQ Files/Docusaurus/Git Clone Docusaurus/test-quality-doc/src/css/custom.css"
+          "customCss": "/Users/jamespitts/Dev/tq/test-quality-doc/src/css/custom.css"
         }
       }
     ]

@@ -10,8 +10,6 @@ module.exports = {
   organizationName: 'TestQuality', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
-
-
     navbar: {
       title: 'TestQuality Docs',
       logo: {
@@ -70,6 +68,29 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Bitmodern, Inc.`,
+    },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: '9U0R4XCNQK',
+
+      // Public API key: it is safe to commit it
+      apiKey: 'c6b1dd0bdd29bd194bfac83ba5ae39e6',
+
+      indexName: 'testqualitydoc',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      externalUrlRegex: 'testquality\\.com',
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+
+      //... other Algolia params
     },
   },
   presets: [
