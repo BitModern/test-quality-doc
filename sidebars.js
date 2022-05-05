@@ -6,6 +6,7 @@ module.exports = {
       'demo',
       'integrations',
       'jira_setup',
+      'github_setup',
     {
       type: 'category',
       label: 'User Guide',

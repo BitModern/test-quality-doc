@@ -1,16 +1,10 @@
 ---
-title: Jira/GitHub integration
+title: Jira integration
 
 ---
-# Setting up your GitHub integration
 
-<a href="https://www.youtube.com/watch?v=N_6zCIpWG6U"> <div style={{textAlign:'center'}}>
 
-![image](img_65.png)
-
-</div></a>
-
-# Setting up your Jira integration
+## Setting up your Jira integration
 
 Click your username in the top right corner of the screen and choose Integrations from the drop down menu.
 
