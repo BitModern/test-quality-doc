@@ -44,3 +44,22 @@ The previous Run history gives you instant access to the details of your run act
 
 The defect list is a list of defects that have been linked to your runs.
 
+##  Rerun
+
+
+
+To execute tests again from a test run, for example if you have a number of tests failing, and you want to keep the history that they have failed in the current run, you can send these selected tests to a rerun. 
+
+- In the test list of a run, select the tests that you want to rerun by clicking the selection box to the left of the test in the list.
+
+  ![img_71.png](img_71.png)
+
+- In the menu that appears at the bottom of the window, choose 'Re-Run'.
+  
+  ![img_69.png](img_69.png)
+
+- In the Create Run window that opens, make any changes that you wish to apply and click 'Create'.
+
+**Note:**
+Tests sent to a re-run will automatically pick up the parent cycle only if there is one. Adhoc runs do not have a parent cycle, so the re-run will not add a cycle to the create run dialog.
+
