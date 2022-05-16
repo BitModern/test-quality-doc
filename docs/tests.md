@@ -4,7 +4,7 @@ title: Tests
 
 Tests is where you create, edit, organise your tests in to folders, and arrange their run order. 
 
-![img_26.png](img_26.png)
+![img_26.png](img/img_26.png)
 
 
 ## The Command Tool
@@ -14,7 +14,7 @@ Tests is where you create, edit, organise your tests in to folders, and arrange 
 
 <a href="https://www.youtube.com/watch?v=VOtRxU47PO8"> <div style={{textAlign:'center'}}>
 
-![image](img_68.png)
+![image](img/img_68.png)
 
 </div></a>
 
@@ -59,7 +59,7 @@ Create folders and sub-folders to arrange your tests in to logical sequences.
 ### [Filter](filtering) test list
 Filter and display your tests to help you organise and manage by Author, Assigned, Type, Priority, Automated, Label, Cycle, Name.
 
-![img_12.png](img_12.png)
+![img_12.png](img/img_12.png)
 
 
 ## The [Test Drawer](test_drawer)

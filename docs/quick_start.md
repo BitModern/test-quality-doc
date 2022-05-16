@@ -6,7 +6,7 @@ slug: /
 
 <a href="https://www.youtube.com/watch?v=x9TJeLVYB4Y"> <div style={{textAlign:'center'}}>
 
-![image](img_66.png)
+![image](img/img_66.png)
 
 </div></a>
 
@@ -26,7 +26,7 @@ The interface is divided into 5 main areas that are easily navigated to at any t
 ### [Overview](overview.md)
 Edit and check your milestones, view your test run results, and monitor logged defects/bugs over time.
 
-![img_4.png](img_4.png)
+![img_4.png](img/img_4.png)
 
 
 This view is great for your daily check-in.
@@ -34,7 +34,7 @@ This view is great for your daily check-in.
 
 ### [Tests](tests.md)
 Create and organise your tests. You have visibility for all tests and can organise and manage a single test or edit multiple tests at once with ease.
-![img_26.png](img_26.png)
+![img_26.png](img/img_26.png)
 
 For each test you can add steps, preconditions, and expected results. Link your tests to requirements, group in folders and more.
 * The 'Command' feature gives you extreme power over your tests.
@@ -45,7 +45,7 @@ For each test you can add steps, preconditions, and expected results. Link your 
 Add a single test, or multiple tests and folders to a run. A test run, is your test in 'execute' mode. Where you create a branch of your tests to check against a system in test.
 In the Run screen, you can view the run overview, the results, and any logged defects.
 
-![img_23.png](img_23.png)
+![img_23.png](img/img_23.png)
 
 ### [Cycles](cycles.md)
 
@@ -55,10 +55,10 @@ In the Cycles screen you have the same easy-to-use tabs that you will see in the
 
 From here you can also send a Cycle to a Run, generating a new test Run, from your chosen Cycle. 
 
-![img_24.png](img_24.png)
+![img_24.png](img/img_24.png)
 
 ### [Analyze](analyze.md)
 
 
 
-![img_25.png](img_25.png)
+![img_25.png](img/img_25.png)

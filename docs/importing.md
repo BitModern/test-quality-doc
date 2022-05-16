@@ -8,7 +8,7 @@ To open the Import Data screen:
 Go to the Tests tab. 
 From the menu on the top right of the Tests pane, click the ellipses [...] button. 
 Click on 'Import Tests'
-![img_22.png](img_22.png)
+![img_22.png](img/img_22.png)
 
 ## Test Automation Import
 

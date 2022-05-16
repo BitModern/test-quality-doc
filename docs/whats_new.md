@@ -2,27 +2,44 @@
 title: What's New
 ---
 
-### Release Notes - February 2022
-## [Configurations](administration/configurations)
+### Release Notes - May 2022
 
-![img_41.png](img_41.png)
+## [Re-Run](run#rerun) feature added to Runs 
+Easily send your failed tests to a new run, directly from a current run. When tests fail within a run, you can now simply filter these in the run list, and choose to create a new run directly from the list. TestQuality will detect the current Cycle in use and add it to the config of the new run.
+![img_69.png](img/img_69.png)
+
+
+## Actual Result option added to tests in execution.
+Add the results of your testing to the Actual Results field so that the details are maintained in the run history. The field also available in the filters, by either a specific search term, or the filter "Actual Result has content"will allow you to see any comments added by the tester.
+
+![img_1.png](img_1.png)
+
+## Add labels to folders via the command tool
+
+It is now possible to add a label to a folder as well as a test. This makes filtering and finding folders even easier.
+
+
+## Previous Release - February 2021
+### [Configurations](administration/configurations)
+
+![img_41.png](img/img_41.png)
 
 Add Run Configurations to your testing cycles. 
 
 Custom Configurations are also really easy to add. To add a Configuration to your Cycle, click on the ellipsis menu in the Cycles tab and choose Configurations.
 
-## [Save Filters](filtering)
+### [Save Filters](filtering)
 
-![img_42.png](img_42.png)
+![img_42.png](img/img_42.png)
 
 Save your favourite view filters!
 
 Instantly see your favourite tests by saving complex filters in to a single custom filter.
 
-## Space Used 
+### Space Used 
 It is almost impossible to use up your allocated space in TestQuality as we increase your site allocation for every subscription added to your site, but so you can understand what your site data contains, we have added this easy to read chart of site space.  
 
-![img_44.png](img_44.png)
+![img_44.png](img/img_44.png)
 
 ### Other improvements
 - Updated the colour of tests in Light Mode to be more visible.
@@ -37,11 +54,11 @@ It is almost impossible to use up your allocated space in TestQuality as we incr
 
 Follow status changes of Tests and Cycles using the 'Watch' menu option found in the ellipses menu in Tests and Cycles. 
 
-![img_19.png](img_19.png)
+![img_19.png](img/img_19.png)
 
 This will notify you of any changes to the status of these watched Tests or tests in the watched Cycle. You can check all of the notifications in the Recent Watches menu drop-down.
 
-![img_17.png](img_17.png)
+![img_17.png](img/img_17.png)
 
 
 ## Previous release - August 2021
@@ -49,40 +66,40 @@ This will notify you of any changes to the status of these watched Tests or test
 
 Instantly know how many outstanding tasks you have waiting for you with the ToDo list feature. The total are listed under the project name so you can quickly find which project needs your attention. 
 
-![img_15.png](img_15.png)
+![img_15.png](img/img_15.png)
 
 ### Test navigation 
 While working in a test run, you can now easily move to the next or previous test, meaning that working with your tests is even simpler and faster.
 
-![img_6.png](img_6.png)
+![img_6.png](img/img_6.png)
 
 
 ### Display by Milestone
 The Overview page for your project is now able to be filtered not only by date range, but also by your Milestone.
 
-![img_7.png](img_7.png)
+![img_7.png](img/img_7.png)
 
 ### [Profile](administration/profile) and [Settings](administration/company)
 Configure your user or your site. The new Profile and Company pages are now available and ready for you to customise your TestQuality experience.
 
-![img_9.png](img_9.png)
+![img_9.png](img/img_9.png)
 
 ### [Customisation](administration/customization) pages
 Manage your User permissions, Roles, and customise your site. You can add your own fields to your tests and different Status, Purpose, Case Type, Priority or Labels.
 
 By adding a new status you can match a different use case for your testing.
 
-![img_10.png](img_10.png)
+![img_10.png](img/img_10.png)
 ### Notifications
 Stay up to date with changes and information for your site.
 
-![img_11.png](img_11.png)
+![img_11.png](img/img_11.png)
 
 
 ### [Filter](Filtering) test list
 Filter and display your tests to help you organise and manage by Author, Assigned, Type, Priority, Automated, Label, Cycle, Name.
 
-![img_12.png](img_12.png)
+![img_12.png](img/img_12.png)
 
 ### Import test results
 
@@ -90,13 +107,13 @@ Import test results using the Automation XML import feature using Junit XML file
 
 Included is the ability to import Gherkin based test results from json files.
 
-![img_14.png](img_14.png)
+![img_14.png](img/img_14.png)
 
 ### Export of test cases and Gherkin feature files
 
 Select multiple tests and export to CSV, Excel, or Gherkin feature file format.
 
-![img_5.png](img_5.png)
+![img_5.png](img/img_5.png)
 
 
 ## Previous Releases

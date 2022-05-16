@@ -1,7 +1,7 @@
 ---
 title: Analyze
 ---
-![img_39.png](img_39.png)
+![img_39.png](img/img_39.png)
 
 
 ## Test Growth
@@ -14,7 +14,7 @@ Based on the execution of your tests, which were useful and those that were not 
 How flaky are your tests? Do they fail and then succeed many times? Are they useful to you, or will they be ignored by your team? Test reliability will help you identify those tests that are flaky.
 Below the graph each test's flakiness is displayed as icons. 
 
-![img_38.png](img_38.png)
+![img_38.png](img/img_38.png)
 
 Help;ing you identify the reasons behind the reliability. Clicking on the icons takes you directly to the linked test run.
 

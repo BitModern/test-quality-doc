@@ -15,7 +15,7 @@ You can find the open-source CLI tool on GitHub here: https://github.com/BitMode
 
 <a href="https://www.youtube.com/watch?v=-pVzAUUtpcI"> <div style={{textAlign:'center'}}>
 
-![image](img_48.png)
+![image](img/img_48.png)
 
 </div></a>
 
@@ -107,7 +107,7 @@ In the Integrations section of the settings menu you can create yourself a token
 
 Click on your username in the top right of any page.
 
-Choose Integrations ![img_3.png](img_3.png)
+Choose Integrations ![img_3.png](img/img_3.png)
 
 The Integrations section will open within the settings menu.
 
@@ -117,4 +117,4 @@ Click on the '+' sign in the Personal Access Token section.
 
 Choose a name for your token. Click 'Create'.
 
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)

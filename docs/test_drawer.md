@@ -6,7 +6,7 @@ When you click on a test in a test list, the Test Drawer opens to give you more 
 
 **NOTE:** _The contents of the drawer will depend on the view. The information displayed for a test in a run execution will contain information related to the run, such as configurations. Or some fields will not be visible e.g. Preconditions is only visible in the test run when it has information to display._
 
-![img_40.png](img_40.png)
+![img_40.png](img/img_40.png)
 
 
 ## Overview
@@ -24,7 +24,7 @@ Steps are the procedure that your tester will follow to complete the test execut
 When you add text to the Expected Result field, it will become visible when you close the edit. Leaving the field empty will keep the field hidden. The expected result can be added to any step, which you may wish to use to help your tester ensure each step is successful. Or you may wish to only use an Expected Result on the final step, so the tester can know what the test result should be overall.
 
 ### Actual Result
-This is normally used by a manual tester to explain what happened when they ran the test, and the result was not as expected. Used in conjunction with the test list filter "Filter by Result has content", can be very powerful for test management to quickly identify when a new bug should be created that may not be relevant to the test. ![img_27.png](img_27.png)
+This is normally used by a manual tester to explain what happened when they ran the test, and the result was not as expected. Used in conjunction with the test list filter "Filter by Result has content", can be very powerful for test management to quickly identify when a new bug should be created that may not be relevant to the test. ![img_27.png](img/img_27.png)
 ### Case Type
 Depending on your type of test you can set a Case Type to define if your test is for example a Functionality, Performance, Security, Usability, Accessibility, Compatibility, Destructive etc. You can also set your own Case Type in the [Lookup Data](administration/lookup_data) section.  
 ### Case Priority
