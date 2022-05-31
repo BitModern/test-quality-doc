@@ -2,10 +2,16 @@
 title: Cycles
 ---
 
-
 Cycles are collections of tests and folders that you want to run repeatedly, perhaps you want to specify a particular environment or a particular tester, Cycles are part of your test plan and are used to achieve a particular testing goal.
 
-![img_24.png](img/img_24.png)
+<a href="https://www.youtube.com/watch?v=ZGYPP-Igsnc"> <div style={{textAlign:'center'}}>
+
+![img_2.png](img_2.png)
+
+</div></a>
+
+
+
 
 ##  Overview 
 The Overview tab is a list of the Cycle information. 
