@@ -48,8 +48,9 @@ The commands available are:
 - Labels - Add the selected tests to an existing Label. You can create labels in the [Lookup Data](lookup data) section in Administration or by typing the name of a label that does not exist yet.
 - Delete - Delete the selected tests.
 - Add to folder - Add the selected tests to an existing folder.
-- Clone tests - Make a copy of the selected tests in to the same folder. The cloned tests will be identical except the name "Clone" will be added to the name of each copied test.
+- Clone tests - Make a copy of the selected tests. You can choose to clone the tests to a separate project and folder. If cloning to the same project, the name will be modified to identify the copied tests.
 
+![img_3.png](img_3.png)
 
 
 ## All Tests

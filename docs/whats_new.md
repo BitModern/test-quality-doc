@@ -2,19 +2,37 @@
 title: What's New
 ---
 
-### Release Notes - May 2022
+### Release Notes - June 2022
 
-## [Re-Run](run#rerun) feature added to Runs 
+## 'Clone to Project' feature added to the clone function
+When you want to copy some tests across to another of your projects, you can now easily use the clone tool to send tests, or folders of tests to another project. 
+
+![img_3.png](img_3.png)
+
+
+## Bug fixes.
+This month our developers fixed some reported bugs. Bugs that were reported by our amazing customers! For example, it is now possible to use the 'Tab' key to jump out of a text field in the Test Drawer. Making it faster and easier to fill in the different fields without going back to your mouse.
+
+
+This is the pleasure of working in an application for QA people. Thank you to all of you that reach out to us and tell us what you find, and also to those that ask for feature enhancements. It is super exciting to add release notes for features and bugs that improve the day of nice people. Thank you! 
+
+
+
+
+
+## Previous Release - May 2022
+
+### [Re-Run](run#rerun) feature added to Runs 
 Easily send your failed tests to a new run, directly from a current run. When tests fail within a run, you can now simply filter these in the run list, and choose to create a new run directly from the list. TestQuality will detect the current Cycle in use and add it to the config of the new run.
 ![img_69.png](img/img_69.png)
 
 
-## Actual Result option added to tests in execution.
+### Actual Result option added to tests in execution.
 Add the results of your testing to the Actual Results field so that the details are maintained in the run history. The field also available in the filters, by either a specific search term, or the filter "Actual Result has content"will allow you to see any comments added by the tester.
 
 ![img_1.png](img_1.png)
 
-## Add labels to folders via the command tool
+### Add labels to folders via the command tool
 
 It is now possible to add a label to a folder as well as a test. This makes filtering and finding folders even easier.
 
