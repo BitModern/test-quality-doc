@@ -11,7 +11,7 @@ When you want to copy some tests across to another of your projects, you can now
 
 
 ## Bug fixes.
-This month our developers fixed some reported bugs. Bugs that were reported by our amazing customers! For example, it is now possible to use the 'Tab' key to jump out of a text field in the Test Drawer. Making it faster and easier to fill in the different fields without going back to your mouse.
+This month our developers fixed some reported bugs. Bugs that were reported by our amazing customers! For example, it is now possible to use the 'Tab' key to jump out of a text field in the Test Drawer. Making it faster and easier to fill in the different fields without going back to your mouse. Or the new search feature in Cycles and Runs pages!
 
 
 This is the pleasure of working in an application for QA people. Thank you to all of you that reach out to us and tell us what you find, and also to those that ask for feature enhancements. It is super exciting to add release notes for features and bugs that improve the day of nice people. Thank you! 
