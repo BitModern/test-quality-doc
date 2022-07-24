@@ -1,6 +1,6 @@
 ---
 title: What is TestQuality?
-slug: /
+
 
 ---
 
@@ -20,6 +20,7 @@ Jump in at http://web.testquality.com
 
 
 At TestQuality we understand that your tests, are the backbone of your testing. So we have built an interface to match your priorities, with tests at the core of operations, with workspaces that match all your Test Management tasks and ensure success, once your tests are in place.
+
 
 The interface is divided into 5 main areas that are easily navigated to at any time with a single click. Meaning that each set of your test management tasks has a single pane for each.
 ## 5 task screens:

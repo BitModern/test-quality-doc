@@ -1,5 +1,6 @@
 module.exports = {
   docs: [
+      'getting_started',
       'quick_start',
 
       'whats_new',
