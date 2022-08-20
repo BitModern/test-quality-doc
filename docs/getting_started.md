@@ -5,14 +5,21 @@ slug: /
 
 ---
 
+TestQuality is a test management application for building test plans or improving your current testing. 
 
-TestQuality is a test management application for improving your current testing efforts, or building a test plan. TestQuality will help you with getting the best out of your tests.
+Easily create tests, test sets or import your existing tests and results, to explore and discover quality and progress.
 
-## Create a test
-   
+# First steps
+
+When you open TestQuality, you are prompted to create your first project. As you have probably done that already, we will move on to the first operation. You can read about the project menu [here](project.md).
+
 To start seeing results you will want to create a test. You can import tests, but if you are new to TestQuality try creating a manual test to see how easy it is!
 
+
+## Create a test
+
 Go to the Tests tab at the top of the page.
+
 
 ![img_13.png](img_13.png)
 
@@ -27,9 +34,10 @@ You can either click the 'Create Test Case' button in the middle of the page, if
 
 ## Run your test
 
+Executing your test in 'Run Mode' gives you a history of what happened during the testing phase. Successes, failures, logged bugs or defects are important to track. They build a picture of your testing and help you find the most useful tests.
+
 ### Create a Test Run
 
-Executing your test in 'Run Mode' gives you a history of what happened during the testing phase. Successes, failures, logged bugs or defects are important to track. They build a picture of your testing and help you find the most useful tests. 
 
 
 ![img_12.png](img_12.png)
@@ -76,9 +84,18 @@ Your cycle can have a single test, but better would be a selection of tests that
 
 4. Press Enter on your keyboard, or click the Create button under the name you have written.
 
-Congratulations! You have successfully create a new test, you have run that test, and you have added that test to a cycle. 
+Congratulations! You have successfully create a new test, you have run that test, and you have added that test to a cycle.
 
-Next steps: You could make more tests, look at your test results in the Analyze tab, or go to the settings and invite your team to join you!
+# Next steps
+You could make more tests, look at your test results in the Analyze tab, or go to the settings and invite your team to join you!
+
+## Integrations
+Want to integrate with [GitHub](integrations.md) or [Jira](integrations.md)?
+
+## Import your tests
+You could [import](importing.md) your tests from another application, or set up a continuous integration and import your automated test results.
+
+
 
 
 

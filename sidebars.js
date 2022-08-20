@@ -12,6 +12,7 @@ module.exports = {
       type: 'category',
       label: 'User Guide',
       items: [
+          'project',
           'overview',
           'tests',
 
