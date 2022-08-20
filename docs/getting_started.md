@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Welcome to TestQuality!
 
 slug: /
 
@@ -9,9 +9,9 @@ TestQuality is a test management application for building test plans or improvin
 
 Easily create tests, test sets or import your existing tests and results, to explore and discover quality and progress.
 
-# First steps
+# Getting Started
 
-When you open TestQuality, you are prompted to create your first project. As you have probably done that already, we will move on to the first operation. You can read about the project menu [here](project.md).
+When you open TestQuality, you are prompted to [create your first project](project.md). As you have probably done that already, we will move on to the first operation. 
 
 To start seeing results you will want to create a test. You can import tests, but if you are new to TestQuality try creating a manual test to see how easy it is!
 
