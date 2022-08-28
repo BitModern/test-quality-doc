@@ -43,16 +43,25 @@ You can edit these tags here to better match your use case.
 ![img_22.png](img_22.png)
 
 ## Templates
-Defects and Requirements are created with a template that is defined here. You can modify the template to better match your use case and format of your other issues in Jira or GitHub.
+Defects and Requirements are created with a template that can be modified here. You can edit the template to better match your use case, or your preferred format of issues in Jira or GitHub.
 
-There are different templates available to modify for Defects (Bugs), or Requirements. As there is more lookup data available for a defect, the default template has more variables. 
-
+### The Template editor
 
 ![img_23.png](img_23.png)
 
+### Defects or Requirements
+
+There are different templates available to modify for either Defects (Bugs), or Requirements.
+
+When you open the editor you can select via the dropdown, the template you want to edit.
+
+![img_25.png](img_25.png)
+
+Should you make a mistake or wish to start again from the beginning, you can revert to defaults at any time with the 'Revert to Defaults' button.
+
 ### Static or dynamic content.
 Static: It is possible to create your own static content for your preferred template. For example, you may wish to have static titles for your QA tech to add comments and process for what they found when testing. This could be to match your current use of GitHub issues and what is the expected behaviour of your defects.
-Dynamic: The default template has basic dynamic content that adds the test details into the defect. For example, the first line `{{#if run_result.test.precondition}}` checks the test that the defect will be created from, to see if it has any data in the Precondition field. If yes, then it adds this to the defect, with a header of **Precondition**.
+Dynamic: The default template has basic dynamic content that adds the test details into the defect. For example, the first line `{{#if run_result.test.precondition}}` checks the test that the defect will be created from, to see if it has any data in the Precondition field. If yes, then it adds this to the defect, with a header of **'Precondition'**.
 
 #### Nested variables
 
