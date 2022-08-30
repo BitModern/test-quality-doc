@@ -2,9 +2,28 @@
 title: What's New
 ---
 
-### Release Notes - June 2022
+### Release Notes - Sept 2022
 
-## 'Clone to Project' feature added to the clone function
+## Integration Tags Management
+
+When a defect is linked or created in your remote repository, labels or tags are added to identify the issue.
+These tags are now editable with our new editor!
+
+![img_24.png](img_24.png)
+
+## Custom Integration Templates
+
+Defects and Requirements in GitHub or Jira can now have your very own custom template! Create your own template to better match your use case, or preferred format of issues in Jira or GitHub.
+
+![img_23.png](img_23.png)
+
+
+
+
+
+## Previous Release - May 2022
+
+### 'Clone to Project' feature added to the clone function
 When you want to copy some tests across to another of your projects, you can now easily use the clone tool to send tests, or folders of tests to another project. 
 
 ![img_3.png](img_3.png)
@@ -15,9 +34,6 @@ This month our developers fixed some reported bugs. Bugs that were reported by o
 
 
 This is the pleasure of working in an application for QA people. Thank you to all of you that reach out to us and tell us what you find, and also to those that ask for feature enhancements. It is super exciting to add release notes for features and bugs that improve the day of nice people. Thank you! 
-
-
-
 
 
 ## Previous Release - May 2022
