@@ -18,8 +18,13 @@ Below the graph each test's flakiness is displayed as icons.
 
 Help;ing you identify the reasons behind the reliability. Clicking on the icons takes you directly to the linked test run.
 
-## Requirements
-Identifies which of your tests are linked to requirements in your linked repository.
+## Stories
+
+Track the number of tests that are linked to your Stories over a specific period. Change the date range to trace how your requirements are linked to tests.
+
+The graph identifies your tests that are linked to requirements in your linked repository.
+
+
 
 ### Filtering the graph.
 

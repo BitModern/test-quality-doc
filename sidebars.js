@@ -17,8 +17,10 @@ module.exports = {
           'tests',
 
 
-          'run',
+
           'cycles',
+          'stories',
+          'run',
           'analyze',
 
           {

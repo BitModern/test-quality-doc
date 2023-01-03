@@ -61,7 +61,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 Bitmodern, Inc."
+      "copyright": "Copyright © 2023 Bitmodern, Inc."
     },
     "algolia": {
       "appId": "9U0R4XCNQK",

@@ -2,23 +2,37 @@
 title: What's New
 ---
 
-### Release Notes - Sept 2022
 
-## Integration Tags Management
+
+### Release Notes - January 2023
+
+## Stories
+
+Tracking a new feature or requirement is now easier than ever. Add traceability to your new feature or epic by linking tests important to your requirement, to your development repository. 
+
+
+![img_26.png](img_26.png)
+
+## Attached images now open with a click
+
+When clicking on an image in a test step the editor no longer opens, now the image now opens as a viewable image. To edit the image, click anywhere else in the step to edit the step.
+
+![img_32.png](img_32.png)
+
+## Previous Release - Sept 2022
+
+### Integration Tags Management
 
 When a defect is linked or created in your remote repository, labels or tags are added to identify the issue.
 These tags are now editable with our new editor!
 
 ![img_24.png](img_24.png)
 
-## Custom Integration Templates
+### Custom Integration Templates
 
 Defects and Requirements in GitHub or Jira can now have your very own custom template! Create your own template to better match your use case, or preferred format of issues in Jira or GitHub.
 
 ![img_23.png](img_23.png)
-
-
-
 
 
 ## Previous Release - May 2022
