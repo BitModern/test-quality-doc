@@ -22,12 +22,15 @@ Jump in at http://web.testquality.com
 At TestQuality we understand that your tests, are the backbone of your testing. So we have built an interface to match your priorities, with tests at the core of operations, with workspaces that match all your Test Management tasks and ensure success, once your tests are in place.
 
 
-The interface is divided into 5 main areas that are easily navigated to at any time with a single click. Meaning that each set of your test management tasks has a single pane for each.
-## 5 task screens:
+The interface is divided into 6 main areas that are easily navigated to at any time with a single click. Meaning that each set of your test management tasks has a single pane for each.
+## 6 task screens:
+
 ### [Overview](overview.md)
+
 Edit and check your milestones, view your test run results, and monitor logged defects/bugs over time.
 
-![img_4.png](img/img_4.png)
+![img_34.png](img_34.png)
+
 
 
 This view is great for your daily check-in.
@@ -57,6 +60,16 @@ In the Cycles screen you have the same easy-to-use tabs that you will see in the
 From here you can also send a Cycle to a Run, generating a new test Run, from your chosen Cycle. 
 
 ![img_24.png](img/img_24.png)
+
+### [Stories](stories.md)
+
+![img_36.png](img_36.png)
+
+Use Stories to track your features or requirements.
+
+Link tests that relate to your feature and are part of your story. Align your team on what is being tested and why, describe the story in the description.
+
+
 
 ### [Analyze](analyze.md)
 
