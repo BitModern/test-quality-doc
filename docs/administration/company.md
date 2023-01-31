@@ -27,9 +27,9 @@ Your company website.
 
 To use single sign on with applications that support OpenID, you can use this section to configure your organisations SSO. 
 
-The following example if for Microsoft Azure.
+The following example is how to use *Microsoft Azure* as your SSO provider.
 
-Azure AD
+**Azure AD**
 1. Go to "App Registrations" and click "New Registration".
    2 Fill a new application form.
    Introduce a name.
