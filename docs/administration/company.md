@@ -2,7 +2,7 @@
 title: Company
 
 ---
-![img_10.png](img_10.png)
+![img_10.png](admin_img/img_10.png)
 
 ### Site
 
@@ -23,6 +23,10 @@ Your company website.
 
 ### Single Sign On (SSO)
 
+Single Sign-On (SSO) is an authentication process that allows users to access multiple enterprise applications with a single set of login credentials. This combines several application logins into one, where you use credentials once and get access to all applications without individually logging into each application. 
+
+![img_32.png](admin_img/img_32.png)
+
 #### OpenID Connect
 
 To use single sign on with applications that support OpenID, you can use this section to configure your organisations SSO. 
@@ -36,7 +40,7 @@ The following example is how to use *Microsoft Azure* as your SSO provider.
    "Under Redirect URI" select platform Web and introduce the following url https://api.testquality.com/api/sso/openid/callback
    Click "Register"
 3. Go to "Authentication" and select "ID tokens (used for implicit and hybrid flows)"
-   ![img_27.png](img_27.png)
+   ![img_27.png](admin_img/img_27.png)
 4. Save the changes.
 
 5. In the application overview Under Endpoints copy "OpenID Connect metadata document"
@@ -45,25 +49,26 @@ The following example is how to use *Microsoft Azure* as your SSO provider.
    
 6. Go to "Company" in the administration Area in TestQuality.
 
-![img_28.png](img_28.png)
+![img_28.png](admin_img/img_28.png)
    
 7. Paste "OpenID Connect metadata document" from Azure AD onto "OpenID Connect Discovery" and "Application (client) ID" onto "OpenID Client ID".
 
-To allow automatic signup to TestQuality we add authorised domains under "Automatic Sign up"
-
-![img_29.png](img_29.png)
-
 #### Automatic Sign Up
+
+To allow automatic signup to your TestQuality site, add your domain under "Automatic Sign up". Adding a domain to the automatic sign up means that any user with an email address from your domain will be able to sign up to TestQuality and will join your site automatically.
+
+![img_29.png](admin_img/img_29.png)
+
 
 To configure GitHub as your SSO provider, you will need to have a valid integration set up. 
 
 1. In TestQuality in the top right corner menu select "Integrations".
    
-   ![img_30.png](img_30.png)
+   ![img_30.png](admin_img/img_30.png)
    
 2. Click on the GitHub gear icon to set up the integration and grant permissions to the organizations we want to have access to TestQuality.
 
-![img_31.png](img_31.png)
+![img_31.png](admin_img/img_31.png)
 
 3. Click Authorise and follow the wizard to allow GitHub to link to TestQuality. 
 
@@ -78,7 +83,7 @@ Next we are going to add organizations to testQuality to allow users that belong
 
 
 
-![img_26.png](img_26.png)
+![img_26.png](admin_img/img_26.png)
 
 ### Delete 
 

@@ -11,7 +11,7 @@ With the Cycle selected that you would like to apply the configuration, click th
 Choose the 'Configurations' from the drop down menu.
 ![configmenu.png](configmenu.png)
 
-Click the ![img_16.png](img_16.png)  button to open the menu of configurations to choose from. When you have chosen a system and an application, you can add more using the Add System Configuration button again or the Submit button to apply your changes.
+Click the ![img_16.png](admin_img/img_16.png)  button to open the menu of configurations to choose from. When you have chosen a system and an application, you can add more using the Add System Configuration button again or the Submit button to apply your changes.
 
 
 
@@ -38,7 +38,7 @@ Once your Cycle has a system configuration applied (as described in the previous
 - At the top of the [Test Drawer](/test_drawer) you will see your system configuration(s) that you have applied to the cycle.
     - If you have more than configuration applied to your cycle, each test will have a status for each configuration. This means that you can have a test pass on one configuration but a different status on another.  
 
-![img_17.png](img_17.png)
+![img_17.png](admin_img/img_17.png)
 
 
 

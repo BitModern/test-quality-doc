@@ -50,7 +50,7 @@ The commands available are:
 - Add to folder - Add the selected tests to an existing folder.
 - Clone tests - Make a copy of the selected tests. You can choose to clone the tests to a separate project and folder. If cloning to the same project, the name will be modified to identify the copied tests.
 
-![img_3.png](img_3.png)
+![img_3.png](img/img2/img_3.png)
 
 
 ## All Tests

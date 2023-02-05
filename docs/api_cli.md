@@ -86,7 +86,7 @@ For example, to get a list of Projects in your TestQuality site, you can use the
 
 `testquality-macos projects`
 
-This will list your projects with their ID, Key and Name. ![img.png](img.png)
+This will list your projects with their ID, Key and Name. ![img.png](img/img2/img.png)
 
 Then you might want to list the Test Plans that are in your project, you can use the following command where you add the ID number of the project in the command (shown here as XXX):
 

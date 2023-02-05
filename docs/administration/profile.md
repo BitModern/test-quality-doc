@@ -2,7 +2,7 @@
 title: Profile
 
 ---
-![img_9.png](img_9.png)
+![img_9.png](admin_img/img_9.png)
 
 
 ### Your details

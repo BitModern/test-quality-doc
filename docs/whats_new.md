@@ -2,22 +2,29 @@
 title: What's New
 ---
 
+### Release Notes - February 2023
 
+## Single Sign On
 
-### Release Notes - January 2023
+![img_32.png](administration/admin_img/img_32.png)
 
-## Stories
+Have your whole team log in simply and easily using a [single sign on](administration/company#single-sign-on-sso) from your OpenID credentials, such as Microsoft Azure, or GitHub.
+With SSO, your team can use just one set of login credentials to conveniently access TestQuality and other company apps. There is no need to remember multiple credentials or reusing passwords.
+
+### Previous Release - January 2023
+
+### Stories
 
 Tracking a new feature or requirement is now easier than ever. Add traceability to your new feature or epic by linking tests important to your requirement, to your development repository. 
 
 
-![img_26.png](img_26.png)
+![img_26.png](img/img2/img_26.png)
 
-## Attached images now open with a click
+### Attached images now open with a click
 
 When clicking on an image in a test step the editor no longer opens, now the image now opens as a viewable image. To edit the image, click anywhere else in the step to edit the step.
 
-![img_32.png](img_32.png)
+![img_32.png](img/img2/img_32.png)
 
 ## Previous Release - Sept 2022
 
@@ -26,13 +33,13 @@ When clicking on an image in a test step the editor no longer opens, now the ima
 When a defect is linked or created in your remote repository, labels or tags are added to identify the issue.
 These tags are now editable with our new editor!
 
-![img_24.png](img_24.png)
+![img_24.png](img/img2/img_24.png)
 
 ### Custom Integration Templates
 
 Defects and Requirements in GitHub or Jira can now have your very own custom template! Create your own template to better match your use case, or preferred format of issues in Jira or GitHub.
 
-![img_23.png](img_23.png)
+![img_23.png](img/img2/img_23.png)
 
 
 ## Previous Release - May 2022
@@ -40,7 +47,7 @@ Defects and Requirements in GitHub or Jira can now have your very own custom tem
 ### 'Clone to Project' feature added to the clone function
 When you want to copy some tests across to another of your projects, you can now easily use the clone tool to send tests, or folders of tests to another project. 
 
-![img_3.png](img_3.png)
+![img_3.png](img/img2/img_3.png)
 
 
 ## Bug fixes.
@@ -60,7 +67,7 @@ Easily send your failed tests to a new run, directly from a current run. When te
 ### Actual Result option added to tests in execution.
 Add the results of your testing to the Actual Results field so that the details are maintained in the run history. The field also available in the filters, by either a specific search term, or the filter "Actual Result has content"will allow you to see any comments added by the tester.
 
-![img_1.png](img_1.png)
+![img_1.png](img/img2/img_1.png)
 
 ### Add labels to folders via the command tool
 

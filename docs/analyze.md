@@ -1,7 +1,7 @@
 ---
 title: Analyze
 ---
-![img_33.png](img_33.png)
+![img_33.png](img/img2/img_33.png)
 
 
 ## Test Growth

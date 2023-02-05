@@ -3,7 +3,7 @@ title: Roles
 
 ---
 
-![img_11.png](img_11.png)
+![img_11.png](admin_img/img_11.png)
 
 Roles are groups of permissions that you can assign to your site users. You can assign only one role to a user, but you can create multiple versions of different roles to match your different use cases. 
 
@@ -11,11 +11,11 @@ For example you may wish to have your QA Team members with permissions to execut
 
 To open Roles, Click on your profile icon in the top right of the screen and click User Management from the dropdown.
 
-![img_7.png](img_7.png)
+![img_7.png](admin_img/img_7.png)
 
 In the new page that opens, choose Roles from the menu on the left.
 
-![img_1.png](img_1.png)
+![img_1.png](admin_img/img_1.png)
 
 
 ### Name

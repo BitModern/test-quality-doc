@@ -29,7 +29,7 @@ The interface is divided into 6 main areas that are easily navigated to at any t
 
 Edit and check your milestones, view your test run results, and monitor logged defects/bugs over time.
 
-![img_34.png](img_34.png)
+![img_34.png](img/img2/img_34.png)
 
 
 
@@ -63,7 +63,7 @@ From here you can also send a Cycle to a Run, generating a new test Run, from yo
 
 ### [Stories](stories.md)
 
-![img_36.png](img_36.png)
+![img_36.png](img/img2/img_36.png)
 
 Use Stories to track your features or requirements.
 

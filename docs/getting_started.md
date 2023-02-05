@@ -21,12 +21,12 @@ To start seeing results you will want to create a test. You can import tests, bu
 Go to the Tests tab at the top of the page.
 
 
-![img_13.png](img_13.png)
+![img_13.png](img/img2/img_13.png)
 
 
 You can either click the 'Create Test Case' button in the middle of the page, if you do not have tests already, or you can choose to use the New Test button in the top right of the main window.
 
-![img_11.png](img_11.png)
+![img_11.png](img/img2/img_11.png)
 
 1. Choose a name for your test
 2. Add a test step. This can be anything that you want your tester to do. Check a feature, test a function within your app, or just login to a web page. We will choose Login. 
@@ -40,7 +40,7 @@ Executing your test in 'Run Mode' gives you a history of what happened during th
 
 
 
-![img_12.png](img_12.png)
+![img_12.png](img/img2/img_12.png)
 
 1. Click on the selection box to the left of your test.
 2. In the menu that appears at the bottom of the page, click Run. 
@@ -52,11 +52,11 @@ After creating a test run, you will be taken to the Run tab.
 
 1. Click the Test Runs tab.
 
-![img_16.png](img_16.png)
+![img_16.png](img/img2/img_16.png)
 
 2. Click on your pending test to open the test drawer.
 
-![img_18.png](img_18.png)
+![img_18.png](img/img2/img_18.png)
 
 ### Testing
 
@@ -65,7 +65,7 @@ In the test we created, we wanted the tester to login to the app. So we will ope
 1. In the test drawer on the right, follow the steps. We only have one step, our example was to login to the app. 
 2. Click the status of the test to pass or fail the test. Was the test a success for the tester? This is where they report a success or failure. 
 
-![img_19.png](img_19.png)
+![img_19.png](img/img2/img_19.png)
 
 ## Create a Cycle
 
@@ -76,11 +76,11 @@ Your cycle can have a single test, but better would be a selection of tests that
 1. To create a cycle of one or more tests, select the tests using the test selector (Select Tests.) 
 2. In the menu that appears at the bottom of the page, click 'Add to Cycle'.
 
-![img_14.png](img_14.png)
+![img_14.png](img/img2/img_14.png)
 
 3. In the box that appears, type the name you want for your new cycle. 
 
-![img_15.png](img_15.png)
+![img_15.png](img/img2/img_15.png)
 
 4. Press Enter on your keyboard, or click the Create button under the name you have written.
 

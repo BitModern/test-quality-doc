@@ -16,12 +16,12 @@ Clicking on the configuration icon ![gear_icon.png](gear_icon.png) for your conf
 
 ## Jira integration settings
 
-![img_20.png](img_20.png)
-![img_19.png](img_19.png)
+![img_20.png](admin_img/img_20.png)
+![img_19.png](admin_img/img_19.png)
 
 ## GitHub integration settings
 
-![img_18.png](img_18.png)
+![img_18.png](admin_img/img_18.png)
 
 Clicking on the name of the integration will open the configuration for that integrated project.
 
@@ -32,7 +32,7 @@ If you would like to change the user that has set up the integration, the author
 
 ## Add Project
 Clicking on 'Add Project' button will take you to the projects page where you can add or edit your TestQuality projects to your remote repositories.
-![img_21.png](img_21.png)
+![img_21.png](admin_img/img_21.png)
 
 Clicking on each integration will open the edit settings for the linked project. 
 
@@ -40,14 +40,14 @@ Clicking on each integration will open the edit settings for the linked project.
 When a defect is linked or created in your remote repository, labels/tags are added to the issue to identify that it was created by TestQuality and that it is a bug/defect. 
 You can edit these tags here to better match your use case.
 
-![img_22.png](img_22.png)
+![img_22.png](admin_img/img_22.png)
 
 ## Templates
 Defects and Requirements are created with a template that can be modified here. You can edit the template to better match your use case, or your preferred format of issues in Jira or GitHub.
 
 ### The Template editor
 
-![img_23.png](img_23.png)
+![img_23.png](admin_img/img_23.png)
 
 ### Defects or Requirements
 
@@ -55,7 +55,7 @@ There are different templates available to modify for either Defects (Bugs), or 
 
 When you open the editor you can select via the dropdown, the template you want to edit.
 
-![img_25.png](img_25.png)
+![img_25.png](admin_img/img_25.png)
 
 Should you make a mistake or wish to start again from the beginning, you can revert to defaults at any time with the 'Revert to Defaults' button.
 
@@ -69,7 +69,7 @@ It is possible to have nested variables such as within each step, you can check 
 
 If you click the {+} button in the bottom of the editor, example variables are shown. The nested variables are tabbed to the right. 
 
-![img_24.png](img_24.png)
+![img_24.png](admin_img/img_24.png)
 
 If you would like to create your own more advanced templates, there is a link to the [mustache syntax](https://handlebarsjs.com/guide/) at the top of the editor.
 

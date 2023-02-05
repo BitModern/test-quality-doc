@@ -6,7 +6,7 @@ Cycles are collections of tests and folders that you want to run repeatedly, per
 
 <a href="https://www.youtube.com/watch?v=ZGYPP-Igsnc"> <div style={{textAlign:'center'}}>
 
-![img_2.png](img_2.png)
+![img_2.png](img/img2/img_2.png)
 
 </div></a>
 
