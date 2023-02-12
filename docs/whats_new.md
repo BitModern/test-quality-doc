@@ -9,7 +9,7 @@ title: What's New
 ![img_32.png](administration/admin_img/img_32.png)
 
 Have your whole team log in simply and easily using a [single sign on](administration/company#single-sign-on-sso) from your OpenID credentials, such as Microsoft Azure, or GitHub.
-With SSO, your team can use just one set of login credentials to conveniently access TestQuality and other company apps. There is no need to remember multiple credentials or reusing passwords.
+With SSO, your team can use just one set of login credentials to conveniently access TestQuality and other company apps. There is no need to remember multiple credentials or reuse passwords.
 
 ### Previous Release - January 2023
 

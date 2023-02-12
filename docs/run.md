@@ -29,7 +29,7 @@ The Overview tab is a summary of the run information and contains the following:
  - Cycle - If the run originated from a Cycle, the Cycle name is listed here. The "All Tests" label signifies that the run was created Ad-hoc from the list of all tests.
  - Start Time - When the run was started.
  - End Time - The time the run was completed.
- - End Permanently - If the run results should be saved permanently and not purged when storage space is low.
+ - Save Permanently - If the run results should be saved permanently and not purged when storage space is low.
 
 ###  Test Runs/Run Results
 Depending on the Run status, this tab will be a list of tests results of a completed run, or a list of the tests that are included in the in-progress run. It keeps the same order and folder structure as in the Tests page so the order in which the tests are run is kept the same.
