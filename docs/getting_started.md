@@ -48,7 +48,7 @@ You can either click the 'Create Test Case' button in the middle of the page, if
 
 If you prefer, you can watch a short video on creating a test.
 
-<a href="https://youtu.be/5h9YvihrI7M"> <div style={{textAlign:'center'}}>
+<a href="https://youtu.be/OIjnRxJZN08"> <div style={{textAlign:'center'}}>
 
 ![img_3.png](img_3.png)
 
