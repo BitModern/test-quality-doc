@@ -2,9 +2,23 @@
 title: What's New
 ---
 
-### Release Notes - February 2023
+### Release Notes - March 2023
 
-## Single Sign On
+## Datasets available for tests
+
+<a href="https://youtu.be/3eLp0H6VUsY"> <div style={{textAlign:'center'}}>
+
+![img_10.png](img_10.png)
+
+</div></a>
+
+You can now use a [dataset](test_drawer#datasets) format in your tests. The dataset is used to reduce duplication, you can have multiple variations created by pulling different data from the table.
+
+
+
+### Previous Release - February 2023
+
+### Single Sign On
 
 ![img_32.png](administration/admin_img/img_32.png)
 

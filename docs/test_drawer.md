@@ -20,6 +20,23 @@ A Markdown based free text field that you can add anything that needs to be in p
 ### Steps
 Steps are the procedure that your tester will follow to complete the test execution. Each time you add a step, it is necessary to save the changes.
 
+### Datasets
+<a href="https://youtu.be/3eLp0H6VUsY"> <div style={{textAlign:'center'}}>
+
+![img_10.png](img_10.png)
+
+</div></a>
+
+
+
+![img_7.png](img_7.png)
+
+You can add a dataset to a test to create multiple variations on a particular test. 
+Adding double braces (curly-brackets) around the title of a column in the dataset will automatically create variations of a test when the test is sent to a run. 
+
+![img_8.png](img_8.png)
+
+
 #### Expected Result
 When you add text to the Expected Result field, it will become visible when you close the edit. Leaving the field empty will keep the field hidden. The expected result can be added to any step, which you may wish to use to help your tester ensure each step is successful. Or you may wish to only use an Expected Result on the final step, so the tester can know what the test result should be overall.
 
