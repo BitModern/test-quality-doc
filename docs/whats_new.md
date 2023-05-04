@@ -2,9 +2,21 @@
 title: What's New
 ---
 
-### Release Notes - March 2023
+### Release Notes - April 2023
 
-## Datasets available for tests
+## Multiple linked repositories.
+
+
+![img_11.png](img_11.png)
+
+You can now use [multiple repositories](administration/integration_config) on a single project, or connect multiple projects to a single repository.
+
+If you want to connect to different repositories, you can now have a many to many relationship with your linked GitHub or Jira repositories. Adding a defect or a story is as simple as choosing the location you wish to connect to. 
+
+
+### Previous Release - March 2023
+
+### Datasets available for tests
 
 <a href="https://youtu.be/3eLp0H6VUsY"> <div style={{textAlign:'center'}}>
 
