@@ -5,9 +5,13 @@ title: What's New
 ### Release Notes - April 2023
 
 ## Multiple linked repositories.
+<a href="https://youtu.be/jDXNTEBh10g"> <div style={{textAlign:'center'}}>
+
+![img_13.png](img_13.png)
+
+</div></a>
 
 
-![img_11.png](img_11.png)
 
 You can now use [multiple repositories](administration/integration_config) on a single project, or connect multiple projects to a single repository.
 
