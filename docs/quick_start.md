@@ -71,8 +71,13 @@ Link tests that relate to your feature and are part of your story. Align your te
 
 
 
-### [Analyze](analyze.md)
+### [Insights](analyze.md)
+
+Track your growth of tests, both manual and automated. Understand the value of your testing efforts by seeing the quality and reliability of your tests. 
+
+The Quality tab shows how valuable your tests are, if they are finding bugs, and helping you fix them. 
+
+Reliability tracks how successful are your tests. A test that always passes, or always fails highlights that maybe there is something you can change to increase the quality of your testing, or just highlight those flaky tests!
 
 
-
-![img_25.png](img/img_25.png)
+![img_15.png](img_15.png)

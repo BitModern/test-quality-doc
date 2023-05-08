@@ -1,7 +1,7 @@
 ---
-title: Analyze
+title: Insights
 ---
-![img_33.png](img/img2/img_33.png)
+![img_14.png](img_14.png)
 
 
 ## Test Growth
@@ -16,7 +16,7 @@ Below the graph each test's flakiness is displayed as icons.
 
 ![img_38.png](img/img_38.png)
 
-Help;ing you identify the reasons behind the reliability. Clicking on the icons takes you directly to the linked test run.
+Helping you identify the reasons behind the reliability. Clicking on the icons takes you directly to the linked test run.
 
 ## Stories
 
@@ -32,4 +32,4 @@ When viewing by Milestone, the data for your Milestone is displayed on the graph
 
 When selecting by Milestone, if your Milestone does not have a start and end date you will be prompted to enter dates. 
 
-*Note: The filter by Milestone for Test Growth works differently than filterng by Milestone on the [Overview](overview) page. This is because the Overview page graph is listing Runs and Tests that are linked to a Milestone regardless of dates, whereas this Test Growth graph is a display of changes over a time period.*
+*Note: The filter by Milestone for Test Growth works differently than filtering by Milestone on the [Overview](overview) page. This is because the Overview page graph is listing Runs and Tests that are linked to a Milestone regardless of dates, whereas this Test Growth graph is a display of changes over a time period.*
