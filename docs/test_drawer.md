@@ -23,18 +23,18 @@ Steps are the procedure that your tester will follow to complete the test execut
 ### Datasets
 <a href="https://youtu.be/3eLp0H6VUsY"> <div style={{textAlign:'center'}}>
 
-![img_10.png](img/img3/img_10.png)
+![img_10.png](img_10.png)
 
 </div></a>
 
 
 
-![img_7.png](img/img3/img_7.png)
+![img_7.png](img_7.png)
 
 You can add a dataset to a test to create multiple variations on a particular test. 
 Adding double braces (curly-brackets) around the title of a column in the dataset will automatically create variations of a test when the test is sent to a run. 
 
-![img_8.png](img/img3/img_8.png)
+![img_8.png](img_8.png)
 
 
 #### Expected Result

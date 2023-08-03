@@ -7,7 +7,7 @@ title: What's New
 ## Multiple linked repositories.
 <a href="https://youtu.be/jDXNTEBh10g"> <div style={{textAlign:'center'}}>
 
-![img_13.png](img/img3/img_13.png)
+![img_13.png](img_13.png)
 
 </div></a>
 
@@ -24,7 +24,7 @@ If you want to connect to different repositories, you can now have a many to man
 
 <a href="https://youtu.be/3eLp0H6VUsY"> <div style={{textAlign:'center'}}>
 
-![img_10.png](img/img3/img_10.png)
+![img_10.png](img_10.png)
 
 </div></a>
 

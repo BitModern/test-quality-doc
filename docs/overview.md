@@ -15,7 +15,7 @@ Your Milestones are how you track progress of a planned event. It could be a new
 
 To set up a new Milestone, click the Milestone selector on the Overview page. From here you can create a new milestone, or edit any that exist already.
 
-![img_9.png](img/img3/img_9.png)
+![img_9.png](img_9.png)
 
 ### The graph
 

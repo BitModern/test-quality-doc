@@ -23,7 +23,7 @@ If you prefer, you can watch this short video on creating a test.
 
 <a href="https://youtu.be/HpgHJrP8gow"> <div style={{textAlign:'center'}}>
 
-![img.png](img/img3/img.png)
+![img.png](img.png)
 
 </div></a>
 
@@ -128,7 +128,7 @@ Or look at how defects work in this short video.
 
 <a href="https://youtu.be/E2ECzeuCpP4"> <div style={{textAlign:'center'}}>
 
-![img_4.png](img/img3/img_4.png)
+![img_4.png](img_4.png)
 
 </div></a>
 
