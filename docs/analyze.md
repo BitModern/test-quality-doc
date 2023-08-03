@@ -1,7 +1,7 @@
 ---
 title: Insights
 ---
-![img_14.png](img_14.png)
+![img_14.png](img/img3/img_14.png)
 
 
 ## Test Growth

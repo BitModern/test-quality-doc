@@ -80,4 +80,4 @@ The Quality tab shows how valuable your tests are, if they are finding bugs, and
 Reliability tracks how successful are your tests. A test that always passes, or always fails highlights that maybe there is something you can change to increase the quality of your testing, or just highlight those flaky tests!
 
 
-![img_15.png](img_15.png)
+![img_15.png](img/img3/img_15.png)
