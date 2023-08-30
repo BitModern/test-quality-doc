@@ -19,7 +19,7 @@ Tests is where you create, edit, organise your tests in to folders, and arrange 
 </div></a>
 
 
-### Using the Command Tool
+### Using the Command Menu
 
 <div class="img-with-text">
     <img src="\img\Screens\multi_command.png" alt="command image" width="400"  class="center"/>
@@ -28,7 +28,7 @@ Tests is where you create, edit, organise your tests in to folders, and arrange 
 
 
 
-The Command Tool menu will appear as soon as you select a test or folder by clicking in the test selector box .
+The Command Menu will appear as soon as you select a test or folder by clicking in the test selector box .
 
 
 <div class="img-with-text">

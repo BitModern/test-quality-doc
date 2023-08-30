@@ -11,11 +11,26 @@ When you click on a test in a test list, the Test Drawer opens to give you more 
 
 ## Overview
 
+**A Note about Markdown:** 
+
+The free text fields such as the precondition, or steps in a test are configured for Markdown syntax. 
+
+Images can be added and will automatically be generated in the correct format by either dropping onto the field, pasting with your computer when your cursor is in the field, or using the attachment button (paperclip icon) in the interface. 
+
+Image size can be defined in the brackets of the image link: 
+
+`![foo](foo.jpg =100x80)   simple, assumes units are in px`
+
+`![bar](bar.jpg =100x*)    sets the height to "auto"`
+
+`![bar](bar.jpg =80%x50%)  Image with width of 80% and height of 50%`
+
+
 ### Configurations
 A list of [configurations](administration/configurations) that you have applied to the test in a cycle.
 
 ### Precondition
-A Markdown based free text field that you can add anything that needs to be in place, or done before the test steps are carried out.
+A free text field that you can add anything that needs to be in place, or done before the test steps are carried out.
 
 ### Steps
 Steps are the procedure that your tester will follow to complete the test execution. Each time you add a step, it is necessary to save the changes.
