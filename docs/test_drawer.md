@@ -25,6 +25,15 @@ Image size can be defined in the brackets of the image link:
 
 `![bar](bar.jpg =80%x50%)  Image with width of 80% and height of 50%`
 
+For example:
+
+![img_17.png](img_17.png)
+
+Will look like this:
+
+![img_16.png](img_16.png)
+
+
 
 ### Configurations
 A list of [configurations](administration/configurations) that you have applied to the test in a cycle.
