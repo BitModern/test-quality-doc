@@ -4,22 +4,25 @@ title: Company
 ---
 ![img_10.png](admin_img/img_10.png)
 
-### Site
+### Site Details
 
-This is the name of your TestQuality site. It is also reflected in the web address of the site, so if it is changed, any links to items in your site that you may have saved in 3rd party locations will need to be changed to reflect the new address.
+#### Site Name
 
-### Email
+This is your TestQuality site's name. It appears in the web address. If you change it, update saved links elsewhere to match the new address.
 
-The email address used for your company. 
+### Contact Details
 
-### Phone
-A contact phone number for your company.
+#### Email 
+Your company's contact email.
 
-### Company
-The name of your company.
+#### Phone
+Your company's phone number.
 
-### Website
-Your company website.
+#### Company
+Your company's name.
+
+#### Website
+Your company's website.
 
 ### Single Sign On (SSO)
 
