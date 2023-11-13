@@ -14,15 +14,14 @@ module.exports = {
         'jira_setup',
         'github_setup',
       ]
-    }
+    },
     {
       type: 'category',
       label: 'Automation',
       items: [
         'TestQuality CLI',
-
       ]
-    }
+    },
     {
       type: 'category',
       label: 'User Guide',
