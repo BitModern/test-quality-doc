@@ -66,8 +66,7 @@ module.exports = {
                   ],
           },
         
-      'api_cli',
-          'api',
+        'whats_new',
 
       ],
     },
