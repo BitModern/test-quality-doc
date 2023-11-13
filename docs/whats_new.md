@@ -1,5 +1,5 @@
 ---
-title: What's New
+title: Releases
 ---
 
 

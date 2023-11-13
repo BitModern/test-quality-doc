@@ -1,5 +1,5 @@
 ---
-title: Bug/Defect Tracking
+title: Integrations
 
 ---
 

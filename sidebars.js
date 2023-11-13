@@ -4,10 +4,25 @@ module.exports = {
       'quick_start',
 
       'whats_new',
-      'demo',
       'integrations',
       'jira_setup',
       'github_setup',
+    {
+      type: 'category',
+      label: 'Integrations',
+      items: [
+        'jira_setup',
+        'github_setup',
+      ]
+    }
+    {
+      type: 'category',
+      label: 'Automation',
+      items: [
+        'TestQuality CLI',
+
+      ]
+    }
     {
       type: 'category',
       label: 'User Guide',
