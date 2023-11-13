@@ -97,12 +97,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Volumes/5TB/TQ Files/Docusaurus/Git Clone Docusaurus/test-quality-doc/sidebars.js",
+          "sidebarPath": "C:\\Users\\shanu\\TQ Doc\\test-quality-doc\\sidebars.js",
           "routeBasePath": "/",
           "editUrl": "https://github.com/BitModern/test-quality-doc"
         },
         "theme": {
-          "customCss": "/Volumes/5TB/TQ Files/Docusaurus/Git Clone Docusaurus/test-quality-doc/src/css/custom.css"
+          "customCss": "C:\\Users\\shanu\\TQ Doc\\test-quality-doc\\src\\css\\custom.css"
         }
       }
     ]

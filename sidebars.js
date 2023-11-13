@@ -2,10 +2,6 @@ module.exports = {
   docs: [
       'getting_started',
       'quick_start',
-      'administration',
-      'automation',
-      'integrations',
-      'api',
       'whats_new',
       {
         type: 'category',
