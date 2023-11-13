@@ -23,7 +23,8 @@ module.exports = {
         type: 'category',
         label: 'Automation',
         items: [
-          'api_cli',
+          'tq_cli',
+          'importing_data'
         ]
       },
       {
@@ -66,8 +67,7 @@ module.exports = {
                   ],
           },
         
-        'whats_new',
-
+       
       ],
     },
   ],
