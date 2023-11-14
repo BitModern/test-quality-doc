@@ -4,13 +4,18 @@ title: TestQuality CLI
 ---
 ## Introduction
 
-The TestQuality CLI is a powerful, open-source command-line tool designed to streamline your testing workflows with TestQuality projects and plans. Whether you're a software tester, quality assurance professional, or developer, this CLI offers you a seamless way to interact with TestQuality.
+The TestQuality CLI is a robust, open-source command-line tool designed to streamline your testing workflows with TestQuality projects. 
+
+It enables you to upload automated test results in JUnit XML format, with support for attachments and related defects using test name tags or console outputs.
+
+You can find the open-source CLI tool on GitHub here: https://github.com/BitModern/testQualityCli
+
 
 ### Why Use the TestQuality CLI?
 
 Managing testing projects efficiently is a crucial aspect of software development and quality assurance. The TestQuality CLI empowers you to:
 
-**Access Projects and Plans:** Quickly retrieve essential information about your testing projects and plans.
+**Access Projects:** Quickly retrieve essential information about your testing projects.
 
 **Automate Tasks:** Automate repetitive tasks, such as uploading test run results and managing test cases.
 
@@ -25,7 +30,9 @@ Managing testing projects efficiently is a crucial aspect of software developmen
 
 ### Download
 
-To begin using the TestQuality CLI, download the CLI tool from http://cli.testquality.com/.
+To start using the TestQuality CLI, download it either from http://cli.testquality.com/ or by using the following wget command:
+
+`wget http://cli.testquality.com/testquality-linux -O testquality`
 
 ### Permissions
 
@@ -34,6 +41,14 @@ After downloading the CLI tool, it's recommended to place the tool file inside y
 `chmod 777 <FILE_NAME>`
 
 ## Authentication
+
+You can authenticate by login or Personal Access Token.
+
+### Login
+
+To authenticate using 'login', use the following command:
+
+`testquality-macos login larry@bitmodern.com *password* --save`
 
 ### Personal Access Token (PAT)
 
@@ -56,8 +71,8 @@ If you already have a PAT, you can skip this section and proceed to add it to yo
 
 To add your PAT to the project, follow these steps:
 
-1. Edit the .env File: Locate and edit the .env file in your project folder.
-2. Add Your PAT: Within the .env file, add your PAT as follows:
+1. Locate and edit the .testquality file in your project folder.
+2. Within the .testquality file, add your PAT as follows:
 
 `TQ_ACCESS_TOKEN=<VERY-LONG-PERSONAL-ACCESS-TOKEN>`
 
@@ -65,9 +80,45 @@ To add your PAT to the project, follow these steps:
 
 Once you've added your PAT, you can easily use it for authentication in CLI commands. For example:
 
-`testquality plans --project_id=XXX -at="ey78x2y39229d3998....... (really long token code)!"
+To list plans for a specific project:
+
+`testquality plans --project_id=XXX --access_token=”ey78x2y39229d3998....... (your token code)”"
 `
+
+To initiate a test run:
+
+`./testquality-macos runs --access_token=”ey78x2y39229d3998....... (your token code)”`
+
+--save will automatically add the token to the .testquality file, eliminating the need to include it as a parameter.
+
+`./testquality-macos runs --access_token=... --save`
+
 This command incorporates your PAT for authentication and allows you to interact with TestQuality seamlessly.
+
+## Upload run results
+
+1. Use the upload_test_run CLI command and specify the file you want to upload.
+2. State the name of the project (ensure it's already created).
+3. Optionally, specify the cycle name; if it doesn't exist, a new one will be created for you.
+
+`./testquality upload_test_run 'results/<RUN-RESULT-FILE-NAME>.xml' --project_name=project --plan_name=cycle`
+
+## Restore a suite
+
+To restore a test suite (folder), follow these steps:
+
+1. Login
+2. List suites that have been deleted
+
+`testquality-macos suites --revision_log -p _sort=-updated_at -p operation=delete`
+
+3. Find associated plans
+
+`testquality-macos plan_suite --revision_log -p _sort=-updated_at -p operation=delete -p suite_id=105923`
+
+4. Restore
+
+`testquality-macos restore --suite_id 105923 --plan_id 17452`
 
 ## Command Reference
 
