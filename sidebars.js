@@ -23,8 +23,9 @@ module.exports = {
         type: 'category',
         label: 'Automation',
         items: [
-          'tq_cli',
-          'importing_data'
+          'testquality_cli',
+          'cli_reference',
+          'importing_data',
         ]
       },
       {

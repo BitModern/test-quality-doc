@@ -2,7 +2,7 @@
 title: CLI Reference
 
 ---
-## Command Reference
+## Commands
 
 | Command                                      | Description                                    |
 |----------------------------------------------|------------------------------------------------|
