@@ -4,29 +4,31 @@ title: CLI Reference
 ---
 ## Command Reference
 
-`testquality login  <userame> <password>`  &nbsp;&nbsp; Login to TestQuality
+| Command                                      | Description                                    |
+|----------------------------------------------|------------------------------------------------|
+| **Login**                                    |                                                |
+| `testquality login <username> <password>`    | Log in to TestQuality                           |
+| **Projects**                                 |                                                |
+| `testquality projects`                       | List projects in TestQuality                    |
+| **Plans**                                    |                                                |
+| `testquality plans`                          | List plans in a project                        |
+| **Plan-Suite Relationships**                 |                                                |
+| `testquality plan_suite`                     | List plan-folder relationships in a project    |
+| **Suites (Folders)**                         |                                                |
+| `testquality suites`                         | List folders in a project                      |
+| **Suite-Test Relationships**                 |                                                |
+| `testquality suite_test`                     | List folder-test relationships in a project    |
+| **Milestones**                               |                                                |
+| `testquality milestones`                     | List milestones in a project                   |
+| **Upload Data**                              |                                                |
+| `testquality upload_test_run <xmlfiles>`     | Upload test run data to TestQuality            |
+| `testquality upload_csv <files>`             | Upload CSV files                               |
+| `testquality upload_feature <files>`         | Upload Gherkin feature files                   |
+| **Requirements**                             |                                                |
+| `testquality requirements`                   | List requirements and related tests in a project |
+| **Restore**                                  |                                                |
+| `testquality restore`                        | Restore a plan or test                         |
 
-`testquality projects   `                 &nbsp;&nbsp; List projects TestQuality
-
-`testquality plans  `                     &nbsp;&nbsp; List plans in project.
-
-`testquality plan_suite  `                     &nbsp;&nbsp; List plan-folder relationships in project.
-
-`testquality suites  `               &nbsp;&nbsp;  List folders in project.
-
-`testquality suite_test  `               &nbsp;&nbsp;  List folder-test relationships in project.
-
-`testquality milestones  `               &nbsp;&nbsp;  List milestones in project.
-
-`testquality upload_test_run <xmlfiles> `&nbsp;&nbsp;  Login to TestQuality
-
-`testquality upload_csv <files> `                  &nbsp;&nbsp;   CSV files upload.
-
-`testquality upload_feature <files> `                  &nbsp;&nbsp;   Gherkin feature files upload.
-
-`testquality requirements `                  &nbsp;&nbsp;   List requirements and related tests in a project.
-
-`testquality restore `                  &nbsp;&nbsp;   Restore plan or test.
 
 ## Options
 
@@ -50,5 +52,6 @@ These options allow you to customize the behavior of the TestQuality CLI accordi
 |--milestone_name, --mn   	|Milestone Name   	|
 |--plan_id, --pi   	|Plan ID   	|
 |--plan_name, --pn   	|Plan Name   	|
+
 
 
