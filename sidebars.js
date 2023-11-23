@@ -1,27 +1,9 @@
 module.exports = {
   docs: [
       'getting_started',
-      'quick_start',
-      'whats_new',
       {
         type: 'category',
-        label: 'Administration',
-        items:
-            ['administration/profile',
-                'administration/company',
-                 'administration/users',
-                'administration/roles',
-                'administration/watches',
-                'administration/integration_config',
-                'administration/lookup_data',
-                'administration/customization',
-                'administration/configurations',
-                'administration/subscriptions',
-            ],
-      },
-      {
-        type: 'category',
-        label: 'Automation',
+        label: 'TestQuality CLI',
         items: [
           'testquality_cli',
           'cli_reference',
@@ -67,7 +49,22 @@ module.exports = {
 
                   ],
           },
-        
+          {
+            type: 'category',
+            label: 'Administration',
+            items:
+                ['administration/profile',
+                    'administration/company',
+                     'administration/users',
+                    'administration/roles',
+                    'administration/watches',
+                    'administration/integration_config',
+                    'administration/lookup_data',
+                    'administration/customization',
+                    'administration/configurations',
+                    'administration/subscriptions',
+                ],
+          },
        
       ],
     },

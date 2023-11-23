@@ -1,5 +1,5 @@
 ---
-title: Welcome to TestQuality!
+title: Getting Started
 
 slug: /
 
