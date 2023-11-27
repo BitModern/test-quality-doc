@@ -1,138 +1,84 @@
 ---
-title: Getting Started
+title: Welcome to TestQuality!
 
 slug: /
 
 ---
-
-
-TestQuality is a test management application for building test plans or improving your current testing. 
-
-Easily create tests, test sets or import your existing tests and results, to explore and discover quality and progress.
-
 # Getting Started
 
-When you open TestQuality, you are prompted to [create your first project](project.md). As you have probably done that already, we will move on to the first operation. 
+Congratulations on taking the first step towards improving your testing processes with TestQuality! Here's a step-by-step overview of what you'll do:
 
-To start seeing results you will want to create a test. You can import tests, but if you are new to TestQuality try creating a manual test to see how easy it is!
+1. Create a project
+2. Create a test
+3. Create a cycle
+4. Execute your test
+5. Analyze test results
 
+## Creating your first project
 
-## Create a test
+When you first open TestQuality, you'll be prompted to create your initial project. Assuming you've completed this step, let's dive right into your next operation.
 
-If you prefer, you can watch this short video on creating a test.
+## Creating a test
 
-<a href="https://youtu.be/HpgHJrP8gow"> <div style={{textAlign:'center'}}>
+Follow these steps to create a test:
 
-![img.png](img.png)
+1. Navigate to the "Tests" tab at the top of the page.
 
-</div></a>
+   ![Tests Tab](img/img2/img_13.png)
 
-**Or follow the instructions below to create a Test:** 
+2. Choose to either:
+   - Click 'Create Test Case' in the middle of the page (for new tests).
+   - Use the "New Test" button in the top-right corner.
+   
+   ![Create Test](img/img2/img_11.png)
 
-Go to the Tests tab at the top of the page.
+3. Provide a name, add a test step (e.g., "Login"), and specify the expected result.
 
+## Creating a cycle
 
-![img_13.png](img/img2/img_13.png)
+A cycle is a group of tests that you want to run together multiple times, such as before releasing a new version of your application. 
 
+To create a test cycle, follow these steps:
 
-You can either click the 'Create Test Case' button in the middle of the page, if you do not have tests already, or you can choose to use the New Test button in the top right of the main window.
+1. A cycle can contain one or more tests. Use the test selector to choose tests for your cycle.
+2. Click 'Add to Cycle' in the menu at the bottom of the page.
+   ![Add to Cycle](img_14.png)
+3. In the appearing box, name your new cycle.
+   ![Cycle Name](img_15.png)
+4. Press Enter or click "Create" to confirm.
 
-![img_11.png](img/img2/img_11.png)
+## Executing your tests
 
-1. Choose a name for your test
-2. Add a test step. This can be anything that you want your tester to do. Check a feature, test a function within your app, or just login to a web page. We will choose Login. 
-3. Add an expected result. This is what you would expect to happen after your tester completes the previous step. For our example, we expect the tester to login to the app successfully.
+### Creating a test run
 
+Before you can execute your tests, it's essential to set up a test run. Follow these steps:
 
-## Create a Cycle
+1. Start by selecting the tests you want to include from the 'Tests' tab.
 
-If you prefer, you can watch this short video on creating a Cycle.
+2. In the menu that appears at the bottom of the page, click "Run."
 
-<a href="https://youtu.be/pIBrfyhPVKw"> <div style={{textAlign:'center'}}>
+   ![Run Tab](img/img2/img_12.png)
 
-![img_3.png](img_3.png)
+3. In the run dialogue, click "Create." At this stage, there's no need to specify a Cycle or a Milestone.
 
-</div></a>
+Now, let's move on to executing your tests:
 
-**Or follow the instructions below to create a Cycle:**
+1. Click the "Test Runs" tab.
 
-A cycle is a group of tests that you want to run together many times. For example, before you make a new version of your application, you may wish to run a set of tests. You would group these into a cycle. Then run the cycle to check your new version.
+   ![Test Runs](img/img2/img_16.png)
 
-Your cycle can have a single test, but better would be a selection of tests that you would group together. If you want to make more tests, you can do so by going back to the Create a test step and make more tests.
+2. To access and execute your specific test, click on the pending test. This action will open the test drawer.
 
-1. To create a cycle of one or more tests, select the tests using the test selector (Select Tests.)
-2. In the menu that appears at the bottom of the page, click 'Add to Cycle'.
+   ![Test Drawer](img/img2/img_18.png)
 
-![img_14.png](img/img2/img_14.png)
+3. Here, you can enter the actual result and assign a status to complete the execution process.
 
-3. In the box that appears, type the name you want for your new cycle.
+## Next Steps
+- Create more tests to expand your testing suite.
+- Analyze your test results in the 'Insights' tab to make informed decisions..
+- Consider inviting your team to collaborate within TestQuality.
 
-![img_15.png](img/img2/img_15.png)
-
-4. Press Enter on your keyboard, or click the Create button under the name you have written.
-
-
-
-
-## Run your test
-
-If you prefer, you can watch this short video on executing a test.
-
-<a href="https://youtu.be/d-dObYB2i8s"> <div style={{textAlign:'center'}}>
-
-![img_2.png](img_2.png)
-
-</div></a>
-
-**Or follow the instructions below to create a Cycle:**
-
-Executing your test in 'Run Mode' gives you a history of what happened during the testing phase. Successes, failures, logged bugs or defects are important to track. They build a picture of your testing and help you find the most useful tests.
-
-### Create a Test Run
-
-
-![img_12.png](img/img2/img_12.png)
-
-1. Click on the selection box to the left of your test.
-2. In the menu that appears at the bottom of the page, click Run. 
-3. In the run dialogue, click create. At this stage you do not need a Cycle or a Milestone to create a run, you can ignore these options in the dialogue.
-
-### Execute your test
-
-After creating a test run, you will be taken to the Run tab. 
-
-1. Click the Test Runs tab.
-
-![img_16.png](img/img2/img_16.png)
-
-2. Click on your pending test to open the test drawer.
-
-![img_18.png](img/img2/img_18.png)
-
-### Testing
-
-In the test we created, we wanted the tester to login to the app. So we will open the test, and follow the steps. 
-
-1. In the test drawer on the right, follow the steps. We only have one step, our example was to login to the app. 
-2. Click the status of the test to pass or fail the test. Was the test a success for the tester? This is where they report a success or failure. 
-
-![img_19.png](img/img2/img_19.png)
-
-
-Congratulations! You have successfully create a new test, you have run that test, and you have added that test to a cycle.
-
-# Next steps
-You could make more tests, look at your test results in the Analyze tab, or go to the settings and invite your team to join you!
-
-Or look at how defects work in this short video. 
-
-<a href="https://youtu.be/E2ECzeuCpP4"> <div style={{textAlign:'center'}}>
-
-![img_4.png](img_4.png)
-
-</div></a>
-
-
+Learn more about how defects work in this [short video](https://www.example.com/defectsvideo).
 
 
 ## Integrations
@@ -140,37 +86,3 @@ Want to integrate with [GitHub](integrations.md) or [Jira](integrations.md)?
 
 ## Import your tests
 You could [import](importing.md) your tests from another application, or set up a continuous integration and import your automated test results.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
