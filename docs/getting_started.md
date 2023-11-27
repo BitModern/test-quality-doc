@@ -1,10 +1,11 @@
 ---
 title: Welcome to TestQuality!
-
 slug: /
-
 ---
-# Getting Started
+
+Your modern test management solution for QA and Dev. Supports shift-left, BDD, TDD/ATDD, and integrates with Jira, GitHub, Selenium, Jenkins, and more.
+
+## Getting Started
 
 Congratulations on taking the first step towards improving your testing processes with TestQuality! Here's a step-by-step overview of what you'll do:
 
@@ -14,13 +15,21 @@ Congratulations on taking the first step towards improving your testing processe
 4. Execute your test
 5. Analyze test results
 
-## Creating your first project
+If you prefer, you can also check out this 3-minute quick overview video.
+
+<a href="https://www.youtube.com/watch?v=x9TJeLVYB4Y"> <div style={{textAlign:'center'}}>
+
+![image](img/img_66.png)
+
+</div></a>
+
+### Creating your first project
 
 When you first open TestQuality, you'll be prompted to create your initial project. Assuming you've completed this step, let's dive right into your next operation.
 
-## Creating a test
+### Creating a test
 
-Follow these steps to create a test:
+To create a test, you can either watch the [create a test](https://youtu.be/HpgHJrP8gow) video or follow these steps:
 
 1. Navigate to the "Tests" tab at the top of the page.
 
@@ -34,22 +43,26 @@ Follow these steps to create a test:
 
 3. Provide a name, add a test step (e.g., "Login"), and specify the expected result.
 
-## Creating a cycle
+### Creating a cycle
 
 A cycle is a group of tests that you want to run together multiple times, such as before releasing a new version of your application. 
 
-To create a test cycle, follow these steps:
+To create a cycle, you can either watch the [create a cycle](https://youtu.be/pIBrfyhPVKw) video or follow these steps:
 
 1. A cycle can contain one or more tests. Use the test selector to choose tests for your cycle.
 2. Click 'Add to Cycle' in the menu at the bottom of the page.
+  
    ![Add to Cycle](img_14.png)
 3. In the appearing box, name your new cycle.
+   
    ![Cycle Name](img_15.png)
 4. Press Enter or click "Create" to confirm.
 
-## Executing your tests
+### Executing your tests
 
-### Creating a test run
+To execute a test, you can either watch the [execute a test](https://youtu.be/d-dObYB2i8s) video or follow these steps:
+
+#### Creating a test run
 
 Before you can execute your tests, it's essential to set up a test run. Follow these steps:
 
@@ -73,9 +86,12 @@ Now, let's move on to executing your tests:
 
 3. Here, you can enter the actual result and assign a status to complete the execution process.
 
-## Next Steps
+### Analyzing the test results
+
+In the 'Insights' tab, you can access real-time reports on the growth, quality, reliability, and coverage of the tests you have executed.
+
+## Next steps
 - Create more tests to expand your testing suite.
-- Analyze your test results in the 'Insights' tab to make informed decisions..
 - Consider inviting your team to collaborate within TestQuality.
 
 Learn more about how defects work in this [short video](https://www.example.com/defectsvideo).
