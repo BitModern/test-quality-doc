@@ -94,11 +94,10 @@ In the 'Insights' tab, you can access real-time reports on the growth, quality, 
 - Create more tests to expand your testing suite.
 - Consider inviting your team to collaborate within TestQuality.
 
-Learn more about how defects work in this [short video](https://www.example.com/defectsvideo).
-
-
 ## Integrations
 Want to integrate with [GitHub](integrations.md) or [Jira](integrations.md)?
+
+Learn more about how defects work in this [short video](https://www.example.com/defectsvideo).
 
 ## Import your tests
 You could [import](importing.md) your tests from another application, or set up a continuous integration and import your automated test results.
