@@ -23,17 +23,17 @@ There are two ways to reach the Import screen in TestQuality:
 
 To import test automation results in XML format, follow these steps:
 
-1. Drag and drop your XML file into the dotted pane, or click to automatically open a file browser window to choose a local file.
+1. Drag and drop your XML file(s) into the dotted pane, or click to automatically open a file browser window to choose one or multiple local files.
 
-2. Once your file has been added, you can optionally choose a Cycle and Milestone that you would like to link to your test run result.
+2. Once your file(s) have been added, you can optionally choose a Cycle and Folder that you would like to link to your test run result.
 
-3. Click 'Import' to process the file.
+3. Click 'Import' to process the file(s).
 
 ### CSV File Import
 
-To import test information contained in a CSV file, follow these steps:
+To import tests and runs, contained in a CSV file, follow these steps:
 
-1. Drag and drop your CSV file into the dotted pane, or click to automatically open a file browser window to choose a local file.
+1. Drag and drop your CSV file(s) into the dotted pane, or click to automatically open a file browser window to choose one or multiple local files.
 
 2. If you need an example CSV file format, you can export a test using the command menu in the Tests tab. Select a test, and from the command menu, choose 'Export Tests.' Select CSV, and it will download a CSV file that you can use as a template for your import.
 
@@ -43,14 +43,14 @@ To import test information contained in a CSV file, follow these steps:
 
 To import Gherkin feature files, follow these steps:
 
-1. Drag and drop your Gherkin file into the dotted pane, or click to automatically open a file browser window to choose a local file.
+1. Drag and drop your Gherkin file(s) into the dotted pane, or click to automatically open a file browser window to choose one or multiple local files.
 
 2. Similar to the XML import, you can optionally choose a Cycle and Milestone to link to your test run result.
 
-3. If your Gherkin file is a Gherkin-based test results JSON file, please click and select the 'automated run results' checkbox.
+3. If your Gherkin file is a Gherkin-based test results JSON file, please select the 'Automated run results' checkbox.
 
 4. Click 'Import' to process the file.
 
 ### Additional Information
 
-If you want to import test result XML files manually or connect via the CLI tool or API, you can refer to our open-source CLI tool on GitHub: [TestQuality CLI](https://github.com/BitModern/testQualityCli). It supports various Continuous Integration platforms like Jenkins, Cloudbees, Circle CI, and Travis CI for uploading test results.
+If you want to import test result XML files via the CLI tool or API, you can refer to our open-source CLI tool on GitHub: [TestQuality CLI](https://github.com/BitModern/testQualityCli). It supports various Continuous Integration platforms like Jenkins, Cloudbees, Circle CI, and Travis CI for uploading test results.
