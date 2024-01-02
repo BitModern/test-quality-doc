@@ -7,9 +7,16 @@ module.exports = {
         items: [
           'testquality_cli',
           'cli_reference',
-          'importing_data',
-        ]
+           ]
       },
+      {
+        type: 'category',
+        label: 'Automations & Imports',
+        items: [
+          'importing_data',
+          
+        ]
+        },
       {
       type: 'category',
       label: 'Integrations',
