@@ -14,7 +14,7 @@ module.exports = {
         label: 'Automations & Imports',
         items: [
           'importing_data',
-          
+          'integrating_with_Playwright'
         ]
         },
       {
