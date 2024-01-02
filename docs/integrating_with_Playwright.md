@@ -1,12 +1,12 @@
 ---
-title: Importing
+title: Integrating Playwright with TestQuality
 ---
 
 # Integrating Playwright with TestQuality
 
 Playwright is a powerful end-to-end testing framework for web applications. By integrating Playwright with TestQuality, you can seamlessly manage, organize, and report your Playwright test results. This guide will walk you through the steps to set up this integration.
 
-## Prerequisites
+### Prerequisites
 
 Before you begin, ensure you have the following prerequisites in place:
 
@@ -14,7 +14,7 @@ Before you begin, ensure you have the following prerequisites in place:
 
 2. **TestQuality Account**: Sign up for a TestQuality account if you don't have one already. You will need this account to configure the integration.
 
-## Step 1: Install TestQuality CLI
+### Step 1: Install TestQuality CLI
 
 To start using the TestQuality CLI, download it from [http://cli.testquality.com/](http://cli.testquality.com/) or by using the following wget command:
 
@@ -27,7 +27,7 @@ wget http://cli.testquality.com/testquality-linux -O testquality
 
 For additional details, refer to the [CLI documentation](testquality_cli).
 
-## Step 2: Configure TestQuality
+### Step 2: Configure TestQuality
 
 Before uploading Playwright test results, configure the TestQuality CLI with your account details:
 
@@ -41,10 +41,10 @@ Before uploading Playwright test results, configure the TestQuality CLI with you
 
 5. In your terminal or command prompt, run the following command to configure the TestQuality CLI with your PAT:
 
- ```bash
+```bash
 tq config --accessToken YOUR_PERSONAL_ACCESS_TOKEN
 ```
-## Step 3: Customize Playwright Configuration
+### Step 3: Customize Playwright Configuration
 
 Customize your Playwright configuration to generate JUnit XML report files, the format expected by TestQuality:
 
@@ -69,11 +69,11 @@ module.exports = {
 
 Refer to the Playwright documentation for [other reporter options](https://playwright.dev/docs/test-reporters) .
 
-## Step 4: Run Playwright Tests
+### Step 4: Run Playwright Tests
 
 Execute your Playwright tests with the updated configuration. This will generate JUnit XML test result files in the specified location.
 
-## Step 5: Upload Test Results to TestQuality
+### Step 5: Upload Test Results to TestQuality
 
 Once your Playwright tests have been executed, upload the test results to TestQuality using the CLI:
 
@@ -86,11 +86,8 @@ testquality upload_test_run 'path/to/results/[hash]-results.xml' --project_name=
 
 - Replace 'cycle-name' with the name of your test cycle in TestQuality.
 
-## Step 6: View and Manage Test Results in TestQuality
+### Step 6: View and Manage Test Results in TestQuality
 
 After uploading the test results, log in to your TestQuality account to view and manage your Playwright test results. TestQuality provides features for organizing, reporting, and collaborating on test results, simplifying the tracking of your testing efforts.
 
 Congratulations! You have successfully integrated Playwright with TestQuality, enhancing your web application testing and test result management capabilities.
-
-
-
