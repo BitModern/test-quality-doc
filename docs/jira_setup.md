@@ -51,15 +51,28 @@ Integrating Jira with TestQuality streamlines your testing process by allowing s
     ![img_78.png](img/img_78.png)
 
 
-10. **Finalizing Integration Settings**: Back in TestQuality, copy the 'Consumer Key', 'Consumer Name', and 'Public Key'. Paste these into their respective fields in Jira on Review Link popup and click 'Continue'.
+10. **Finalizing Integration Settings**: Back in TestQuality, copy the 'Consumer Key', 'Consumer Name', and 'Public Key'. Paste these into their respective fields in Jira on 'Review Link' popup and click 'Continue'.
 
     ![img_79.png](img/img_79.png)
     
     ![img_80.png](img/img_80.png)
   
+### Initiating Integration in TestQuality
+11. **Returning and Integrating in TestQuality**: After completing the configuration in Jira, switch back to the TestQuality interface and click on the 'Integrate' button. This crucial action links the settings made in Jira with TestQuality.
 
+### Authorizing the Integration
+12. **Starting and Completing the Authorization**: In TestQuality, locate the 'Authorization' section, which is required for TestQuality to interact with Jira on your behalf. Click on the 'Authorize' button to grant the necessary permissions, enabling the integration to function properly.
+
+### Granting Permission and Completing Authorization
+13. **Granting Access and Finalizing Authorization**: When a popup window appears requesting permission to access Jira, click on 'Allow'. This action grants TestQuality the necessary permissions to operate with your Jira account and finalizes the authorization process. After clicking 'Allow', you will be automatically redirected back to the TestQuality application.
+
+    ![img_81.png](img/img_81.png)
+  
 ## Completion
 Congratulations! Your Jira integration with TestQuality is now configured. TestQuality and Jira are now linked, allowing for efficient test management and issue tracking across both platforms.
+
+## Additional Configuration
+**Adding Projects and Managing Templates**: With the integration complete, you can now add projects and manage templates in TestQuality as per your requirements. 
 
 ## Tips and Troubleshooting
 - **Connectivity Issues**: Ensure both TestQuality and Jira are accessible and your internet connection is stable.
