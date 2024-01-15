@@ -43,10 +43,7 @@ Integrating Jira with TestQuality streamlines your testing process by allowing s
 8. **Handling the Warning Prompt**: A warning message might appear. Click 'Continue' to proceed.
 
     ![img_76.png](img/img_76.png)
-
-
-    ![img_59.png](img/img_59.png)
-
+    
 ### Completing the Application Link
 9. **Configuring Application Link in Jira**: In TestQuality, copy the Application Name. Switch to Jira and paste this name into the 'Application Name' field. Select 'Generic Application' for Application Type field. Check the box at the bottom to create an incoming link, then click 'Continue'.
 
@@ -56,11 +53,10 @@ Integrating Jira with TestQuality streamlines your testing process by allowing s
 
 10. **Finalizing Integration Settings**: Back in TestQuality, copy the 'Consumer Key', 'Consumer Name', and 'Public Key'. Paste these into their respective fields in Jira on Review Link popup and click 'Continue'.
 
- ![img_79.png](img/img_79.png)
- 
-
-![img_80.png](img/img_80.png)
-
+    ![img_79.png](img/img_79.png)
+    
+    ![img_80.png](img/img_80.png)
+  
 
 ## Completion
 Congratulations! Your Jira integration with TestQuality is now configured. TestQuality and Jira are now linked, allowing for efficient test management and issue tracking across both platforms.
