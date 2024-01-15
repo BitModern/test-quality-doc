@@ -1,5 +1,5 @@
 ---
-title: GitHub integration
+title: Integrate with GitHub
 
 ---
 ## Setting up your GitHub integration
