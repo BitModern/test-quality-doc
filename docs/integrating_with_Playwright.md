@@ -16,10 +16,8 @@ Before you begin, ensure you have the following prerequisites in place:
 
 To start using the TestQuality CLI, download it from [http://cli.testquality.com/](http://cli.testquality.com/) or by using the following wget command:
 
-`wget http://cli.testquality.com/testquality-linux -O testquality`
-
-
 ```bash
+
 wget http://cli.testquality.com/testquality-linux -O testquality
 ```
 
@@ -76,6 +74,7 @@ Execute your Playwright tests with the updated configuration. This will generate
 Once your Playwright tests have been executed, upload the test results to TestQuality using the CLI:
 
 ```bash
+
 testquality upload_test_run 'path/to/results/[hash]-results.xml' --project_name=project-name --plan_name=cycle-name
 ```
 - Replace 'path/to/results/[hash]-results.xml' with the actual path to your JUnit XML result file.

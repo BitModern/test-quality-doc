@@ -1,78 +1,76 @@
 ---
-title: Jira integration
+title: Integrate with Jira
 
 ---
 
+## Overview
+Integrating Jira with TestQuality streamlines your testing process by allowing seamless collaboration and tracking. This guide walks you through the steps to set up this integration.
 
-## Setting up your Jira integration
+## Prerequisites
+- Active TestQuality and Jira accounts
+- Admin rights in both TestQuality and Jira
 
-Click your username in the top right corner of the screen and choose Integrations from the drop down menu.
+## Configuration Steps
 
+### Accessing Integration Settings in TestQuality
+1. **Navigate to Integrations**: Click your username at the top right corner of TestQuality's interface. Select 'Integrations' from the dropdown menu.
 
-![img_50.png](img/img_50.png)
+    ![img_50.png](img/img_50.png)
 
-Click the configure integration link as shown in red in the image below.
+2. **Initiate Jira Integration Setup**: In the Integrations page, find the Jira section and click on 'Link on Jira'. 
 
+    ![img_51.png](img/img_51.png)
 
-![img_51.png](img/img_51.png)
+#### Connecting to Jira
+3. **Jira Login**: Sign in to your Jira account. Ensure you have administrative privileges.
 
-Sign in to Jira and copy your subdomain (The example here is a test for creating this page. You will have something different than _jiratest33_).
+4. **Copying Jira Subdomain**: Your Jira subdomain is part of your Jira URL (e.g., `yoursubdomian.atlassian.net`). Copy this subdomain.
+    ![img_52.png](img/img_52.png)
 
+5. **Entering Jira Subdomain in TestQuality**: Return to TestQuality. Paste your copied subdomain into the 'Jira Sub Domain' field.
 
-![img_52.png](img/img_52.png)
+    
+    ![img_53.png](img/img_53.png)
 
-Paste your subdomain into the Jira Sub Domain box in TestQuality.
+### Setting Up Application Link
+6. **Accessing Jira Application Links**: Below the subdomain field in TestQuality, click on the 'Jira Application Links' link. This action opens a new Jira popup for creating application links.
 
-
-![img_53.png](img/img_53.png)
-
-Click the 'Jira Application Links' link just below the sub domain field.
-
-
-![img_54.png](img/img_54.png)
+    ![img_54.png](img/img_54.png)
 
 In the Jira page that opens, it will ask for a URL.
 
-
 ![img_55.png](img/img_55.png)
 
-In the TestQuality page you can copy the required URL (https://web.testquality.com) using the copy button to the right of the field.
+7. **Providing TestQuality URL to Jira**: Copy the TestQuality URL (https://web.testquality.com) provided on the TestQuality page. In Jira, paste this URL into the Application URL field and click 'Continue'.
+
+    ![img_56.png](img/img_56.png)
+
+8. **Handling the Warning Prompt**: A warning message might appear. Click 'Continue' to proceed.
+
+    ![img_58.png](img/img_58.png)
 
 
-![img_56.png](img/img_56.png)
+    ![img_59.png](img/img_59.png)
 
-In Jira, paste the URL into the field and click the 'Create New Link' button
+### Completing the Application Link
+9. **Configuring Application Link in Jira**: In TestQuality, copy the Application Name. Switch to Jira and paste this name into the 'Application Name' field. Select 'Generic Application' for Application Type field. Check the box at the bottom to create an incoming link, then click 'Continue'.
 
-
-![img_57.png](img/img_57.png)
-
-In the warning that pops up, click Continue.
+    ![img_60.png](img/img_60.png)
 
 
-![img_58.png](img/img_58.png)
+10. **Finalizing Integration Settings**: Back in TestQuality, copy the 'Consumer Key', 'Consumer Name', and 'Public Key'. Paste these into their respective fields in Jira on Review Link popup and click 'Continue'.
 
-
-![img_59.png](img/img_59.png)
-
-In TestQuality, copy the Application name and paste it into Jira in the Application Name field. 
-Choose the Generic Application as the application type.
-
-Click on the selection box at the bottom to **create the incoming link**.
-
-
-
-![img_60.png](img/img_60.png)
-
-Click Continue
-
-![img_61.png](img/img_61.png)
-
-Copy and paste the 'Consumer Key', 'Consumer Name', and 'Public Key' from TestQuality, to Jira. 
-
-![img_62.png](img/img_62.png)
-
-Click Continue.
+ ![img_61.png](img/img_61.png)
+ 
 
 ![img_63.png](img/img_63.png)
 
-Congratulations, you have configured your Jira integration!
+
+## Completion
+Congratulations! Your Jira integration with TestQuality is now configured. TestQuality and Jira are now linked, allowing for efficient test management and issue tracking across both platforms.
+
+## Tips and Troubleshooting
+- **Connectivity Issues**: Ensure both TestQuality and Jira are accessible and your internet connection is stable.
+- **Permission Errors**: Verify that you have administrative rights in both TestQuality and Jira.
+- **URL Mistakes**: Double-check that you've copied the correct URLs and subdomains.
+- **Application Link Problems**: If Jira doesn't accept the TestQuality URL, check for any typing errors or extra spaces.
