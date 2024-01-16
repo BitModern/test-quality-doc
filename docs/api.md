@@ -55,56 +55,6 @@ curl -X GET -H "Authorization: Bearer <PAT>" -H "Accept: application/json" https
 
 **Note:** The `id` field in the response represents the project ID and will be used later for other actions.
 
-## Folders
-### Fetch a Folder/Suite
-
-**Request:**
-
-```bash
-curl -X GET -H "Authorization: Bearer <PAT>" -H "Accept: application/json" https://api.testquality.com/api/suite\?project_id\=12080
-```
-
-**Note:** Use the `project_id` obtained from the previous response.
-
-*Tip:* Choose from an existing folder or create a new one. The root folder has a property `is_root=true` , which can also be included as a query parameter.
-
-
-**Response:**
-
-```json
-{
-"current_page": 1,
-"data": [
-{
-"id": 104181,
-"created_by": 171,
-"updated_by": 15416,
-"epoch": 1,
-"name": "Default",
-"description": null,
-"project_id": 12080,
-"virtual": null,
-"client_id": 3,
-"assigned_to_tester": null,
-"key": 544,
-"created_at": "2021-04-21T14:21:46.305000+00:00",
-"updated_at": "2021-05-06T08:48:27.478000+00:00",
-"is_root": true,
-"metadata_model": "Suite"
-}
-],
-"first_page_url": "http:\\/\\/api.testquality.com\\/api\\/suite?project_id=12080&is_root=true&page=1",
-"from": 1,
-"last_page": 1,
-"last_page_url": "http:\\/\\/api.testquality.com\\/api\\/suite?project_id=12080&is_root=true&page=1",
-"next_page_url": null,
-"path": "http:\\/\\/api.testquality.com\\/api\\/suite",
-"per_page": 15,
-"prev_page_url": null,
-"to": 1,
-"total": 1
-}
-```
 ## Plans
 ### Fetch the Root Plan
 
@@ -163,6 +113,56 @@ curl -X GET -H "Authorization: Bearer <PAT>" -H "Accept: application/json" https
 
 **Remember:** Note down the `id` (e.g., 20321) for future use.
 
+## Folders
+### Fetch a Folder/Suite
+
+**Request:**
+
+```bash
+curl -X GET -H "Authorization: Bearer <PAT>" -H "Accept: application/json" https://api.testquality.com/api/suite\?project_id\=12080
+```
+
+**Note:** Use the `project_id` obtained from the previous response.
+
+*Tip:* Choose from an existing folder or create a new one. The root folder has a property `is_root=true` , which can also be included as a query parameter.
+
+
+**Response:**
+
+```json
+{
+"current_page": 1,
+"data": [
+{
+"id": 104181,
+"created_by": 171,
+"updated_by": 15416,
+"epoch": 1,
+"name": "Default",
+"description": null,
+"project_id": 12080,
+"virtual": null,
+"client_id": 3,
+"assigned_to_tester": null,
+"key": 544,
+"created_at": "2021-04-21T14:21:46.305000+00:00",
+"updated_at": "2021-05-06T08:48:27.478000+00:00",
+"is_root": true,
+"metadata_model": "Suite"
+}
+],
+"first_page_url": "http:\\/\\/api.testquality.com\\/api\\/suite?project_id=12080&is_root=true&page=1",
+"from": 1,
+"last_page": 1,
+"last_page_url": "http:\\/\\/api.testquality.com\\/api\\/suite?project_id=12080&is_root=true&page=1",
+"next_page_url": null,
+"path": "http:\\/\\/api.testquality.com\\/api\\/suite",
+"per_page": 15,
+"prev_page_url": null,
+"to": 1,
+"total": 1
+}
+```
 ### Create a Folder
 
 Use POST to create a new folder. 
