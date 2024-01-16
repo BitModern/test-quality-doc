@@ -97,7 +97,7 @@ In the 'Insights' tab, you can access real-time reports on the growth, quality, 
 ## Integrations
 Want to integrate with [GitHub](github_setup.md) or [Jira](jira_setup.md)?
 
-Learn more about [defect management](defect_management.md).
+Learn more about [defect management](defect_management).
 
 ## Import your tests
 You could [import](importing_data.md) your tests from another application, or set up a continuous integration and import your automated test results.
