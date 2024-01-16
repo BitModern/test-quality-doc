@@ -3,17 +3,17 @@ title: Using the API
 
 ---
 ## Authentication
+Obtain a Personal Access Token (PAT) using the [PAT generator](api_cli#edit-project-integration) on the [Integrations](administration/integration_config) page in the app's configuration section.
 
-Obtain a Personal Access Token (PAT), using the [PAT generator](api_cli#edit-project-integration) in the [integrations](administration/integration_config) page in the configuration section of the app.
-
-### Fetch a list of projects
-Request:
+## Projects
+### Fetch a List of Projects
+**Request:**
 
 ```bash 
 curl -X GET -H "Authorization: Bearer <PAT>" -H "Accept: application/json" https://api.testquality.com/api/project 
 ```
 
-Response:
+**Response:**
 
 ```json
 {
@@ -53,21 +53,23 @@ Response:
 }
 ```
 
-In the response the “id” field of the project is shown, this will be used as project_id later for other actions we want to make.
+**Note:** The `id` field in the response represents the project ID and will be used later for other actions.
 
-## Fetch a folder/suite
+## Folders
+### Fetch a Folder/Suite
 
-Request:
+**Request:**
 
 ```bash
 curl -X GET -H "Authorization: Bearer <PAT>" -H "Accept: application/json" https://api.testquality.com/api/suite\?project_id\=12080
 ```
 
-**Note:** the project_id is taken from the previous response.
+**Note:** Use the `project_id` obtained from the previous response.
 
-You can choose from an existing folder or create one. The root folder has a property is_root=true, which can also be included as a query parameter.
+*Tip:* Choose from an existing folder or create a new one. The root folder has a property `is_root=true` , which can also be included as a query parameter.
 
-Response:
+
+**Response:**
 
 ```json
 {
@@ -103,19 +105,20 @@ Response:
 "total": 1
 }
 ```
-## Fetch the root plan
+## Plans
+### Fetch the Root Plan
 
-In order to create a folder you need to know the root plan.
+To create a folder, knowing the root plan is essential.
 
 To fetch the root plan:
 
-Request:
+**Request:**
 
 ```bash
 curl -X GET -H "Authorization: Bearer <PAT>" -H "Accept: application/json" https://api.testquality.com/api/plan\?project_id\=12080\&is_root\=true
 ```
 
-Response: 
+**Response:**
 
 ```json
 {
@@ -158,21 +161,25 @@ Response:
 }
 ```
 
-**Note:** Make sure to note the id. 20321
+**Remember:** Note down the `id` (e.g., 20321) for future use.
 
-## Create a folder
+### Create a Folder
 
-To create a folder a POST is used. 
+Use POST to create a new folder. 
 
-Request: 
+**Request:**
 
 ```bash
 curl -X POST -H "Authorization: Bearer <PAT>" -H "Accept: application/json" -H "Content-Type: application/json" -d '{"name":"my folder","plan_id": 20321,"plan_suite":{"parent_id":104181,"sequence_plan":1},"project_id":12080}' https://api.testquality.com/api/suite
 
 ```
-**Note:** The parent_id is the id to the root folder/suite above. Plan_id is from the root plan. Sequence_plan is optional, however can control positioning in the list.
+**Note:**
+- `parent_id` is the ID of the root folder/suite.
+- `plan_id` is from the root plan.
+- `sequence_plan` controls the positioning in the list and is optional.
 
-Response: 
+
+**Response:**
 
 ```json
 {
@@ -195,38 +202,39 @@ Response:
 }
 ```
 
-## Update a folder
+### Update a Folder
 
-**Note:** To update this folder/suite, a PUT is used and the id is in the URL path.
+**Note:** To update this folder/suite, use PUT with the id in the URL path.
 
-Request: 
+**Request:**
 
 ```bash
 curl -X PUT -H "Authorization: Bearer <PAT>" -H "Accept: application/json" -H "Content-Type: application/json" -d '{"name":"new folder name"}' https://api.testquality.com/api/suite/115680
 ```
-## Fetch a list of tests
+## Tests
+### Fetch a List of Tests
 
-Request:
+**Request:**
 
 ```bash
 curl -X GET -H "Authorization: Bearer <PAT>" -H "Accept: application/json" https://api.testquality.com/api/test\?project_id\=12080
 ```
 
-**Note:** The project_id is taken from above.
+**Note:** The `project_id` is taken from above.
 
-## Create a test
+### Create a Test
 
-To create a test, two posts are required. One to create the test and a second or possibly more to create steps.
+To create a test, two POST requests are required. One to create the test and a second or possibly more to create steps.
 
-Request:
+**Request:**
 
 ```bash
 curl -X POST -H "Authorization: Bearer <PAT>" -H "Accept: application/json" -H "Content-Type: application/json" -d '{"name":"my test","precondition":"","project_id":12080,"suite_id":115680,"is_automated":false}' https://api.testquality.com/api/test
 ```
 
-**Note:** The suite_id is the id of the folder/suite we created above.
+**Note:** The `suite_id`  is the ID of the folder/suite created earlier.
 
-Response:
+**Response:**
 
 ```json
 {
@@ -256,20 +264,20 @@ Response:
 "sequence_suite": 1
 }
 ```
-## Create a step in a test
+### Create a Step in a Test
 
-To create the step in the test, use the id from the test we just created.
+To create a step in the test, use the ID from the test just created.
 
-Request: 
+**Request:**
 
 ```bash
 curl -X POST -H "Authorization: Bearer <PAT>" -H "Accept: application/json" -H "Accept: application/json" -H "Content-Type: application/json" -d '{"step":"my step","expected_result":"The result","sequence":1,"project_id":12080,"test_id":325974}' https://api.testquality.com/api/step
 ```
 
 
-**Note:** The test_id is the id of the test we created above.
+**Note:** The `test_id` is the ID of the test created earlier.
 
-Response: 
+**Response:**
 
 ```json
 {
@@ -291,18 +299,18 @@ Response:
 "metadata_model": "Step"
 }
 ```
-**Note:** Please Note the sequence of the step, more steps can be added using POST, however increment sequence to maintain order.
+**Note:** Take note of the sequence of the step. Additional steps can be added using POST, but increment the sequence to maintain order.
 
-## Update a test
+### Update a Test
 
-To update a test (or step), a PUT is used, and the id is in the URL path.
+To update a test (or step), use PUT with the id in the URL path.
 
-Request:
+**Request:**
 
 ```bash
 curl -X PUT -H "Authorization: Bearer <PAT>" -H "Accept: application/json" -H "Content-Type: application/json" -d '{"precondition":"setup"}' https://api.testquality.com/api/test/325974
 ```
-Response:
+**Response:**
 
 ```json
 {
@@ -331,4 +339,3 @@ Response:
 "metadata_model": "Test"
 }
 ```
-
