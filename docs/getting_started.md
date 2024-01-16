@@ -95,9 +95,9 @@ In the 'Insights' tab, you can access real-time reports on the growth, quality, 
 - Consider inviting your team to collaborate within TestQuality.
 
 ## Integrations
-Want to integrate with [GitHub](integrations.md) or [Jira](integrations.md)?
+Want to integrate with [GitHub](github_setup.md) or [Jira](jira_setup.md)?
 
-Learn more about how defects work in this [short video](https://www.example.com/defectsvideo).
+Learn more about [defect management](defect_management.md).
 
 ## Import your tests
-You could [import](importing.md) your tests from another application, or set up a continuous integration and import your automated test results.
+You could [import](importing_data.md) your tests from another application, or set up a continuous integration and import your automated test results.

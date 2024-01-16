@@ -14,7 +14,7 @@ module.exports = {
         label: 'Automations & Imports',
         items: [
           'importing_data',
-          'integrating_with_Playwright'
+          'integrating_with_Playwright',
         ]
         },
       {
@@ -23,6 +23,13 @@ module.exports = {
       items: [
         'jira_setup',
         'github_setup',
+        {
+          type: 'category',
+          label: 'Defect Management',
+          items:
+              ['defect_management',
+               ],
+      },
       ]
       },
       {
