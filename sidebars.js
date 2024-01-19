@@ -26,9 +26,9 @@ module.exports = {
         {
           type: 'category',
           label: 'Defect Management',
-          items:
-              ['defect_management',
-               ],
+          items:[
+              'defect_management',
+               ]
       },
       ]
       },
