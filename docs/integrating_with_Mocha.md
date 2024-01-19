@@ -18,7 +18,7 @@ To upload a run to TestQuality, ensure it's in a standard format like the XML re
 
 To achieve this with Mocha, follow these steps:
 
-- Start by installing a JUnit reporter for Mocha, such as `mocha-junit-reporter`.
+- Start by installing a JUnit reporter for Mocha, such as [mocha-junit-reporter](https://github.com/michaelleeallen/mocha-junit-reporter).
 
 - Then, choose one of the following options (command line or the config file) to specify a custom reporter:
 
@@ -34,6 +34,7 @@ This will create an output file at `./test-results.xml`.
 Alternatively, specify a custom path using the `--reporter-options` flag:
 
 ```bash
+
 mocha test --reporter mocha-junit-reporter --reporter-options mochaFile=./path_to_your/file.xml
 ```
 
