@@ -15,6 +15,7 @@ module.exports = {
         items: [
           'importing_data',
           'integrating_with_Playwright',
+          'integrating_with_Selenium',
         ]
         },
       {
