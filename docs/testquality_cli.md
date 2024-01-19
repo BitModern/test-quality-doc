@@ -101,13 +101,13 @@ To initiate a test run:
 
 ```bash
 
-./testquality runs --access_token="ey78x2y39229d3998....... (your token code)”
+testquality runs --access_token="ey78x2y39229d3998....... (your token code)”
 ```
 
 --save will automatically add the token to the `.testquality` file, eliminating the need to include it as a parameter.
 
 ```bash
-./testquality runs --access_token=... --save
+testquality runs --access_token=... --save
 ```
 
 This command incorporates your PAT for authentication and allows you to interact with TestQuality seamlessly.
@@ -120,7 +120,7 @@ This command incorporates your PAT for authentication and allows you to interact
 
 ```bash
 
-./testquality upload_test_run 'results/<RUN-RESULT-FILE-NAME>.xml' --project_name=project --plan_name=cycle
+testquality upload_test_run 'results/<RUN-RESULT-FILE-NAME>.xml' --project_name=project --plan_name=cycle
 ```
 
 ## Restore a suite
