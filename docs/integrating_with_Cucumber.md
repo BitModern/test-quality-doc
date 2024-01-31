@@ -1,25 +1,27 @@
 ---
-title: JUnit 
+title: Cucumber 
 ---
 
-[JUnit](https://junit.org/junit5/) is a widely used Java testing framework, and by integrating JUnit with TestQuality, you can effectively manage, organize, and report your JUnit test results. This guide will walk you through the steps to set up this integration.
+[Cucumber](https://cucumber.io/) is a popular behavior-driven development (BDD) testing framework that allows you to write and execute acceptance tests in a human-readable format. By integrating Cucumber with TestQuality, you can effectively manage, organize, and report your Cucumber test results. This guide will walk you through the steps to set up this integration.
 
 ### Prerequisites
 
 Before you begin, ensure you have the following prerequisites in place:
 
-1. **JUnit Tests**: Prepare your JUnit tests and have them ready for execution.
+1. **Cucumber Tests**: Prepare your Cucumber tests using Gherkin language and have them ready for execution.
 
 2. **TestQuality Account**: Sign up for a TestQuality account if you don't have one. You will need this account to configure the integration.
 
-### Step 1: Export Your JUnit Run Results to JUnit XML
+### Step 1: Export Cucumber Run Results to JUnit XML
 
-To upload a run to TestQuality, ensure it's in a standard format like JUnit's XML report format.
+To upload a run to TestQuality, ensure it's in a standard format like the JUnit XML report format. Cucumber supports generating JUnit XML report files. Here's how to do it:
 
-For JUnit 4, you can use a plugin like the [Maven Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/) to generate the `.xml` report. 
+```bash
+cucumber --format junit --out results/test-results.xml
+```
+The results will be generated in JUnit format and saved as `./results/test-results.xml`. 
 
-For JUnit 5, refer to the documentation on creating `.xml` reports for JUnit 5 [here](https://junit.org/junit5/docs/current/user-guide/#junit-platform-reporting).
-
+For more details, check out [Cucumber documentation](https://cucumber.io/docs/cucumber/reporting/?lang=java#built-in-reporter-plugins).
 
 ### Step 2: Download the TestQuality CLI Tool
 
@@ -53,15 +55,15 @@ You are now ready to use the CLI tool from the console. Execute the following co
 
 ./testquality upload_test_run 'results/<RUN-RESULT-FILE-NAME>.xml' --project_name=project --plan_name=cycle
 ```
-
 - Replace `<RUN-RESULT-FILE-NAME>` with the actual name of your run result file.
 - Replace `project` with your TestQuality project name.
 - Replace `cycle` with the name of the test cycle in TestQuality.
 
-After executing this command, your JUnit test results will be uploaded to TestQuality for further management and reporting.
+
+After executing this command, your Cucumber test results will be uploaded to TestQuality for further management and reporting.
 
 ### Step 6: View and Manage Test Results in TestQuality
 
-Log in to your TestQuality account to view, organize, and report your JUnit test results. TestQuality provides features for organizing, reporting, and collaborating on test results, simplifying the tracking of your testing efforts.
+Log in to your TestQuality account to view, organize, and report your Cucumber test results. TestQuality provides features for organizing, reporting, and collaborating on test results, simplifying the tracking of your testing efforts.
 
-Congratulations! You have successfully integrated JUnit with TestQuality, enhancing your Java testing and test result management capabilities.
+Congratulations! You have successfully integrated Cucumber with TestQuality, enhancing your BDD testing and test result management capabilities.

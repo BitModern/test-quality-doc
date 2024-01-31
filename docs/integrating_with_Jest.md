@@ -1,8 +1,8 @@
 ---
-title: Integrating with Jest 
+title: Jest 
 ---
 
-Jest is a popular JavaScript testing framework, and by integrating Jest with TestQuality, you can effectively manage, organize, and report your Jest test results. This guide will walk you through the steps to set up this integration.
+[Jest](https://jestjs.io/) is a popular JavaScript testing framework, and by integrating Jest with TestQuality, you can effectively manage, organize, and report your Jest test results. This guide will walk you through the steps to set up this integration.
 
 ### Prerequisites
 

@@ -1,16 +1,24 @@
 ---
-title: Selenium 
+title: Watir 
 ---
 
-Selenium is a widely used tool for web application testing. By integrating Selenium with TestQuality, you can efficiently manage, organize, and report your Selenium test results. This guide will walk you through the steps to set up this integration.
+Watir is a popular open-source Ruby library for automating web browsers. By integrating Watir with TestQuality, you can effectively manage, organize, and report your Watir test results. This guide will walk you through the steps to set up this integration.
 
 ### Prerequisites
 
-Before you begin, make sure you have the following prerequisites in place:
+Before you begin, ensure you have the following prerequisites in place:
 
-1. **Selenium Tests**: Prepare your Selenium tests using SeleniumIDE.
+1. **Watir Tests**: Prepare your Watir tests using Ruby and have them ready for execution.
 
-2. **TestQuality Account**: Sign up for a TestQuality account if you don't have one. You'll need this account to configure the integration.
+2. **TestQuality Account**: Sign up for a TestQuality account if you don't have one. You will need this account to configure the integration.
+
+### Step 1: Export Your Watir Run Results to a Standard Output File
+
+To upload a run to TestQuality, ensure it's in a standard format like the XML report format introduced by JUnit.
+
+- Customize your Watir configuration to generate JUnit XML report files. Ensure that your Watir tests produce XML output in the JUnit format.
+
+- Make sure to specify the output directory and filename for the JUnit XML reports.
 
 ### Step 1: Export Selenium Run Results to JUnit XML
 

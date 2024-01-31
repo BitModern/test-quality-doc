@@ -1,8 +1,8 @@
 ---
-title: Integrating with Playwright
+title: Playwright
 ---
 
-Playwright is a powerful end-to-end testing framework for web applications. By integrating Playwright with TestQuality, you can seamlessly manage, organize, and report your Playwright test results. This guide will walk you through the steps to set up this integration.
+[Playwright](https://playwright.dev/) is a powerful end-to-end testing framework for web applications. By integrating Playwright with TestQuality, you can seamlessly manage, organize, and report your Playwright test results. This guide will walk you through the steps to set up this integration.
 
 ### Prerequisites
 

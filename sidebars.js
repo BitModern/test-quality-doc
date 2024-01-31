@@ -17,12 +17,17 @@ module.exports = {
             type: 'category',
             label: 'Test Runners Integration',
             items:[
+                'integrating_with_Cucumber',
                 'integrating_with_Cypress',
                 'integrating_with_Jest',
                 'integrating_with_JUnit',
                 'integrating_with_Mocha',
+                'integrating_with_NUnit',
+                'integrating_with_PHPUnit',
                 'integrating_with_Playwright',
+                'integrating_with_Pytest',
                 'integrating_with_Selenium',
+                'integrating_with_xUnit',
                  ]
             },
           'importing_data',

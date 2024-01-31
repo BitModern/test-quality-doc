@@ -1,8 +1,8 @@
 ---
-title: Integrating with Cypress 
+title: Cypress 
 ---
 
-Cypress is a powerful end-to-end testing framework for web applications. By integrating Cypress with TestQuality, you can seamlessly manage, organize, and report your Cypress test results. This guide will walk you through the steps to set up this integration.
+[Cypress](https://www.cypress.io/) is a powerful end-to-end testing framework for web applications. By integrating Cypress with TestQuality, you can seamlessly manage, organize, and report your Cypress test results. This guide will walk you through the steps to set up this integration.
 
 ### Prerequisites
 

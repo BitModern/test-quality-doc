@@ -1,8 +1,8 @@
 ---
-title: Integrating with Mocha 
+title: Mocha 
 ---
 
-Mocha is a popular JavaScript test framework, and by integrating Mocha with TestQuality, you can effectively manage, organize, and report your Mocha test results. This guide will walk you through the steps to set up this integration.
+[Mocha](https://mochajs.org/) is a popular JavaScript test framework, and by integrating Mocha with TestQuality, you can effectively manage, organize, and report your Mocha test results. This guide will walk you through the steps to set up this integration.
 
 ### Prerequisites
 
