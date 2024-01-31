@@ -1,5 +1,5 @@
 ---
-title: Integrate with Jira
+title: Jira
 
 ---
 
