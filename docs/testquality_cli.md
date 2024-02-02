@@ -30,19 +30,18 @@ Managing testing projects efficiently is a crucial aspect of software developmen
 
 ### Download
 
-To start using the TestQuality CLI, download it either from http://cli.testquality.com/ or by using the following wget command:
+To start using the TestQuality CLI, download it either from http://cli.testquality.com/ or by using the following wget command replacing `{{ version }}` with your desired version
 
 ```bash
-
-wget http://cli.testquality.com/testquality-linux -O testquality
+wget https://github.com/BitModern/testQualityCli/releases/download/{{ version }}/testquality-linux -O testquality
 ```
 
 ### Permissions
 
-After downloading the CLI tool, it's recommended to place the tool file inside your project's folder. Once the CLI tool is in place, grant the necessary permissions to execute it using the following command:
+ Once the CLI tool is in place, grant the necessary permissions to execute it using the following command:
 
 ```bash
-chmod 777 <FILE_NAME>
+chmod 744 testquality
 ```
 
 ## Authentication
