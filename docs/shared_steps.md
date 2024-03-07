@@ -52,24 +52,8 @@ This feature automatically identifies existing shared steps when creating new st
 - **Update**: Modify the shared step in any test case and save. Changes apply to all test cases using this Shared Step.
 - **Delete**: Removing a Shared Step deletes it from all referenced test cases. 
 
-<style>
-.warning {
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
-    color: #721c24;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-}
-</style>
 
-<div class="warning" markdown="1">
 
 **Warning:** Exercise caution when removing a Shared Step, as this action can't be undone.
-
-</div>
-
-
 
 Shared Steps streamline testing processes, making them more efficient and consistent. This guide enables you to fully leverage Shared Steps, enhancing productivity and testing quality.
