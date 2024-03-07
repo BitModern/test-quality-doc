@@ -76,6 +76,7 @@ module.exports = {
                   ['filtering',
                       'test_drawer',
                       'importing',
+                      'shared_steps',
 
                   ],
           },
