@@ -2,50 +2,42 @@
 title: Jasmine 
 ---
 
-[Jest](https://jestjs.io/) is a popular JavaScript testing framework, and by integrating Jest with TestQuality, you can effectively manage, organize, and report your Jest test results. This guide will walk you through the steps to set up this integration.
+[Jasmine](https://jasmine.github.io/) is a popular behavior-driven development (BDD) framework for testing JavaScript code. By integrating Jasmine with TestQuality, you can effectively manage, organize, and report your Jasmine test results. This guide will walk you through the steps to set up this integration.
 
 ### Prerequisites
 
 Before you begin, ensure you have the following prerequisites in place:
 
-1. **Jest Tests**: Prepare your Jest tests and have them ready for execution.
+1. **Jasmine Tests**: Prepare your Jasmine tests for your JavaScript application and have them ready for execution.
 
 2. **TestQuality Account**: Sign up for a TestQuality account if you don't have one. You will need this account to configure the integration.
 
-### Step 1: Export Your Jest Run Results to JUnit XML
+### Step 1: Export Jasmine Run Results to JUnit XML
 
-To upload a run to TestQuality in the required JUnit XML format, you'll need to set up a custom reporter for Jest. You can find the reporter here: [Jest JUnit Reporter](https://github.com/jest-community/jest-junit).
+To upload a run to TestQuality, ensure it's in a standard format like the JUnit XML report format. Install the popular [`jasmine-reporters`](https://www.npmjs.com/package/jasmine-reporters) package and register the JUnit reporter with Jasmine.
 
-To configure Jest to use this reporter, add it to the `reporters` array in your configuration file. Please note that adding reporters will replace the default Jest reporter. To keep using it, include it using the `default` value.
+1. Install the `jasmine-reporters` package:
 
-Here are examples in TypeScript and JSON:
-
-**TypeScript File Example:**
-
-```typescript
-import type { Config } from 'jest';
-
-const config: Config = {
-  reporters: [
-    'default',
-    ['jest-junit', { outputDirectory: 'reports', outputName: 'report.xml' }],
-  ],
-};
-
-export default config;
+```bash
+npm install jasmine-reporters --save-dev
 ```
 
-**jest.config.json File Example:**
+2. Configure Jasmine to use the JUnit reporter in your test setup file (e.g., **spec/support/jasmine-setup.js):**
 
-```json
-{
-  "reporters": [
-    "default",
-    ["jest-junit", { "outputDirectory": "reports", "outputName": "report.xml" }]
-  ]
-}
+```bash
+
+const path = require('path');
+const reporters = require('jasmine-reporters');
+
+const junitReporter = new reporters.JUnitXmlReporter({
+    savePath: path.join(__dirname, '/results'),
+    consolidateAll: false
+});
+
+jasmine.getEnv().addReporter(junitReporter);
 ```
-This configuration will generate the `.xml` file needed to upload to TestQuality.
+
+This configuration will instruct Jasmine to generate JUnit XML reports for test results and save them to the specified output directory.
 
 ### Step 2: Download the TestQuality CLI Tool
 
@@ -84,10 +76,10 @@ You are now ready to use the CLI tool from the console. Execute the following co
 - Replace `project` with your TestQuality project name.
 - Replace `cycle` with the name of the test cycle in TestQuality.
 
-After executing this command, your Jest test results will be uploaded to TestQuality for further management and reporting.
+After executing this command, your Jasmine test results will be uploaded to TestQuality for further management and reporting.
 
 ### Step 6: View and Manage Test Results in TestQuality
 
-Log in to your TestQuality account to view, organize, and report your Jest test results. TestQuality provides features for organizing, reporting, and collaborating on test results, simplifying the tracking of your testing efforts.
+Log in to your TestQuality account to view, organize, and report your Jasmine test results. TestQuality provides features for organizing, reporting, and collaborating on test results, simplifying the tracking of your testing efforts.
 
-Congratulations! You have successfully integrated Jest with TestQuality, enhancing your JavaScript testing and test result management capabilities.
+Congratulations! You have successfully integrated Jasmine with TestQuality, enhancing your JavaScript application testing and test result management capabilities.
