@@ -30,6 +30,7 @@ module.exports = {
                 'integrating_with_Postman',
                 'integrating_with_Pytest',
                 'integrating_with_Robot Framework',
+                'integrating_with_RSpec',
                 'integrating_with_Selenium',
                 'integrating_with_TestNG',
                 'integrating_with_WebdriverIO',
