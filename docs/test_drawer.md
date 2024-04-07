@@ -112,7 +112,7 @@ Run Results
 
 Defects
  
- - Lists the defects that are linked to this test. To create a Defect, you will need an  [integration](integrations). 
+ - Lists the defects that are linked to this test. To create a Defect, you will need an  integration. 
 
 ##  Requirements
 

@@ -46,18 +46,20 @@ In TestQuality, one role always serves as the default role. This default role ac
 
 ### Role Permissions Overview
 
-| Role             | Can Add Users | Can Modify Roles | Can Create Project | Can Do... (Summary)                                     | Cannot Do... (Summary)                                  |
-|------------------|---------------|------------------|--------------------|---------------------------------------------------------|--------------------------------------------------------|
-| Admin            | Yes           | Yes              | Yes                | - Manage users, roles, and permissions.                  | - Perform testing or defect management tasks.           |
-|                  |               |                  |                    | - Create and manage projects.                             | - Access specific project-related actions.              |
-|                  |               |                  |                    | - Configure system settings.                              |                                                        |
-| Project Manager  | Yes           | No               | Yes                | - Create and manage projects.                             | - Modify system configurations or user roles.           |
-|                  |               |                  |                    | - Assign tasks and manage project timelines.              | - Perform testing or defect management tasks.          |
-|                  |               |                  |                    | - Monitor project progress.                               |                                                        |
-| Test Developer   | Yes           | No               | Yes                | - Access and work on projects.                            | - Modify system configurations or user roles.           |
-|                  |               |                  |                    | - Create and modify project content (e.g., code, issues). | - Manage billing, payments, or platform-level settings.|
-| Tester           | No            | No               | No                 | - Access the application.                                 | - Modify system configurations or user roles.           |
-|                  |               |                  |                    | - Perform various actions related to tests, defects, etc. | - Manage billing, payments, or platform-level settings.|
-| Viewer           | No            | No               | No                 | - Access the application.                                 | - Modify system configurations or user roles.           |
-|                  |               |                  |                    | - View project content and data.                          | - Perform actions requiring editing or creation rights. |
-|                  |               |                  |                    | - Cannot perform any modifications or actions.            |                                                        |
+| Role              | Can Add Users | Can Modify Roles | Can Create Project | Can Do... (Summary)                                     | Cannot Do... (Summary)                                    |
+|-------------------|---------------|------------------|--------------------|---------------------------------------------------------|-----------------------------------------------------------|
+| Admin     | Yes           | Yes              | Yes                | - Manage users, roles, and permissions.                  | - Perform testing or defect management tasks.             |
+|                   |               |                  |                    | - Create and manage projects.                             | - Access specific project-related actions.                |
+|                   |               |                  |                    | - Configure system settings.                              |                                                           |
+| Project Manager   | No            | No               | No                 | - Assign tasks and manage project timelines.              | - Modify system configurations or user roles.             |
+|                   |               |                  |                    | - Monitor project progress.                               | - Perform testing or defect management tasks.             |
+|                   |               |                  |                    | - Access specific project-related actions.                |                                                           |
+| Test Developer    | No            | No               | No                 | - Develop and manage tests.                               | - Modify system configurations or user roles.             |
+|                   |               |                  |                    | - Create and manage test-related data.                    | - Perform administrative tasks such as adding users.      |
+|                   |               |                  |                    | - Access specific test-related actions.                   | - Perform testing or defect management tasks.             |
+| Tester            | No            | No               | No                 | - Access various application functionalities.            | - Perform administrative tasks such as adding users.      |
+|                   |               |                  |                    | - Perform testing activities and manage test cases.       | - Modify system configurations or user roles.             |
+|                   |               |                  |                    | - Access specific test-related actions.                   |                                                           |
+| Viewer            | No            | No               | No                 | - Access read-only view of various application areas.    | - Perform administrative tasks such as adding users.      |
+|                   |               |                  |                    | - View data and configurations but cannot modify them.    | - Perform testing or defect management tasks.             |
+|                   |               |                  |                    | - Access specific read-only actions.                      |                                                           |

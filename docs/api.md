@@ -3,7 +3,7 @@ title: Using the API
 
 ---
 ## Authentication
-Obtain a Personal Access Token (PAT) using the [PAT generator](api_cli#edit-project-integration) on the [Integrations](administration/integration_config) page in the app's configuration section.
+Obtain a Personal Access Token (PAT) using the PAT generator on the Integrations page in the app's configuration section.
 
 ## Projects
 ### Fetch a List of Projects
