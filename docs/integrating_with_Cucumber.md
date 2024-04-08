@@ -59,6 +59,12 @@ You are now ready to use the CLI tool from the console. Execute the following co
 - Replace `project` with your TestQuality project name.
 - Replace `cycle` with the name of the test cycle in TestQuality.
 
+Alternatively, if you want to upload a Gherkin feature result file in JSON format, use this command.
+
+```bash
+
+./testquality upload_feature_results 'results/<RUN-RESULT-FILE-NAME>.json' --project_name=project --plan_name=cycle
+```
 
 After executing this command, your Cucumber test results will be uploaded to TestQuality for further management and reporting.
 
