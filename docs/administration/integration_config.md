@@ -7,7 +7,6 @@ The Integrations configuration is located in the Profile > Integrations menu by 
 ![integration_config.png](integration_config.png)
 
 
-
 The integrations that you have connected to your projects are listed on this page.
 
 Clicking on the configuration icon ![gear_icon.png](gear_icon.png) for your configuration will open the settings page for your connection to your 3rd party repository.
@@ -72,9 +71,6 @@ If you click the {+} button in the bottom of the editor, example variables are s
 ![img_24.png](admin_img/img_24.png)
 
 If you would like to create your own more advanced templates, there is a link to the [mustache syntax](https://handlebarsjs.com/guide/) at the top of the editor.
-
-
-
 
 ## Delete integration
 
