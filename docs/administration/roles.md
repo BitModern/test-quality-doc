@@ -46,20 +46,32 @@ In TestQuality, one role always serves as the default role. This default role ac
 
 ### Role Permissions Overview
 
-| Role              | Can Add Users | Can Modify Roles | Can Create Project | Can Do... (Summary)                                     | Cannot Do... (Summary)                                    |
-|-------------------|---------------|------------------|--------------------|---------------------------------------------------------|-----------------------------------------------------------|
-| Admin     | Yes           | Yes              | Yes                | - Manage users, roles, and permissions.                  | - Perform testing or defect management tasks.             |
-|                   |               |                  |                    | - Create and manage projects.                             | - Access specific project-related actions.                |
-|                   |               |                  |                    | - Configure system settings.                              |                                                           |
-| Project Manager   | No            | No               | No                 | - Assign tasks and manage project timelines.              | - Modify system configurations or user roles.             |
-|                   |               |                  |                    | - Monitor project progress.                               | - Perform testing or defect management tasks.             |
-|                   |               |                  |                    | - Access specific project-related actions.                |                                                           |
-| Test Developer    | No            | No               | No                 | - Develop and manage tests.                               | - Modify system configurations or user roles.             |
-|                   |               |                  |                    | - Create and manage test-related data.                    | - Perform administrative tasks such as adding users.      |
-|                   |               |                  |                    | - Access specific test-related actions.                   | - Perform testing or defect management tasks.             |
-| Tester            | No            | No               | No                 | - Access various application functionalities.            | - Perform administrative tasks such as adding users.      |
-|                   |               |                  |                    | - Perform testing activities and manage test cases.       | - Modify system configurations or user roles.             |
-|                   |               |                  |                    | - Access specific test-related actions.                   |                                                           |
-| Viewer            | No            | No               | No                 | - Access read-only view of various application areas.    | - Perform administrative tasks such as adding users.      |
-|                   |               |                  |                    | - View data and configurations but cannot modify them.    | - Perform testing or defect management tasks.             |
-|                   |               |                  |                    | - Access specific read-only actions.                      |                                                           |
+| Role            | Can Do... (Summary)                                             | Cannot Do... (Summary)                                    |
+|-----------------|-----------------------------------------------------------------|-----------------------------------------------------------|
+| Administrator   | • Everything                                                    | • Not Applicable                                          |
+| Project Manager | • Add or modify configurations.                                 | • Edit site details or delete site                         |
+|                 | • Add or modify customizations.                                 | • Add/update SSO or OpenID.                               |
+|                 | • Assign tests.                                                 | • Add users.                                              |
+|                 | • Add milestones.                                               | • View or modify roles.                                   |
+|                 |                                                                 | • Create projects.                                        |
+|                 |                                                                 | • Modify integrations.                                    |
+|                 |                                                                 | • View/add lookup data.                                   |
+|                 |                                                                 | • Modify subscriptions.                                   |
+|                 |                                                                 | • View space used.                                        |
+| Test Developer  | • Create, modify and manage tests.                              | • Everything that a Project Manager can't do PLUS         |
+|                 | • Create and manage test-related data.                           | • Add or modify configurations.                           |
+|                 | • Add or modify milestones.                                     | • Add or modify customizations.                           |
+| Tester          | • Execute tests (in stories, cycles, and runs).                  | • Everything that a Test Developer can't do PLUS           |
+|                 | • Authorize users for integration.                              | • Modify runs                                             |
+|                 | • Add bugs.                                                     |                                                           |
+|                 | • Add labels.                                                   |                                                           |
+| Viewer          | • View Project                                                  | • Everything that a Tester can't do                  |
+|                 | • View Tests                                                    |                                                           |
+|                 | • View Runs                                                     |                                                           |
+|                 | • View Milestones                                               |                                                           |
+
+
+**Note:** Watches are accessible to all roles within TestQuality, regardless of their permissions. This means that all users, regardless of their role or level of access, can utilize the watch feature to manage their watched items.
+
+
+
