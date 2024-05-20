@@ -46,6 +46,7 @@ module.exports = {
       items: [
         'jira_setup',
         'github_setup',
+        'slack_integration',
         {
           type: 'category',
           label: 'Defect Management',
