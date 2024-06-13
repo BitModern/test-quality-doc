@@ -130,6 +130,8 @@ You can generate a PDF report to share with external stakeholders for the execut
 1. Click on the three dots as shown in the screenshot.
 2. Select 'PDF Report' from the menu.
 
+   ![img_41.png](img/img2/img_41.png)
+
 ### Analyzing the Test Results
 
 In the 'Insights' tab, you can access real-time reports on the growth, quality, reliability, and coverage of the tests you have executed.
