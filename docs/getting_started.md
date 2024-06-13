@@ -123,7 +123,7 @@ Alternatively, you can also finish a run by following these steps:
 1. Navigate to the three dots as shown in the screenshot.
 2. Click on 'Finish Run.'
 
-### Generating a Run Report (in pdf)
+### Generating a Run Report (in PDF)
 
 You can generate a PDF report to share with external stakeholders for the executed or completed run by following these steps:
 
