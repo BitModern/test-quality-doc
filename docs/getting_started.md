@@ -98,7 +98,7 @@ Before you can execute your tests, it's essential to set up a test run. Follow t
 
 Now, let's move on to executing your tests:
 
-1. Click the 'Runs' tab.
+1. Click the 'Tests' tab.
 
    ![img_18.png](img/img2/img_18.png)
 
