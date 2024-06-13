@@ -78,11 +78,7 @@ To facilitate the process, you can either watch the [Create a Cycle](https://you
 3. Select tests to include in the cycle.
 4. Click on 'Create'.
 
-### Executing your Tests
-
-To execute a test, you can either watch the [Execute a Test](https://youtu.be/d-dObYB2i8s) video or follow these steps:
-
-#### Creating a Test Run
+### Creating a Run from Test
 
 Before you can execute your tests, it's essential to set up a test run. Follow these steps:
 
@@ -102,7 +98,7 @@ Now, let's move on to executing your tests:
 
    ![img_18.png](img/img2/img_18.png)
 
-2. To access and execute your specific test, click on the pending test. This action will open the test drawer.
+2. To access and execute your specific test, click on the pending test. This action will open the test drawer. You can also watch the [Execute a Test](https://youtu.be/d-dObYB2i8s) video for further guidance.
 
    ![img_19.png](img/img2/img_19.png)
 
@@ -110,7 +106,7 @@ Now, let's move on to executing your tests:
 
    ![img_39.png](img/img2/img_39.png)
 
-### Complete/Finish a Run
+### Complete or Finish a Run
 
 After you have executed all the tests in the run as described in the previous steps, a popup will appear prompting you to 'Complete Run'.
 
