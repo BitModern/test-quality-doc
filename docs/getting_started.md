@@ -3,17 +3,19 @@ title: Welcome to TestQuality!
 slug: /
 ---
 
-Your modern test management solution for QA and Dev. Supports shift-left, BDD, TDD/ATDD, and integrates with Jira, GitHub, Selenium, Jenkins, and more.
+You’ve found the ultimate test management tool designed for QA and development teams. TestQuality supports advanced methodologies like shift-left, Behavior-Driven Development (BDD), and Test-Driven/ Acceptance Test-Driven Development (TDD/ATDD). It integrates effortlessly with popular tools like Jira, GitHub, Selenium, and Jenkins to streamline your processes and boost efficiency.
 
 ## Getting Started
 
 Congratulations on taking the first step towards improving your testing processes with TestQuality! Here's a step-by-step overview of what you'll do:
 
-1. Create a project
-2. Create a test
-3. Create a cycle
-4. Execute your test
-5. Analyze test results
+1. Create a Project
+2. Create a Test
+3. Create a Cycle
+4. Execute your Tests
+5. Complete/Finish a Run
+6. Generate a Run Report
+7. Analyze Test Results
 
 If you prefer, you can also check out this 3-minute quick overview video.
 
@@ -23,81 +25,117 @@ If you prefer, you can also check out this 3-minute quick overview video.
 
 </div></a>
 
-### Creating your first project
+### Creating your first Project
 
 When you first open TestQuality, you'll be prompted to create your initial project. Assuming you've completed this step, let's dive right into your next operation.
 
-### Creating a test
+### Creating a Test
 
-To create a test, you can either watch the [create a test](https://youtu.be/HpgHJrP8gow) video or follow these steps:
+To create a test, you can either watch the [Create a Test](https://youtu.be/HpgHJrP8gow) video or follow these steps:
 
-1. Navigate to the "Tests" tab at the top of the page.
+1. Navigate to the 'Tests' tab at the top of the page.
 
-   ![Tests Tab](img/img2/img_13.png)
-
-2. Choose to either:
-   - Click 'Create Test Case' in the middle of the page (for new tests).
-   - Use the "New Test" button in the top-right corner.
+2. Choose one of the following actions:
+   - Click 'Create Test Case' in the middle of the page (for new tests). or
+   - Use the "Create Test" button in the top-right corner.
    
-   ![Create Test](img/img2/img_11.png)
+   ![img_13.png](img/img2/img_13.png)
 
-3. Provide a name, add a test step (e.g., "Login"), and specify the expected result.
+3. Provide a name for your test, add a test step (e.g., "Login"), and specify the expected result. Then click on 'Create'.
 
-### Creating a cycle
+   ![img_37.png](img/img2/img_37.png)
 
-A cycle is a group of tests that you want to run together multiple times, such as before releasing a new version of your application. 
+4. If you wish, add or modify additional details like Case Priority, Case Type, Assigned To, etc., in the test drawer that opens up.
 
-To create a cycle, you can either watch the [create a cycle](https://youtu.be/pIBrfyhPVKw) video or follow these steps:
+   ![img_38.png](img/img2/img_38.png)
 
-1. A cycle can contain one or more tests. Use the test selector to choose tests for your cycle.
-2. Click 'Add to Cycle' in the menu at the bottom of the page.
+### Creating a Cycle
+
+A cycle is a collection of tests and folders that you want to run repeatedly, such as before releasing a new version of your application.
+
+There are two ways to create a cycle in TestQuality: from the Tests tab or the Cycles tab.
+
+To facilitate the process, you can either watch the [Create a Cycle](https://youtu.be/pIBrfyhPVKw) video or follow these steps:
+
+**From the Tests tab:**
+
+1. A cycle can contain one or more tests. Use the test selector to choose the tests and folders you want to include in your cycle.
+
+2. Click 'Add to Cycle' in the menu that appears at the bottom of the page.
   
-   ![Add to Cycle](img_14.png)
-3. In the appearing box, name your new cycle.
+   ![img_14.png](img/img2/img_14.png)
+
+3. In the dialog box that appears, enter a name for your new cycle.
    
-   ![Cycle Name](img_15.png)
-4. Press Enter or click "Create" to confirm.
+   ![img_15.png](img/img2/img_15.png)
 
-### Executing your tests
+4. Press Enter or click 'Create' to confirm.
 
-To execute a test, you can either watch the [execute a test](https://youtu.be/d-dObYB2i8s) video or follow these steps:
+**From the Cycles tab:**
 
-#### Creating a test run
+1. Click on the 'Create Cycle' button.
+2. Enter the name of the cycle.
+3. Select tests to include in the cycle.
+4. Click on 'Create'.
+
+### Executing your Tests
+
+To execute a test, you can either watch the [Execute a Test](https://youtu.be/d-dObYB2i8s) video or follow these steps:
+
+#### Creating a Test Run
 
 Before you can execute your tests, it's essential to set up a test run. Follow these steps:
 
 1. Start by selecting the tests you want to include from the 'Tests' tab.
 
-2. In the menu that appears at the bottom of the page, click "Run."
+2. Click 'Run' in the menu that appears at the bottom of the page.
 
-   ![Run Tab](img/img2/img_12.png)
+   ![img_16.png](img/img2/img_16.png)
 
-3. In the run dialogue, click "Create." At this stage, there's no need to specify a Cycle or a Milestone.
+3. In the run dialog, click 'Create.' At this stage, there's no need to specify a Cycle or a Milestone.
+
+   ![img_17.png](img/img2/img_17.png)
 
 Now, let's move on to executing your tests:
 
-1. Click the "Test Runs" tab.
+1. Click the 'Runs' tab.
 
-   ![Test Runs](img/img2/img_16.png)
+   ![img_18.png](img/img2/img_18.png)
 
 2. To access and execute your specific test, click on the pending test. This action will open the test drawer.
 
-   ![Test Drawer](img/img2/img_18.png)
+   ![img_19.png](img/img2/img_19.png)
 
 3. Here, you can enter the actual result and assign a status to complete the execution process.
 
-### Analyzing the test results
+   ![img_39.png](img/img2/img_39.png)
+
+### Complete/Finish a Run
+
+After you have executed all the tests in the run as described in the previous steps, a popup will appear prompting you to 'Complete Run'.
+
+1. Click on 'Complete' to finalize the run.
+
+   ![img_40.png](img/img2/img_40.png)
+
+Alternatively, you can also finish a run by following these steps:
+
+1. Navigate to the three dots as shown in the screenshot.
+2. Click on 'Finish Run.'
+
+### Generating a Run Report (in pdf)
+
+You can generate a PDF report to share with external stakeholders for the executed or completed run by following these steps:
+
+1. Click on the three dots as shown in the screenshot.
+2. Select 'PDF Report' from the menu.
+
+### Analyzing the Test Results
 
 In the 'Insights' tab, you can access real-time reports on the growth, quality, reliability, and coverage of the tests you have executed.
 
 ## Next steps
-- Create more tests to expand your testing suite.
-- Consider inviting your team to collaborate within TestQuality.
+- Expand your testing suite by creating more tests or [importing](importing_data.md) them from another application, or set up a continuous integration and import your [automated](integrating_with_Cucumber.md) test results.
+- Consider [inviting](administration/users.md) your team to collaborate within TestQuality.
+- Integrate with [GitHub](github_setup.md) or [Jira](jira_setup.md).
 
-## Integrations
-Want to integrate with [GitHub](github_setup.md) or [Jira](jira_setup.md)?
-
-Learn more about [defect management](defect_management).
-
-## Import your tests
-You could [import](importing_data.md) your tests from another application, or set up a continuous integration and import your automated test results.
