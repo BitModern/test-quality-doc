@@ -125,7 +125,7 @@ Refer to [Configuration](#setting-up-your-github-integration).
 
 #### Associate the Run to a PR
 
-Once the PR testing setting is enabled, you can link specific tests runs to the PR.
+Once the PR testing setting is enabled, you can link specific tests runs to the PR. When a PR is associated with a run, a check is created in the GitHub PR with that run. This ensures that test results are visible directly within the PR in GitHub.
 
 ![img_106.png](img/img_106.png)
 
