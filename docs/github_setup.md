@@ -11,15 +11,7 @@ The core advantage of TestQuality's integration with GitHub lies in its live two
 
 ## Setting up your GitHub Integration
 
-For a visual guide on how to integrate TestQuality with GitHub, watch our tutorial on YouTube: 
-
-<a href="https://www.youtube.com/watch?v=N_6zCIpWG6U"> <div style={{textAlign:'center'}}>
-
-![image](img/img_65.png)
-
-</div></a>
-
-Alternatively, follow these steps:
+To set up GitHub integration, follow these steps:
 
 **Step 1: Begin Integration** 
 - Navigate to the 'Create New Project' -> 'Project Details' screen -> 'Add GitHub Repo' or via the Settings menu -> Integrations.
@@ -83,7 +75,19 @@ You can configure your integration at both the global and project levels by acce
 
 ## GitHub PR(Pull Request) Integration
 
-TestQuality's integration with [GitHub PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ensures that every PR is thoroughly tested before being merged into the main branch.
+TestQuality's integration with [GitHub PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ensures that every PR is thoroughly tested before being merged into the main branch. This integration helps streamline the development workflow by automating the testing process and ensuring code quality.
+
+### Understanding GitHub PR Integration
+
+#### What is GitHub PR Integration?
+
+GitHub PR integration in TestQuality allows you to connect your PRs with TestQuality's testing framework. This ensures that all changes made in a PR are automatically tested before being merged, maintaining the integrity of the main branch.
+
+#### Why Use GitHub PR Integration?
+
+- **Automated Testing:** Automatically run tests on every PR to catch issues early.
+- **Quality Assurance:** Ensure that only thoroughly tested code is merged.
+- **Efficient Workflow:** Save time by automating the testing process, allowing developers to focus on writing code.
 
 ### Standard PR Workflow
 1. **PR Created**: A Pull Request is created.
@@ -113,12 +117,13 @@ TestQuality's integration with [GitHub PR](https://docs.github.com/en/pull-reque
 - **Developer Run Tests**: To allow developers to run specific tests before merging.
 - **Gate PR with Specific Tests**: To enforce that certain tests or actions are performed and tracked before allowing a PR to be merged.
 
-### Enabling/disabling PR Testing
+### Configuration Options
+#### Enabling/disabling PR Testing
 
 You can enable/disable PR testing at both the global and project levels by accessing the gear icon.
 Refer to [Configuration](#setting-up-your-github-integration).
 
-### Associate the Run to a PR
+#### Associate the Run to a PR
 
 Once the PR testing setting is enabled, you can link specific tests runs to the PR.
 
@@ -126,14 +131,14 @@ Once the PR testing setting is enabled, you can link specific tests runs to the 
 
 ![img_107.png](img/img_107.png)
 
-### Associate the Cycle to a Repo
+#### Associate the Cycle to a Repo
 
 At the Project level, you can link the Cycle to a Repo so runs get created automatically when new PRs are created.
 
 ![img_110.png](img/img_110.png)
 
-### Re-run and Finish Run from a GitHub PR
-
+### Executing Tests from GitHub PR
+#### Re-run and Finish Run from a GitHub PR
 Once a Run is assoiated with a PR in TestQuality, it will be displayed under 'Checks' in GitHub.
 You can execute the run in TestQuality and the results will be synced with the associated PR check. 
 Additionally, you can re-run or finish a run directly from the PR check. 
