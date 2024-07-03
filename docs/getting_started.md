@@ -135,7 +135,7 @@ You can generate a PDF report to share with external stakeholders for the execut
 In the 'Insights' tab, you can access real-time reports on the growth, quality, reliability, and coverage of the tests you have executed.
 
 ## Next steps
-- Expand your testing suite by creating more tests or [importing](importing_data.md) them from another application, or set up a continuous integration and import your [automated](integrating_with_Cucumber.md) test results.
+- Expand your testing suite by creating more tests or [importing](importing_data.md) them from another application, or set up a continuous integration and import your [automated](automations-imports/test-runners/integrating_with_Cucumber.md) test results.
 - Consider [inviting](administration/users.md) your team to collaborate within TestQuality.
 - Integrate with [GitHub](github_setup.md) or [Jira](jira_setup.md).
 
