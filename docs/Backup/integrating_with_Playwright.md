@@ -21,7 +21,7 @@ To start using the TestQuality CLI, download it from [http://cli.testquality.com
 wget http://cli.testquality.com/testquality-linux -O testquality
 ```
 
-For additional details, refer to the [CLI documentation](testquality_cli).
+For additional details, refer to the [CLI documentation](/testquality_cli/overview).
 
 ### Step 2: Configure TestQuality
 
