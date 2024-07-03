@@ -116,7 +116,7 @@ Add Run Configurations to your testing cycles.
 
 Custom Configurations are also really easy to add. To add a Configuration to your Cycle, click on the ellipsis menu in the Cycles tab and choose Configurations.
 
-### [Save Filters](filtering)
+### [Save Filters](/filtering)
 
 ![img_42.png](img/img_42.png)
 
@@ -184,7 +184,7 @@ Stay up to date with changes and information for your site.
 ![img_11.png](img/img_11.png)
 
 
-### [Filter](Filtering) test list
+### [Filter](/filtering) test list
 Filter and display your tests to help you organise and manage by Author, Assigned, Type, Priority, Automated, Label, Cycle, Name.
 
 ![img_12.png](img/img_12.png)

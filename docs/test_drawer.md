@@ -69,9 +69,9 @@ This is normally used by a manual tester to explain what happened when they ran 
 ### Case Type
 Depending on your type of test you can set a Case Type to define if your test is for example a Functionality, Performance, Security, Usability, Accessibility, Compatibility, Destructive etc. You can also set your own Case Type in the [Lookup Data](administration/lookup_data) section.  
 ### Case Priority
-Test Priority is a way to prioritise and schedule your test cases. You can modify the priority options in the [Lookup Data](administration/lookup_data) section. By default, TestQuality comes with the following priority modes: Lowest, Low, Medium, High, Highest. This can help you plan your testing schedules, and also help you view your testing efforts by  [filtering](Filtering) those tests that you consider a higher priority. 
+Test Priority is a way to prioritise and schedule your test cases. You can modify the priority options in the [Lookup Data](administration/lookup_data) section. By default, TestQuality comes with the following priority modes: Lowest, Low, Medium, High, Highest. This can help you plan your testing schedules, and also help you view your testing efforts by  [filtering](/filtering) those tests that you consider a higher priority. 
 ### Assigned to
-Assigning a test to a user in your organisation will help you identify the tests that are handled by different members of your team, but also when a [Run](run) is made that includes the assigned test, the Test in executable mode will be added to the assigned user's [ToDo list](todo_list).  
+Assigning a test to a user in your organisation will help you identify the tests that are handled by different members of your team, but also when a [Run](run) is made that includes the assigned test, the Test in executable mode will be added to the assigned user's [ToDo list](/todo_list).  
 
 ### Attachments
 A list of any attachments that have been linked to the test.

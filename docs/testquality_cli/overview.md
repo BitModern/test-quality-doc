@@ -148,4 +148,4 @@ testquality plan_suite --revision_log -p _sort=-updated_at -p operation=delete -
 testquality restore --suite_id 105923 --plan_id 17452
 ```
 
-To further explore and manage your projects and plans, you can refer to the complete [list of available CLI commands](cli_reference). 
+To further explore and manage your projects and plans, you can refer to the complete [list of available CLI commands](/testquality_cli/reference). 

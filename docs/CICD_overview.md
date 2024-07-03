@@ -9,7 +9,7 @@ This documentation provides an overview of the integration process and specific 
 
 The integration process with TestQuality involves several key steps that remain consistent across different CI/CD tools:
 
-1. **Install TestQuality CLI tool:** During your CI/CD pipeline or build, install the [TestQuality CLI tool](testquality_cli). This tool is compatible with various operating systems and environments, ensuring easy installation.
+1. **Install TestQuality CLI tool:** During your CI/CD pipeline or build, install the [TestQuality CLI tool](/testquality_cli/overview). This tool is compatible with various operating systems and environments, ensuring easy installation.
 
 2. **Run automated tests:** Execute your automated tests as usual, ensuring that your automation tool or framework generates a JUnit XML report file. 
 

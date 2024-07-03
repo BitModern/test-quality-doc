@@ -31,5 +31,5 @@ If you have not added any tests, you can slide the 'show all tests' switch to li
 
 ## Tracking your tests
 
-As your story grows and evolves, the number of tests will change. To track the progress of your story, view the changes in tests in the  [Analyze](Analyze)  tab.
+As your story grows and evolves, the number of tests will change. To track the progress of your story, view the changes in tests in the  [Analyze](/analyze)  tab.
 

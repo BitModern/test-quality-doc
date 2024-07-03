@@ -50,8 +50,7 @@ Shows a summary of the defects linked to the cycle and the Runs that have includ
 
 
 
-## The [Test Drawer](Test_Drawer)
-When you select a test in the test list you will open the sliding [Test Drawer](Test_Drawer).
+## The [Test Drawer](/test_drawer)
+When you select a test in the test list you will open the sliding [Test Drawer](/test_drawer).
 The test drawer has 3 tabs that give further information about the test.
-
 
