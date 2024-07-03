@@ -35,7 +35,7 @@ For more details, check out [TestNG documentation](https://testng.org/#_running_
 
 Download the TestQuality CLI tool from [http://cli.testquality.com/](http://cli.testquality.com/).
 
-For additional details, refer to the [CLI documentation](testquality_cli).
+For additional details, refer to the [CLI documentation](/testquality_cli/overview).
 
 ### Step 3: Set Permissions
 

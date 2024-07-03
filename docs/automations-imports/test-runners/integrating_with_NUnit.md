@@ -28,7 +28,7 @@ The results will be generated in JUnit format and saved as `./results/junit-resu
 
 Download the TestQuality CLI tool from [http://cli.testquality.com/](http://cli.testquality.com/).
 
-For additional details, refer to the [CLI documentation](testquality_cli).
+For additional details, refer to the [CLI documentation](/testquality_cli/overview).
 
 ### Step 3: Set Permissions
 
