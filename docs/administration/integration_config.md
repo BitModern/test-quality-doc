@@ -66,7 +66,7 @@ Dynamic: The default template has basic dynamic content that adds the test detai
 
 It is possible to have nested variables such as within each step, you can check for an 'expected result' text.
 
-If you click the {+} button in the bottom of the editor, example variables are shown. The nested variables are tabbed to the right. 
+If you click the \{+\} button in the bottom of the editor, example variables are shown. The nested variables are tabbed to the right. 
 
 ![img_24.png](admin_img/img_24.png)
 
