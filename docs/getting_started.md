@@ -137,5 +137,5 @@ In the 'Insights' tab, you can access real-time reports on the growth, quality, 
 ## Next steps
 - Expand your testing suite by creating more tests or [importing](importing_data.md) them from another application, or set up a continuous integration and import your [automated](automations-imports/test-runners/integrating_with_Cucumber.md) test results.
 - Consider [inviting](administration/users.md) your team to collaborate within TestQuality.
-- Integrate with [GitHub](github_setup.md) or [Jira](jira_setup.md).
+- Integrate with [GitHub](integrate_with_github) or [Jira](integrate_with_jira.md).
 
