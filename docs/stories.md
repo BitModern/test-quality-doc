@@ -2,8 +2,6 @@
 title: Stories
 ---
 
-## Using Stories to Track Features or Requirements
-
 **Stories** allow you to track your features or requirements effectively within your project. Here’s how you can leverage Stories in your workflow:
 
 ### Linking Tests to Stories
