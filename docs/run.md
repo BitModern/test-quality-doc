@@ -1,65 +1,94 @@
 ---
 title: Run
 ---
-To execute your test cases, you will need to send them to a Run. You can send a single test case, or multiple test cases. When you have test cases that you run repeatedly, it is easier to organise the test cases in to a Cycle and send the test Cycle to Run. 
 
+TestQuality Runs help you execute your test cases efficiently. You can send single or multiple test cases to a Run, or organize repeated test cases into a [Cycle](cycles) and send the Cycle to a Run.
 
-What is a Run? - Your tests include a number of steps, preconditions, or expected results. The test that you create is designed to be executed by a QA tester, or a test automation system that will go through all of the steps and check that the expected result is a match with the process they have done. This process of executing a test is a test Run.
+### What is a Run?
+
+A Run is the process of executing a test. Your tests include steps, preconditions, and expected results. A QA tester or test automation system follows these steps and checks if the actual results match the expected results.
 
 ![img_21.png](img/img_21.png)
 
-The Run tab is where you will find all the information about your tests in execution mode. 
+### Navigating the Run Menu
 
-You can send a single test to a test run, or a Cycle of many tests. 
+The Run menu provides all the information about your tests in execution mode. Here's how to navigate and use it:
 
-On the left of the Run page, you will see a list of your test runs. Each Run tile has an overview of the Run information, such as the name, originating location of the tests (e.g. Cycle name), number of bugs, completed date if the run has finished.
-![img_20.png](img/img_20.png)
+1. **Send Tests to a Run**: You can send a single test or a Cycle of many tests to a Run.
+2. **View Test Runs**: On the left side of the Run page, you'll see a list of your test runs. Each Run tile provides an overview, including:
+    - Run name
+    - Originating location (e.g., Cycle name)
+    - Number of bugs
+    - Completed date (if the run is finished)
+    
+    ![img_20.png](img/img_20.png)
 
-Clicking on the elipses(...) in the top right of the selected run shows a menu for the following commands:
- - Start/Finish Run - Depending on the run status, it will display start or finish run. If you choose to finish the run, the run will be marked as complete. Starting an already completed run will create a new run that is a duplicate of the currently selected run.
- - Create Cycle - This will create a [Cycle](cycles) that contains all of the tests in the currently selected run. 
- - Delete Run - This deletes the currently selected run. 
+### Managing Test Runs
 
+Clicking on the ellipses (...) in the top right of a selected run reveals the following commands:
 
-###  Overview
-The Overview tab is a summary of the run information and contains the following:
- - Run Details - A breakdown of statuses for all included tests.
- - Test Status Chart - A visual representation of the run and its statuses. Clicking on any square will take you directly to the test.
- - Milestone - The Milestone that is linked to this run.
- - Cycle - If the run originated from a Cycle, the Cycle name is listed here. The "All Tests" label signifies that the run was created Ad-hoc from the list of all tests.
- - Start Time - When the run was started.
- - End Time - The time the run was completed.
- - Save Permanently - If the run results should be saved permanently and not purged when storage space is low.
+- **Start/Finish Run**: Depending on the run status, this option will either start or finish the run. Finishing the run marks it as complete. Starting an already completed run creates a new, duplicate run.
+- **Create Cycle**: This creates a [Cycle](cycles) that contains all tests in the selected run.
+- **Export Run**: Provides options to export the run in CSV, Excel, and Gherkin formats.
+- **PDF Report**: Creates a PDF report of the selected run with a few customizable capabilities.
+- **Edit Run**: Allows you to edit the run name.
+- **Delete Run**: This deletes the selected run.
 
-###  Test Runs/Run Results
-Depending on the Run status, this tab will be a list of tests results of a completed run, or a list of the tests that are included in the in-progress run. It keeps the same order and folder structure as in the Tests page so the order in which the tests are run is kept the same.
-The status/result of each test is shown on the right. 
+### Run Overview Tab
 
-Filtering - To work on the tests in the order you prefer, or if you would like to see progress of status of some tests, you can use the filter command, located in the Run window menu, to show only those tests that you choose to view. The filter does not remove the tests from the run, only the current view.
+The Overview tab summarizes run information and includes:
 
+- **Run Details**: Breakdown of statuses for all included tests.
+- **Test Status Chart**: Visual representation of the run and its statuses. Clicking any square takes you directly to the test.
+- **Milestone**: The milestone linked to this run.
+- **Cycle**: Lists the originating Cycle if applicable. The "All Tests" label indicates an ad-hoc run from all tests.
+- **Start Time**: When the run started.
+- **End Time**: When the run was completed.
+- **Save Permanently**: Option to save run results permanently to avoid purging when storage is low.
 
-###  Runs & Defects
+  ![img_114.png](img/img_114.png)
 
-The previous Run history gives you instant access to the details of your run activity. Clicking on the name of another run will change the selected run.
+### Tests/Results Tab
 
-The defect list is a list of defects that have been linked to your runs.
+Depending on the run status, this tab shows either:
 
-##  Rerun
+- A list of test results from a completed run, or
+- A list of tests in the in-progress run.
 
+  ![img_115.png](img/img_115.png)
 
+The order and folder structure match the Tests page, and the status/result of each test is shown on the right.
 
-To execute tests again from a test run, for example if you have a number of tests failing, and you want to keep the history that they have failed in the current run, you can send these selected tests to a rerun. 
+#### Filtering Tests
 
-- In the test list of a run, select the tests that you want to rerun by clicking the selection box to the left of the test in the list.
+Use the filter command in the Run window menu to:
 
-  ![img_71.png](img/img_71.png)
+- Work on tests in your preferred order.
+- View progress of specific tests by filtering the view. 
 
-- In the menu that appears at the bottom of the window, choose 'Re-Run'.
-  
-  ![img_69.png](img/img_69.png)
+**Note**: Filtering does not remove tests from the run, only changes the current view.
 
-- In the Create Run window that opens, make any changes that you wish to apply and click 'Create'.
+### Runs & Defects
 
-**Note:**
-Tests sent to a re-run will automatically pick up the parent cycle only if there is one. Adhoc runs do not have a parent cycle, so the re-run will not add a cycle to the create run dialog.
+- **Run History**: Provides instant access to previous run details. Clicking on another run’s name changes the selected run.
+- **Defect List**: Lists defects linked to your runs.
+
+  ![img_116.png](img/img_116.png)
+
+### Rerun Tests
+
+To rerun tests, for instance, if you have failing tests and want to keep the failure history in the current run:
+
+1. Under **Run -> Tests** tab, select the tests you want to rerun by clicking the selection box next to each test in the list.
+
+    ![img_71.png](img/img_71.png)
+
+2. In the menu at the bottom of the window, choose 'Re-Run'.
+
+    ![img_69.png](img/img_69.png)
+
+3. In the Create Run window that opens, make any necessary changes and click 'Create'.
+
+**Note**: When rerunning tests, the new run will automatically include the parent cycle if one exists. For ad-hoc runs without a parent cycle, the rerun will not include a cycle in the create run dialog.
+
 
