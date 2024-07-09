@@ -55,7 +55,7 @@ Depending on the run status, this tab shows either:
 - A list of test results from a completed run, or
 - A list of tests in the in-progress run.
 
-  ![img_115.png](img/img_115.png)
+  ![img_115.png](img/img_115.jpg)
 
 The order and folder structure match the Tests page, and the status/result of each test is shown on the right.
 
@@ -73,7 +73,7 @@ Use the filter command in the Run window menu to:
 - **Run History**: Provides instant access to previous run details. Clicking on another run’s name changes the selected run.
 - **Defect List**: Lists defects linked to your runs.
 
-  ![img_116.png](img/img_116.png)
+  ![img_116.png](img/img_116.jpg)
 
 ### Rerun Tests
 
