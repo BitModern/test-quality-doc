@@ -74,6 +74,11 @@ When you set up a Slack integration, TestQuality sends notifications to a specif
 
 Your setup is now complete. Any existing watches will send notifications to the designated Slack channel.
 
+A watch added to a test, when integrated with Slack, will look like this:
+
+![img_117.png](img/img_117.png)
+
+
 ### Understanding Watch Notifications
 
 Watches in TestQuality are triggered when specific events occur, such as a test or project run that fails. This action generates a watch notification.
