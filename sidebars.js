@@ -75,6 +75,7 @@ module.exports = {
           'cycles',
           'stories',
           'run',
+          'explorations',
           'analyze',
 
           {
