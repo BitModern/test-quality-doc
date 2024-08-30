@@ -4,15 +4,15 @@ title: Explorations
 
 The Explorations feature in TestQuality empowers testers to conduct ad-hoc and exploratory testing without the constraints of predefined test cases or scripts. This feature allows testers to investigate application areas that require deeper analysis or are less structured, offering a more dynamic and adaptive testing experience.
 
-### Why is it Needed?
+## Why is it Needed?
 
 Exploratory testing is essential when predefined test scripts might not cover every possible scenario or when you need to explore the application intuitively to uncover hidden issues. The Explorations feature is crucial in these situations as it allows testers the flexibility to explore, document findings, and identify defects on the fly. This helps in catching bugs that might otherwise go unnoticed and ensures a more thorough testing process.
 
-### Importance of Doing It in TestQuality
+## Importance of Doing It in TestQuality
 
 TestQuality's Explorations feature integrates seamlessly with your existing testing process, allowing you to link explorations with milestones, log defects directly within the platform, and track all exploratory activities in one place. By conducting exploratory testing within TestQuality, you maintain a clear, organized record of all testing activities, making it easier to manage and review the testing lifecycle.
 
-### Creating an Exploration
+## Creating an Exploration
 
 To create an exploration in TestQuality:
 
@@ -31,7 +31,7 @@ To create an exploration in TestQuality:
    - **Mission:** Define the mission or objective of the exploration in this field. This is where you can outline the scope, focus areas, and any specific goals you intend to achieve.
 4. **Click "Create"** to initiate the exploration. Once created, it will be ready for testers to log their activities, observations, and defects.
 
-### Logging Your Exploration
+## Logging Your Exploration
 
 Once an exploration is created, you will initially land on the Overview page, where you can review key details such as the mission, milestone, and exploration statuses. To start logging your exploration, navigate to the **Logs** tab.
 
