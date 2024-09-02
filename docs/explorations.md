@@ -64,10 +64,10 @@ Here’s how you can effectively log your exploration:
 5. **Editing and Deleting Logs:**
    - If you need to modify or remove a specific log, you can do so by using the edit or delete options available through the three dots ("...") next to each log entry. This ensures that your exploration logs remain accurate and up-to-date.
 
-### Managing Your Exploration
+## Managing Your Exploration
 
 #### Finishing the Exploration:
-Once your exploration is complete, you have the option to finish it, which will close the exploration and lock in the results.
+Once your exploration is complete, you have the option to finish it, which will close the exploration.
 
 #### Editing the Exploration:
 If you need to make adjustments to the overall exploration, you can edit the exploration details.
@@ -77,7 +77,7 @@ You also have the option to delete the exploration if it’s no longer needed.
 
    ![img_125.png](img/img_125.png)
 
-### Example of an Exploration in Action
+## Example of an Exploration in Action
 
 Let’s consider an example to better understand the Explorations feature:
 
