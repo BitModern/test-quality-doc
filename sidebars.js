@@ -67,6 +67,7 @@ module.exports = {
       type: 'category',
       label: 'User Guide',
       items: [
+          'test_plans',
           'project',
           'overview',
           'tests',
