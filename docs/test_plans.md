@@ -30,7 +30,18 @@ If you've selected the Software Application Template, the guide will automatical
 
    ![img_128.png](img/img_128.png)
 
-### 4. Export and Manage:
+### 4. Share Your Test Plan:
+With the new **Share Feature**, you can now easily collaborate with your team and stakeholders. To share your test plan:
+
+1. Click on the **Share** icon at the top of your test plan.
+2. Enter email addresses to invite specific users or copy the link to share with others.
+3. Set permissions to control who can view or edit the test plan, ensuring secure collaboration within your team.
+
+   ![img_130.png](img/img_130.png)
+
+This Share Feature enables streamlined collaboration, allowing your team to stay aligned and up-to-date on the latest changes within the test plan. By making test plans accessible, you can quickly gather feedback and keep everyone on the same page.
+
+### 5. Export and Manage:
 Once you’ve completed your test plan, you can export it as a PDF for sharing or documentation purposes. Afterward, manage your testing process through TestQuality’s powerful features—track test cycles, execute test cases, log defects, and generate real-time reports.
 
    ![img_129.png](img/img_129.png)
