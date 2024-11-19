@@ -22,6 +22,8 @@ This feature ensures your test results are tied to consistent and well-documente
 3. Enter a name for the environment (e.g., **Mobile Testing Environment**).
 4. Save the environment.
 
+    ![img_33.png](admin_img/img_33.png)
+
 ### **Step 2: Add Resources**
 There are two ways to add resources to an environment:
 1. **From the Resources Tab**:
@@ -34,10 +36,14 @@ There are two ways to add resources to an environment:
    - In the **Linked Resources** section, select a preexisting resource from the dropdown.
    - Alternatively, type a new resource name to create it directly.
 
+    ![img_34.png](admin_img/img_34.png)
+
 ### **Step 3: Define Resource Values**
 1. Select a resource (e.g., **Browser**) in either the **Resources** tab or the **Linked Resources** section within an environment.
 2. Click **Add** under **Resource Values**.
 3. Enter a value for the resource (e.g., **Chrome Mobile**, **Safari 16**) and save it.
+
+   ![img_35.png](admin_img/img_35.png)
 
 ### **Step 4: Link Resources to Environments**
 1. Navigate back to the **Environments** tab.
