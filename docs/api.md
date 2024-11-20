@@ -212,7 +212,7 @@ curl -X POST -H "Authorization: Bearer <PAT>" -H "Accept: application/json" -H "
 curl -X PUT -H "Authorization: Bearer <PAT>" -H "Accept: application/json" -H "Content-Type: application/json" -d '{"name":"new folder name"}' https://api.testquality.com/api/suite/115680
 ```
 ## Tests
-### Fetch a List of Tests
+### Fetch a List of Test Cases
 
 **Request:**
 
@@ -222,9 +222,9 @@ curl -X GET -H "Authorization: Bearer <PAT>" -H "Accept: application/json" https
 
 **Note:** The `project_id` is taken from above.
 
-### Create a Test
+### Create a Test Case
 
-To create a test, two POST requests are required. One to create the test and a second or possibly more to create steps.
+To create a Test Case, two POST requests are required. One to create the Test Case and a second or possibly more to create Steps.
 
 **Request:**
 
@@ -264,9 +264,9 @@ curl -X POST -H "Authorization: Bearer <PAT>" -H "Accept: application/json" -H "
 "sequence_suite": 1
 }
 ```
-### Create a Step in a Test
+### Create a Step in a Test Case
 
-To create a step in the test, use the ID from the test just created.
+To create a step in the Test Case, use the ID from the Test Case just created.
 
 **Request:**
 
@@ -275,7 +275,7 @@ curl -X POST -H "Authorization: Bearer <PAT>" -H "Accept: application/json" -H "
 ```
 
 
-**Note:** The `test_id` is the ID of the test created earlier.
+**Note:** The `test_id` is the ID of the Test Case created earlier.
 
 **Response:**
 
@@ -301,9 +301,9 @@ curl -X POST -H "Authorization: Bearer <PAT>" -H "Accept: application/json" -H "
 ```
 **Note:** Take note of the sequence of the step. Additional steps can be added using POST, but increment the sequence to maintain order.
 
-### Update a Test
+### Update a Test Case
 
-To update a test (or step), use PUT with the id in the URL path.
+To update a Test Case (or Step), use PUT with the id in the URL path.
 
 **Request:**
 
