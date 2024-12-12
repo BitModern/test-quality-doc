@@ -12,11 +12,15 @@ Unlike generic templates, TestQuality’s **In-App Guide** enhances the planning
 
 ## How to Create a Test Plan:
 
-### 1. Start Your Test Plan:
+### 1. Choose and Preview Your Test Plan: 
 Begin by selecting one of the three available options:
-- **Create from Software Application Template**: Ideal for structured software projects with predefined sections.
-- **Create from Sample "Crossing the Atlantic"**: A sample template for understanding how readiness testing can be applied.
-- **Create from a Blank Template**: For users who prefer to start from scratch.
+- **Software Application Template**: Ideal for structured software projects. Click "Preview Template" to explore the predefined sections before proceeding.
+- **Sample "Crossing the Atlantic"**: A helpful example for understanding readiness testing. Use "Preview Template" to view the structure and details before starting.
+- **Blank Template**: For users who prefer a fully customizable approach. Directly click "Create Blank Test Plan" to begin without a predefined structure.
+
+   ![img_126.png](img/img_126.png)
+
+Once you've previewed a template (if applicable), click the "Create Test Plan" button within the preview to get started.
 
    ![img_126.png](img/img_126.png)
 
@@ -25,12 +29,69 @@ Based on your selection in Step 1, choose the necessary components from the righ
 
    ![img_127.png](img/img_127.png)
 
-### 3. Fill in Relevant Details:
+### 3. Integrated Components: Linking Your Test Plan
+
+Certain components in TestQuality’s Test Plan offer **bi-directional integration**, linking your test plan with other key areas of the app. These components streamline workflows and ensure consistency by enabling:
+
+- **Centralized Management:** Update data in one place and see it reflected across your testing ecosystem.
+- **On-the-Fly Customization:** Tailor components to project-specific needs without leaving the editor.
+- **Efficient Tracking:** Monitor progress, resource use, and schedules directly within the plan.
+
+The integrated components include:
+
+**Testing Phases and Cycles**: 
+
+ This component enables you to define and manage the stages of testing directly within your test plan. It integrates seamlessly with the **Cycles** feature in TestQuality for streamlined management and tracking.
+
+#### How It Works:
+
+- **Default Cycles Creation:**
+  - If no cycles exist in your project, this component automatically generates default cycles such as:
+    - Unit Testing
+    - Integration Testing
+    - System Testing
+    - Regression Testing
+    - User Acceptance Testing
+  - *Note: Clicking on these default cycles will navigate you to their respective entries in the Cycles menu, where you can manage them.*
+
+- **Adding Existing Cycles:**
+  - Use the `/cycle` command in the editor to add existing cycles to your test plan, ensuring alignment with your current project requirements.
+
+
+**Testing Approaches and Types**: 
+
+This component lets you define and link the required testing types directly within your test plan, integrating with **Case Types** in **Settings → Lookup Data** for streamlined management.
+
+#### How It Works:
+- **Select Case Type:**  
+   Click **"Add Case Type"** to choose from predefined options like Accessibility, Compatibility, Performance, and more, fetched from **Case Types** in **Settings → Lookup Data**.
+
+- **Custom Case Types:**  
+   Use **"Create New"** to add custom types directly, making them instantly available across all test cases in the project.
+
+**Environments**: Configure and manage testing environments (e.g., devices, browsers, OS) to ensure real-world accuracy.
+
+**Schedule**: 
+
+ This component helps you define key timelines for your testing process directly within your test plan. It integrates seamlessly with the **Milestones** feature in TestQuality for efficient timeline management.
+
+#### How It Works:
+
+- **Default Milestones Creation:**
+  - If no milestones exist in your project, this component automatically generates two default milestones:
+    - **Bug Resolution:** Fixing identified bugs, retesting, and ensuring no regressions have been introduced.
+    - **Feature Testing:** Executing tests on key features, validating functionality, and identifying defects.
+
+- **Adding Custom Milestones:**
+  - Click on the **Add Milestone** button to create additional milestones tailored to your project needs.
+
+
+### 4. Fill in Relevant Details:
 If you've selected the Software Application Template, the guide will automatically populate with predefined sections. Customize each section by entering your project-specific details—such as your core functionalities, user interfaces, and testing environments.
 
    ![img_128.png](img/img_128.png)
 
-### 4. Share Your Test Plan:
+### 5. Share Your Test Plan:
 With the new **Share Feature**, you can now easily collaborate with your team and stakeholders. To share your test plan:
 
 1. Click on the **Share** icon at the top of your test plan.
@@ -41,7 +102,13 @@ With the new **Share Feature**, you can now easily collaborate with your team an
 
 This Share Feature enables streamlined collaboration, allowing your team to stay aligned and up-to-date on the latest changes within the test plan. By making test plans accessible, you can quickly gather feedback and keep everyone on the same page.
 
-### 5. Export and Manage:
-Once you’ve completed your test plan, you can export it as a PDF for sharing or documentation purposes. Afterward, manage your testing process through TestQuality’s powerful features—track test cycles, execute test cases, log defects, and generate real-time reports.
+### 6. Manage Your Test Plan
+
+Once you’ve completed your test plan, the **More Options** (`...`) menu now offers four actions to help you manage your test plan effectively:
+
+- **Add Cover**: Customize your test plan with a unique cover for better organization and visual appeal.
+- **Export to PDF**: Download your test plan in a PDF format for sharing or documentation purposes.
+- **Delete Test Plan**: Remove a test plan when it is no longer needed.
+- **Version History**: Access the version history of your test plan to track changes if needed.
 
    ![img_129.png](img/img_129.png)
