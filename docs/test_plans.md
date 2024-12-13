@@ -22,7 +22,7 @@ Begin by selecting one of the three available options:
 
 Once you've previewed a template (if applicable), click the "Create Test Plan" button within the preview to get started.
 
-   ![img_126.png](img/img_126.png)
+   ![img_131.png](img/img_131.png)
 
 ### 2. Add Components:
 Based on your selection in Step 1, choose the necessary components from the right-hand menu. You'll see recommended components like Description, Objectives, Test Strategy, and Testing Phases and Cycles, but you can also explore other components depending on your project requirements.
@@ -54,9 +54,12 @@ The integrated components include:
     - User Acceptance Testing
   - *Note: Clicking on these default cycles will navigate you to their respective entries in the Cycles menu, where you can manage them.*
 
+      ![img_132.png](img/img_132.png)
+
 - **Adding Existing Cycles:**
   - Use the `/cycle` command in the editor to add existing cycles to your test plan, ensuring alignment with your current project requirements.
 
+      ![img_133.png](img/img_133.png)
 
 **Testing Approaches and Types**: 
 
@@ -66,10 +69,26 @@ This component lets you define and link the required testing types directly with
 - **Select Case Type:**  
    Click **"Add Case Type"** to choose from predefined options like Accessibility, Compatibility, Performance, and more, fetched from **Case Types** in **Settings → Lookup Data**.
 
+    ![img_134.png](img/img_134.png)
+
 - **Custom Case Types:**  
    Use **"Create New"** to add custom types directly, making them instantly available across all test cases in the project.
 
-**Environments**: Configure and manage testing environments (e.g., devices, browsers, OS) to ensure real-world accuracy.
+**Environments**: 
+
+This component helps you define the physical setup for testing, combining specific configurations such as devices, operating systems, browsers, and network conditions to replicate real-world scenarios. This component integrates seamlessly with the **Environments** feature in TestQuality, ensuring streamlined management and alignment across your testing processes.
+
+#### How It Works:
+
+- **Existing Environments:**
+  - If environments already exist in your project, they will be listed here, making it easy to select and use them in your test plan.
+
+- **Adding a New Environment:**
+  - If no environments exist, click on the **Add Environment** button to create a new environment tailored to your project’s requirements.
+
+      ![img_137.png](img/img_137.png)
+
+For a comprehensive guide on how to create and manage environments, refer to our [detailed documentation on environments](environments).
 
 **Schedule**: 
 
@@ -82,8 +101,12 @@ This component lets you define and link the required testing types directly with
     - **Bug Resolution:** Fixing identified bugs, retesting, and ensuring no regressions have been introduced.
     - **Feature Testing:** Executing tests on key features, validating functionality, and identifying defects.
 
+      ![img_135.png](img/img_135.png)
+
 - **Adding Custom Milestones:**
   - Click on the **Add Milestone** button to create additional milestones tailored to your project needs.
+
+      ![img_136.png](img/img_136.png)
 
 
 ### 4. Fill in Relevant Details:
@@ -111,4 +134,4 @@ Once you’ve completed your test plan, the **More Options** (`...`) menu now of
 - **Delete Test Plan**: Remove a test plan when it is no longer needed.
 - **Version History**: Access the version history of your test plan to track changes if needed.
 
-   ![img_129.png](img/img_129.png)
+   ![img_138.png](img/img_138.png)
