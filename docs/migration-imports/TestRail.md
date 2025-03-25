@@ -42,35 +42,27 @@ TestQuality provides a seamless way to import test cases, plans, and related dat
 
 The following table outlines how TestRail fields are mapped to TestQuality fields:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left;">TestRail Field</th>
-      <th style="text-align: left;">TestQuality Field</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Attachment</td><td>Attachments</td></tr>
-    <tr><td>Case (TestCase)</td><td>Test Cases</td></tr>
-    <tr><td>CaseField</td><td>Customization, Test Cases</td></tr>
-    <tr><td>CaseFieldStep</td><td>Steps</td></tr>
-    <tr><td>CaseType</td><td>Case Type</td></tr>
-    <tr><td>Configuration</td><td>Environments</td></tr>
-    <tr><td>ConfigurationGroup</td><td>Environments</td></tr>
-    <tr><td>CustomStepResult</td><td>Run Tests</td></tr>
-    <tr><td>Milestone</td><td>Milestones</td></tr>
-    <tr><td>Plan</td><td>Cycles</td></tr>
-    <tr><td>Priority</td><td>Case Priority</td></tr>
-    <tr><td>Project</td><td>Project</td></tr>
-    <tr><td>Result</td><td>Run Tests</td></tr>
-    <tr><td>ResultFields</td><td>Run Tests</td></tr>
-    <tr><td>Role</td><td>Roles</td></tr>
-    <tr><td>Section</td><td>Folder</td></tr>
-    <tr><td>Status</td><td>Status</td></tr>
-    <tr><td>Test</td><td>Test Cases</td></tr>
-    <tr><td>User</td><td>Users</td></tr>
-  </tbody>
-</table>
+<| TestRail Field         | TestQuality Field           |
+|------------------------|-----------------------------|
+| Attachment             | Attachments                 |
+| Case (TestCase)        | Test Cases                  |
+| CaseField              | Customization, Test Cases   |
+| CaseFieldStep          | Steps                       |
+| CaseType               | Case Type                   |
+| Configuration          | Environments                |
+| ConfigurationGroup     | Environments                |
+| CustomStepResult       | Run Tests                   |
+| Milestone              | Milestones                  |
+| Plan                   | Cycles                      |
+| Priority               | Case Priority               |
+| Project                | Project                     |
+| Result                 | Run Tests                   |
+| ResultFields           | Run Tests                   |
+| Role                   | Roles                       |
+| Section                | Folder                      |
+| Status                 | Status                      |
+| Test                   | Test Cases                  |
+| User                   | Users                       |
 
 
 ## Limitations
