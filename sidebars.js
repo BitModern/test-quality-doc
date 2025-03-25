@@ -11,6 +11,14 @@ module.exports = {
       },
       {
         type: 'category',
+        label: 'Migration & Imports',
+        items: [
+          'migration-imports/TestRail',
+          'importing_data',
+           ]
+      },
+      {
+        type: 'category',
         label: 'Automations & Imports',
         items: [
             {
