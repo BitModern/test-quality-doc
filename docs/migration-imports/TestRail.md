@@ -42,7 +42,7 @@ TestQuality provides a seamless way to import test cases, plans, and related dat
 
 The following table outlines how TestRail fields are mapped to TestQuality fields:
 
-<| TestRail Field         | TestQuality Field           |
+| TestRail Field         | TestQuality Field           |
 |------------------------|-----------------------------|
 | Attachment             | Attachments                 |
 | Case (TestCase)        | Test Cases                  |
