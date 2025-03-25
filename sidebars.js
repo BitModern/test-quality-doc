@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         type: 'category',
-        label: 'Automations & Imports',
+        label: 'Automations',
         items: [
             {
             type: 'category',
