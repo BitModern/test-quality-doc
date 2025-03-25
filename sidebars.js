@@ -45,7 +45,6 @@ module.exports = {
                 'automations-imports/test-runners/integrating_with_xUnit',
                  ]
             },
-          'importing_data',
               ]
         },
       {
