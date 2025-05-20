@@ -3,18 +3,18 @@ module.exports = {
       'getting_started',
       {
         type: 'category',
-        label: 'TestQuality CLI',
-        items: [
-          'testquality_cli/overview',
-          'testquality_cli/reference',
-           ]
-      },
-      {
-        type: 'category',
         label: 'Migration & Imports',
         items: [
           'migration-imports/TestRail',
           'importing_data',
+           ]
+      },
+      {
+        type: 'category',
+        label: 'TestQuality CLI',
+        items: [
+          'testquality_cli/overview',
+          'testquality_cli/reference',
            ]
       },
       {
