@@ -48,7 +48,7 @@ Once installed, you can run the CLI with `testquality` command.
 
 If you prefer not to use npm or need a self-contained executable (e.g., for CI/CD environments), you can download a compiled binary. These binaries include the Node.js runtime.
 
-#### 📥 Download
+#### Download
 
 Use the command below to download the binary. Replace `{{ version }}` with the actual release version (e.g., `v1.0.0`):
 
@@ -63,7 +63,7 @@ Replace `{{ version }}` with the actual release tag (e.g., `v1.0.0`), and choose
 - `testquality-linux` – **Linux**
 - `testquality-alpine` – **Alpine Linux**
 
-#### 🔐 Set Permissions
+#### Set Permissions
 
 Once downloaded, grant execute permissions to the binary:
 
@@ -83,7 +83,7 @@ sudo mv testquality /usr/local/bin
 apk add --no-cache libstdc++
 ```
 
-## 🔐 Authentication
+## Authentication
 
 You need to authenticate with TestQuality to use the CLI. There are two methods:
 
