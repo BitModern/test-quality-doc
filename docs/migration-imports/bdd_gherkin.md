@@ -54,7 +54,7 @@ Feature: Basic Gherkin Keywords
     Then I should see "Invalid credentials"
 ```
 
- ![gherkin_basic_keywords.png](img/gherkin_basic_keywords.png)
+ ![gherkin_basic_keywords.png](../img/gherkin_basic_keywords.png)
 
 **Background + Data Tables**
 
@@ -75,7 +75,7 @@ Feature: Shopping Cart with Background
     Then the cart total should be $1049
 ```
 
- ![gherkin_background_table.png](img/gherkin_background_table.png)
+ ![gherkin_background_table.png](../img/gherkin_background_table.png)
 
 **Scenario Outline**
 
@@ -99,7 +99,7 @@ Feature: Discount Calculator
       | 500   | VIP30   | 350   |
 ```
  
- ![gherkin_scenario_outline.png](img/gherkin_scenario_outline.png)
+ ![gherkin_scenario_outline.png](../img/gherkin_scenario_outline.png)
 
 **Doc Strings + Tags**
 
@@ -126,7 +126,7 @@ Feature: Product API with Doc Strings
       """
 ```
 
- ![gherkin_docstrings.png](img/gherkin_docstrings.png)
+ ![gherkin_docstrings.png](../img/gherkin_docstrings.png)
 
 **Full Demo File**
 
