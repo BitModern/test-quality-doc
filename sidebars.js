@@ -7,6 +7,7 @@ module.exports = {
         items: [
           'migration-imports/TestRail',
           'importing_data',
+          'migration-imports/bdd_gherkin',
            ]
       },
       {
