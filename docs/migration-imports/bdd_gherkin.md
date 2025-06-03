@@ -30,9 +30,7 @@ Below is a list of supported keywords, how they are typically used, and how each
 
 ## Examples
 
-### Examples
-
-**Basic Keywords**
+### Basic Keywords
 
 [Download `basic_keywords.feature`](https://github.com/testquality-examples/gherkin-samples/raw/main/basic_keywords.feature)
 
@@ -56,7 +54,7 @@ Feature: Basic Gherkin Keywords
 
  ![gherkin_basic_keywords.png](../img/gherkin_basic_keywords.png)
 
-**Background + Data Tables**
+### Background + Data Tables
 
 [Download `background_table.feature`](https://github.com/BitModern/testQualityCli/tree/master/samples/featureFiles/background_table.feature)
 
@@ -77,7 +75,7 @@ Feature: Shopping Cart with Background
 
  ![gherkin_background_table.png](../img/gherkin_background_table.png)
 
-**Scenario Outline**
+### Scenario Outline
 
 [Download `scenario_outline.feature`](https://github.com/BitModern/testQualityCli/tree/master/samples/featureFiles/scenario_outline.feature)
 
@@ -101,7 +99,7 @@ Feature: Discount Calculator
  
  ![gherkin_scenario_outline.png](../img/gherkin_scenario_outline.png)
 
-**Doc Strings + Tags**
+### Doc Strings + Tags
 
 [Download `docstrings.feature`](https://github.com/BitModern/testQualityCli/tree/master/samples/featureFiles/docstrings.feature)
 
@@ -128,7 +126,7 @@ Feature: Product API with Doc Strings
 
  ![gherkin_docstrings.png](../img/gherkin_docstrings.png)
 
-**Full Demo File**
+### Full Demo File
 
 [Download `full_demo.feature`](https://github.com/BitModern/testQualityCli/tree/master/samples/featureFiles/full_demo.feature)
 
