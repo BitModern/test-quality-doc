@@ -26,7 +26,25 @@ Below is a list of supported keywords, how they are typically used, and how each
 | `But`               | Negative or exception step                         | Test step                       |
 | `# Comment`         | Inline notes, not executed                         | Ignored/comment only            |
 | `"""` (Doc Strings) | Preserved multi-line text in steps                 | Multiline text in test step     |
-| `\|` (Data Tables)   | Tabular values passed to a step (with escaping)    | Table input within test step    |
+| `\|` (Data Tables)   | Tabular values passed to a step (with escaping)    | Table input within test step   |
+
+
+| Gherkin Keyword   | Usage                                             | TestQuality UI Mapping      |
+|-------------------|---------------------------------------------------|-----------------------------|
+| Feature           | Groups related scenarios                          | Folder name                 |
+| Scenario          | Describes a single test case                      | Test case name              |
+| Scenario Outline  | Defines a parameterized scenario                  | Test case with dataset      |
+| Examples          | Provides data sets for a Scenario Outline         | Dataset                     |
+| Background        | Setup shared by all scenarios in a feature        | Precondition                |
+| Given             | Defines initial context                           | Test step                   |
+| When              | Describes an action                               | Test step                   |
+| Then              | Expected outcome                                  | Expected result             |
+| And               | Additional step/context/outcome                   | Test step                   |
+| But               | Negative or exception step                        | Test step                   |
+| `# Comment`       | Inline notes, not executed                        | Ignored/comment only        |
+| `"""` (Doc Strings) | Preserved multi-line text in steps              | Multiline text in test step |
+| `|` (Data Tables) | Tabular values passed to a step (with escaping)   | Table input within test step|
+
 
 ## Examples
 
@@ -46,7 +64,8 @@ Feature: Basic Gherkin Keywords
     Then I should see the dashboard
     But I should not see "Error"
 ```
-In TestQuality
+
+**In TestQuality** 
 
  ![gherkin_basic_keywords.png](../img/gherkin_basic_keywords.png)
 
@@ -68,7 +87,8 @@ Feature: Shopping Cart with Background
       | Mouse      | 2   | 25    |
     Then the cart total should be $1049
 ```
-In TestQuality
+
+**In TestQuality** 
 
  ![gherkin_background_table.png](../img/gherkin_background_table.png)
 
@@ -89,7 +109,7 @@ Feature: Discount Calculator
       | 500   | VIP30   | 350   |
 ```
  
- In TestQuality
+ **In TestQuality** 
  
  ![gherkin_scenario_outline.png](../img/gherkin_scenario_outline.png)
 
@@ -117,7 +137,8 @@ Feature: Product API with Doc Strings
       }
       """
 ```
-In TestQuality
+
+**In TestQuality** 
 
  ![gherkin_docstrings.png](../img/gherkin_docstrings.png)
 
