@@ -1,8 +1,4 @@
 ---
-title: Releases
----
-
----
 title: Release Notes
 ---
 

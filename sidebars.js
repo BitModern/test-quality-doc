@@ -113,10 +113,9 @@ module.exports = {
                     'administration/environments',
                     'administration/subscriptions',
                 ],
-          },
-          'whats_new',
-       
+          },      
       ],
     },
+    'whats_new',
   ],
 };
