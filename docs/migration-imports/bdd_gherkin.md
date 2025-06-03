@@ -45,12 +45,8 @@ Feature: Basic Gherkin Keywords
     And I click the login button
     Then I should see the dashboard
     But I should not see "Error"
-
-  Scenario: Failed login
-    Given I am on the login page
-    When I enter "test@example.com" and "wrongPass"
-    Then I should see "Invalid credentials"
 ```
+In TestQuality
 
  ![gherkin_basic_keywords.png](../img/gherkin_basic_keywords.png)
 
@@ -72,6 +68,7 @@ Feature: Shopping Cart with Background
       | Mouse      | 2   | 25    |
     Then the cart total should be $1049
 ```
+In TestQuality
 
  ![gherkin_background_table.png](../img/gherkin_background_table.png)
 
@@ -87,15 +84,12 @@ Feature: Discount Calculator
     When I apply discount code "<code>"
     Then the final price should be $<final>
 
-    Examples:
-      | total | code   | final |
-      | 100   | SAVE10 | 90    |
-      | 200   | SAVE20 | 160   |
-
     Examples: VIP Customers
       | total | code    | final |
       | 500   | VIP30   | 350   |
 ```
+ 
+ In TestQuality
  
  ![gherkin_scenario_outline.png](../img/gherkin_scenario_outline.png)
 
@@ -123,6 +117,7 @@ Feature: Product API with Doc Strings
       }
       """
 ```
+In TestQuality
 
  ![gherkin_docstrings.png](../img/gherkin_docstrings.png)
 
