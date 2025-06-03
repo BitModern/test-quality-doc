@@ -114,6 +114,7 @@ module.exports = {
                     'administration/subscriptions',
                 ],
           },
+          'whats_new',
        
       ],
     },
