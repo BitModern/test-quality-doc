@@ -33,7 +33,7 @@ Below is a list of supported keywords, how they are typically used, and how each
 
 ### Basic Keywords
 
-[Download `basic_keywords.feature`](https://github.com/testquality-examples/gherkin-samples/raw/main/basic_keywords.feature)
+[Download `basic_keywords.feature`](https://github.com/BitModern/testQualityCli/blob/master/samples/featureFiles/basic_keywords.feature)
 
 ```bash
 @core @smoke
@@ -54,7 +54,7 @@ Feature: Basic Gherkin Keywords
 
 ### Background + Data Tables
 
-[Download `background_table.feature`](https://github.com/BitModern/testQualityCli/tree/master/samples/featureFiles/background_table.feature)
+[Download `background_table.feature`](https://github.com/BitModern/testQualityCli/blob/master/samples/featureFiles/background_table.feature)
 
 ```bash
 @ecommerce
@@ -77,7 +77,7 @@ Feature: Shopping Cart with Background
 
 ### Scenario Outline
 
-[Download `scenario_outline.feature`](https://github.com/BitModern/testQualityCli/tree/master/samples/featureFiles/scenario_outline.feature)
+[Download `scenario_outline.feature`](https://github.com/BitModern/testQualityCli/blob/master/samples/featureFiles/scenario_outline.feature)
 
 ```bash
 @checkout @parameterized
@@ -98,7 +98,7 @@ Feature: Discount Calculator
 
 ### Doc Strings + Tags
 
-[Download `docstrings.feature`](https://github.com/BitModern/testQualityCli/tree/master/samples/featureFiles/docstrings.feature)
+[Download `docstrings.feature`](https://github.com/BitModern/testQualityCli/blob/master/samples/featureFiles/docstrings.feature)
 
 ```bash
 @api @v2
@@ -127,7 +127,7 @@ Feature: Product API with Doc Strings
 
 ### Full Demo File
 
-[Download `full_demo.feature`](https://github.com/BitModern/testQualityCli/tree/master/samples/featureFiles/full_demo.feature)
+[Download `full_demo.feature`](https://github.com/BitModern/testQualityCli/blob/master/samples/featureFiles/full_demo.feature)
 
 ```bash
 @regression @full
