@@ -164,3 +164,69 @@ Feature: Comprehensive Gherkin Demo
       """
     Then I see "Invalid expiry date"
 ```
+
+## Manual + Automation with Gherkin
+
+TestQuality bridges the gap between manual and automated testing by making **Gherkin** the shared language of your QA team. Whether you’re manually designing test cases or importing results from automation tools like **Cucumber**, **Behave**, **SpecFlow**, or **Gauge**, TestQuality provides a unified platform to manage, track, and scale your quality process.
+
+---
+
+### Importing `.feature` Files for Manual Test Cases
+
+You can import Gherkin-based `.feature` files to quickly create structured test cases inside TestQuality.
+
+**Step 1: Open the Import Dialog**  
+Go to the **Test Cases** module → click **Import BDD Feature File**.
+
+![Import Gherkin Feature File](../img/Import_BDD_featurefile.png)
+
+**Step 2: Upload the Gherkin `.feature` File**  
+Drag and drop your Gherkin file into the dialog box or click to browse and select it from your computer. You can also assign the test cases to a root folder and cycle during this step.
+
+![Gherkin Test Cases](../img/Gherkin_test_cases.png)
+
+- Each `Feature` will be turned into a folder
+- Each `Scenario` or `Scenario Outline` will become a test case
+- Gherkin tags, tables, backgrounds, and doc strings are preserved
+- Ideal for teams adopting BDD manually or starting test design with natural language syntax
+
+---
+
+### Importing `.json` Files for Automation Results
+
+You can upload Cucumber-compatible JSON files after executing your automated tests using either of the following two options:
+
+Go to the **Automations** module → click **Import Cucumber File (JSON)**.
+
+![Import Cucumber JSON File](../img/Automations_CucumberJson.png)
+---
+
+#### Option 1: Upload via UI
+
+![Upload via UI](../img/JSON_UI_upload.png)
+
+- Drag and drop your result file
+- Associate it with a test cycle
+- Execution results will be tracked, reported, and linked
+
+---
+
+#### Option 2: Upload via CLI (Recommended for CI/CD)
+
+Use the TestQuality CLI to upload results automatically as part of your pipeline.
+
+![Upload via CLI](../img/JSON_CLI_upload.png)
+
+### Works with Your Favorite BDD Tools
+
+TestQuality supports seamless integration with test automation frameworks that use Gherkin syntax, including:
+
+- **Cucumber** (Java, Ruby, JavaScript)
+- **Behave** (Python)
+- **SpecFlow** (.NET)
+- **Gauge**
+- **Lettuce**
+- And other tools that output `.feature` files or Cucumber-style `.json` results
+
+---
+
