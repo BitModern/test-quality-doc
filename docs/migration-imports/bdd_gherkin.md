@@ -194,11 +194,12 @@ Drag and drop your Gherkin file into the dialog box or click to browse and selec
 
 ### Importing `.json` Files for Automation Results
 
-You can upload Cucumber-compatible JSON files after executing your automated tests using either of the following two options:
-
 Go to the **Automations** module → click **Import Cucumber File (JSON)**.
 
 ![Import Cucumber JSON File](../img/Automations_CucumberJson.png)
+
+You can upload Cucumber-compatible JSON files after executing your automated tests using either of the following two options:
+
 ---
 
 #### Option 1: Upload via UI
