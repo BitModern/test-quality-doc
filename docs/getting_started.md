@@ -1,141 +1,222 @@
 ---
-title: Welcome to TestQuality!
+title: Getting Started
 slug: /
 ---
 
-You’ve found the ultimate test management tool designed for QA and development teams. TestQuality supports advanced methodologies like shift-left, Behavior-Driven Development (BDD), and Test-Driven/ Acceptance Test-Driven Development (TDD/ATDD). It integrates effortlessly with popular tools like Jira, GitHub, Selenium, and Jenkins to streamline your processes and boost efficiency.
+# Getting Started with TestQuality
 
-## Getting Started
+Welcome to TestQuality — your **command center** for modern, collaborative, and insight-driven test management.
 
-Congratulations on taking the first step towards improving your testing processes with TestQuality! Here's a step-by-step overview of what you'll do:
+Whether you're managing manual testing, automation, or a blend of both, TestQuality brings clarity and control to your QA lifecycle. With native support for GitHub, Jira, Selenium, Jenkins, and more, it integrates seamlessly into your workflow — so you can focus on quality, not complexity.
 
-1. Create a Project
-2. Create a Test
-3. Create a Cycle
-4. Execute your Tests
-5. Complete/Finish a Run
-6. Generate a Run Report
-7. Analyze Test Results
+---
 
-If you prefer, you can also check out this 3-minute quick overview video.
+## How TestQuality Is Structured
 
-<a href="https://www.youtube.com/watch?v=x9TJeLVYB4Y"> <div style={{textAlign:'center'}}>
+TestQuality is built around how testers actually work — whether you're starting small or scaling across teams.
 
-![image](img/img_66.png)
+At the heart of everything lies the **Test Case**. Whether you're executing ad hoc, as part of a regression cycle, or tracing back to requirements — it all starts with the test case.
 
-</div></a>
+---
 
-### Creating your first Project
+### Core Flow: From Test Case to Insight
 
-When you first open TestQuality, you'll be prompted to create your initial project. Assuming you've completed this step, let's dive right into your next operation.
+[Test Case] → [Run] → [Insights]
 
-### Creating a Test
+- **Test Case** : Define steps, expected outcomes, and test data
 
-To create a test, you can either watch the [Create a Test](https://youtu.be/HpgHJrP8gow) video or follow these steps:
+- **▶Run** : Execute the test and log results (manually or via CI)
 
-1. Navigate to the 'Tests' tab at the top of the page.
+- **Insights** : See pass/fail trends, flaky tests, and coverage over time
 
-2. Choose one of the following actions:
-   - Click 'Create Test Case' in the middle of the page (for new tests). or
-   - Use the "Create Test" button in the top-right corner.
-   
-   ![img_13.png](img/img2/img_13.png)
+> 💡 Every test you execute — whether ad-hoc or through a cycle, story, or plan — automatically creates a Run.
 
-3. Provide a name for your test, add a test step (e.g., "Login"), and specify the expected result. Then click on 'Create'.
+### How Other Modules Enhance the Flow
 
-   ![img_37.png](img/img2/img_37.png)
+These additional modules help you organize, structure, and scale your testing — but none are mandatory to get started.
 
-4. If you wish, add or modify additional details like Case Priority, Case Type, Assigned To, etc., in the test drawer that opens up.
+| Module        | Purpose                                      | Required? | Example Use                          |
+|---------------|----------------------------------------------|-----------|---------------------------------------|
+| **Test Plan** | Set scope, objectives, and release milestones| ❌        | Plan tests for a major release        |
+| **Cycle**     | Group reusable test sets                     | ❌        | Create a smoke suite or sprint suite |
+| **Story**     | Link tests to requirements                   | ❌        | Map user stories to validation steps  |
+| **Exploration** | Log exploratory or ad-hoc test sessions    | ❌        | Document session-based QA             |
 
-   ![img_38.png](img/img2/img_38.png)
+### Everything Lives Inside a Project
 
-### Creating a Cycle
+All your work in TestQuality — from writing test cases to analyzing insights — is organized under a **Project**. Think of it as your QA workspace for a specific product, sprint, or team.
 
-A cycle is a collection of tests and folders that you want to run repeatedly, such as before releasing a new version of your application.
+Project
+├── Test Cases (core)
+├── Runs (created whenever tests are executed)
+├── Cycles
+├── Test Plan
+├── Stories
+├── Explorations
+├── Integrations (Jira, GitHub, CI/CD)
+└── Insights
 
-There are two ways to create a cycle in TestQuality: from the Tests tab or the Cycles tab.
+> **Tip:** You can start simple with just Test Cases and Runs. As your testing evolves, layer in Cycles, Plans, and Stories to add structure and traceability.
 
-To facilitate the process, you can either watch the [Create a Cycle](https://youtu.be/pIBrfyhPVKw) video or follow these steps:
+### Each Module Supports a Phase in STLC
 
-**From the Tests tab:**
+TestQuality is aligned with the Software Testing Life Cycle (STLC), making it easy to plug into your team’s workflow — whether you're doing manual QA, automation, or both.
 
-1. A cycle can contain one or more tests. Use the test selector to choose the tests and folders you want to include in your cycle.
+| STLC Phase                  | TestQuality Module(s)                      |
+|-----------------------------|--------------------------------------------|
+| Requirements Analysis       | **Stories**                                |
+| Test Planning               | **Test Plan**                              |
+| Test Design                 | **Test Cases**                             |
+| Test Environment Setup      | **Environments & Resources**, **Integrations** |
+| Test Execution              | **Runs**, **Explorations**                 |
+| Test Closure & Reporting    | **Insights**, **Reports** (from Run or Overview) |
 
-2. Click 'Add to Cycle' in the menu that appears at the bottom of the page.
-  
-   ![img_14.png](img/img2/img_14.png)
 
-3. In the dialog box that appears, enter a name for your new cycle.
-   
-   ![img_15.png](img/img2/img_15.png)
+### TL;DR for New Users
 
-4. Press Enter or click 'Create' to confirm.
+If you’re just getting started, here’s all you need:
 
-**From the Cycles tab:**
+1. **Create a Test Case**  
+2. **Run it** → This creates a **Run**  
+3. **View results** in **Insights**
 
-1. Click on the 'Create Cycle' button.
-2. Enter the name of the cycle.
-3. Select tests to include in the cycle.
-4. Click on 'Create'.
+When you're ready to level up:
+- Use **Cycles** to group reusable test sets  
+- Use **Test Plans** to align testing with releases or goals  
+- Link test cases to **Stories** for traceability  
+- Log session-based testing with **Explorations**
 
-### Creating a Run from Test
+Start small. Scale when you're ready.
 
-Before you can execute your tests, it's essential to set up a test run. Follow these steps:
+## Your First Walkthrough: Let's Run a Test
 
-1. Start by selecting the tests you want to include from the 'Tests' tab.
+Now that you understand how TestQuality is structured, here’s how to put it into action — in just a few steps.
 
-2. Click 'Run' in the menu that appears at the bottom of the page.
+---
 
-   ![img_16.png](img/img2/img_16.png)
+### Step 1: Create a Project
 
-3. In the run dialog, click 'Create.' At this stage, there's no need to specify a Cycle or a Milestone.
+When you first log in to TestQuality, you’ll be prompted to create your first **Project**. This is your workspace where all test cases, runs, and reports will live. Assuming you've completed this step, let's dive right into your next operation.
 
-   ![img_17.png](img/img2/img_17.png)
+### Step 2: Create a Test Case
 
-Now, let's move on to executing your tests:
+Test cases are the building blocks of TestQuality. You’ll define what you’re testing and what outcome you expect.
 
-1. Click the 'Tests' tab.
+🎥 [Watch video](https://youtu.be/HpgHJrP8gow) (1 min)
 
-   ![img_18.png](img/img2/img_18.png)
+1. Go to the **Test Cases** tab  
+2. Click **Create Test Case**  
+3. Fill in:
+   - **Title**: Login works
+   - **Step**: Enter valid username and password
+   - **Expected Result**: Dashboard loads  
+4. Click **Create**
 
-2. To access and execute your specific test, click on the pending test. This action will open the test drawer. You can also watch the [Execute a Test](https://youtu.be/d-dObYB2i8s) video for further guidance.
+![Creating a Test Case](../img/img2/create_testcase)
 
-   ![img_19.png](img/img2/img_19.png)
+> You can also add extra details like priority, tags, or assignee — totally optional at this stage.
 
-3. Here, you can enter the actual result and assign a status to complete the execution process.
+### Step 3: Create a Run
 
-   ![img_39.png](img/img2/img_39.png)
+A **Run** is where you actually execute your test case and record the results. Every time you execute a test — manually or through CI — a Run is created.
 
-### Complete or Finish a Run
+1. Go to the **Test Cases** tab  
+2. Select the test case you just created  
+3. Click the **Run** button from the bottom toolbar  
+4. In the dialog that opens:
+   - You can leave the defaults as-is for now
+   - Click **Create** to launch the run
 
-After you have executed all the tests in the run as described in the previous steps, a popup will appear prompting you to 'Complete Run'.
+![Create a Run](../img/img2/create_run.png)
 
-1. Click on 'Complete' to finalize the run.
+> 💡 A Run captures the context and results of your test execution. You can create runs manually, from cycles, or even through automation later.
 
-   ![img_40.png](img/img2/img_40.png)
+### Step 4: Execute the Run
 
-Alternatively, you can also finish a run by following these steps:
+Now that you've created a run, it's time to perform the actual test and record what happened.
 
-1. Navigate to the three dots as shown in the screenshot.
-2. Click on 'Finish Run.'
+1. Go to the **Runs** tab  
+2. Open the run you just created and navigate to 'Tests' tab
+3. Click into the test listed inside the run  
+4. In the drawer that opens:
+   - Enter the **Actual Result** (e.g., "Dashboard loaded successfully")
+   - Choose the **Status** (Pass, Fail, Blocked, etc.)
+   - Click **Save**
 
-   ![img_42.png](img/img2/img_42.png)
+![Execute a Run](../img/img2/execute_tests.png)
 
-### Generating a Run Report (in PDF)
+> 💡 You can also add attachments, comments, or defect links here — but they’re optional for now.
 
-You can generate a PDF report to share with external stakeholders for the executed or completed run by following these steps:
+### Step 5: Complete the Run
 
-1. Click on the three dots as shown in the screenshot.
-2. Select 'PDF Report' from the menu.
+Once you've executed all the test cases in a run, you’ll need to mark the run as complete. This locks in the results and enables report generation.
 
-   ![img_41.png](img/img2/img_41.png)
+You have two options:
 
-### Analyzing the Test Results
+#### Option 1: From the Run view
 
-In the 'Insights' tab, you can access real-time reports on the growth, quality, reliability, and coverage of the tests you have executed.
+1. After executing the last test case, a popup will appear  
+2. Click **Complete Run**
 
-## Next steps
-- Expand your testing suite by creating more tests or [importing](importing_data.md) them from another application, or set up a continuous integration and import your [automated](automations-imports/test-runners/integrating_with_Cucumber.md) test results.
-- Consider [inviting](administration/users.md) your team to collaborate within TestQuality.
-- Integrate with [GitHub](integrate_with_github) or [Jira](integrate_with_jira.md).
+![Complete Run](../img/img2/Complete_a_run.png)
+
+#### Option 2: From the menu
+
+1. In the **Runs** tab, locate your run  
+2. Click the **three-dot menu (⋯)**  
+3. Select **Finish Run**
+
+> 💡 You can still reopen the run later if you need to make changes — unless your team enforces run locking via settings.
+
+### Step 6: Generate a Report
+
+Once a run is completed, you can export a professional PDF report — perfect for sharing results with your team or stakeholders.
+
+1. Go to the **Runs** tab  
+2. Open the **completed run**  
+3. Click the **three-dot menu (⋯)** in the top right  
+4. Select **PDF Report**
+
+![Generate PDF Report](../img/img2/Generate_run_pdf.png)
+
+> The report includes all test results, execution timestamps, status breakdown, and any comments or attachments.
+
+### Step 7: Share the Report
+
+Once you've generated a run report, you can easily share it with your team or stakeholders for visibility and collaboration.
+
+1. Open the **completed run**  
+2. Click the **Share** icon at the top of the page  
+3. Choose one of the following:
+   - **Invite teammates** via email
+   - **Copy shareable link** to send directly
+4. (Optional) Adjust **permissions** to control who can view or edit the report
+
+![Share Report](../img/img2/share_run.png)
+
+> All shared reports respect your project’s permission settings to ensure secure access.
+
+### Step 8: Review Insights
+
+The **Insights** tab gives you real-time visibility into test performance, quality trends, and flaky test patterns — all without setup.
+
+1. Go to the **Insights** tab  
+2. View:
+   - Pass/fail trends
+   - Test coverage across cycles, runs, and milestones
+   - Flaky test indicators
+3. Use filters to zoom in on specific tests, cycles, or tags
+
+> 💡 You don’t need to configure anything — data flows in automatically as you run tests.
+
+---
+
+## What’s Next?
+
+Once you’ve completed your first test run, here’s what you can explore next:
+
+- [Import existing test cases](importing_data.md)
+- [Connect automated results via CI](automations-imports/test-runners/integrating_with_Cucumber.md)
+- [Invite your team](administration/users.md)
+- [Integrate with GitHub or Jira](integrate_with_github.md) · (integrate_with_jira.md)
 
