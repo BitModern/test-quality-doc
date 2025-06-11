@@ -112,7 +112,7 @@ Test cases are the building blocks of TestQuality. You’ll define what you’re
 <details>
 <summary>Show Instructions</summary>
 
-<br>
+<br />
 
 1. Go to the **Test Cases** tab  
 2. Click **Create Test Case**  
