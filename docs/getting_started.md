@@ -112,8 +112,6 @@ Test cases are the building blocks of TestQuality. You’ll define what you’re
    - **Expected Result**: Dashboard loads  
 4. Click **Create**
 
-![Creating a Test Case](img/img2/create_testcase.png)
-
 > You can also add extra details like priority, tags, or assignee — totally optional at this stage.
 
 ### Step 3: Create a Run
