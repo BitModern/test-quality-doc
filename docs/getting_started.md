@@ -94,6 +94,8 @@ Start small. Scale when you're ready.
 
 Now that you understand how TestQuality is structured, here’s how to put it into action — in just a few steps.
 
+> ⏱️ Estimated time to complete: **5–7 minutes**
+
 ---
 
 ### Step 1: Create a Project
@@ -104,7 +106,8 @@ When you first log in to TestQuality, you’ll be prompted to create your first 
 
 Test cases are the building blocks of TestQuality. You’ll define what you’re testing and what outcome you expect.
 
-[Watch video](https://youtu.be/HpgHJrP8gow) (1 min)
+
+🎥 [Watch video](https://youtu.be/HpgHJrP8gow) (1 min)
 
 1. Go to the **Test Cases** tab  
 2. Click **Create Test Case**  
@@ -208,6 +211,8 @@ The **Insights** tab gives you real-time visibility into test performance, quali
    - Test coverage across cycles, runs, and milestones
    - Flaky test indicators
 3. Use filters to zoom in on specific tests, cycles, or tags
+
+![Viewing Test Insights](img/img2/insights_overview.png)
 
 > 💡 You don’t need to configure anything — data flows in automatically as you run tests.
 
