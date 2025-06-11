@@ -220,5 +220,7 @@ Once you’ve completed your first test run, here’s what you can explore next:
 - [Import existing test cases](importing_data.md)
 - [Connect automated results via CI](automations-imports/test-runners/integrating_with_Cucumber.md)
 - [Invite your team](administration/users.md)
-- [Integrate with GitHub or Jira](integrate_with_github.md) · (integrate_with_jira.md)
+- [Integrate with GitHub](integrate_with_github.md) · [Integrate with Jira](integrate_with_jira.md)
+
+
 
