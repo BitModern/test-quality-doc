@@ -12,6 +12,8 @@ Unlike generic templates, TestQuality’s **In-App Guide** enhances the planning
 
 ## How to Create a Test Plan:
 
+<span id="1-choose-and-preview-your-test-plan"></span>
+
 ### 1. Choose and Preview Your Test Plan
 Begin by selecting one of the three available options:
 - **Software Application Template**: Ideal for structured software projects. Click "Preview Template" to explore the predefined sections before proceeding.
