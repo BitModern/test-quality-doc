@@ -102,7 +102,7 @@ When you first log in to TestQuality, you’ll be prompted to create your first 
 
 Test cases are the building blocks of TestQuality. You’ll define what you’re testing and what outcome you expect.
 
-🎥 [Watch video](https://youtu.be/HpgHJrP8gow) (1 min)
+[Watch video](https://youtu.be/HpgHJrP8gow) (1 min)
 
 1. Go to the **Test Cases** tab  
 2. Click **Create Test Case**  
