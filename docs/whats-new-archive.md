@@ -108,7 +108,7 @@ It is now possible to add a label to a folder as well as a test. This makes filt
 
 
 ## Previous Release - February 2021
-### [Configurations](administration/configurations)
+### [Configurations](/administration/environments)
 
 ![img_41.png](img/img_41.png)
 

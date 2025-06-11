@@ -36,7 +36,7 @@ Will look like this:
 
 
 ### Configurations
-A list of [configurations](administration/configurations) that you have applied to the test in a cycle.
+A list of [configurations](/administration/environments) that you have applied to the test in a cycle.
 
 ### Precondition
 A free text field that you can add anything that needs to be in place, or done before the test steps are carried out.
@@ -71,7 +71,7 @@ Depending on your type of test you can set a Case Type to define if your test is
 ### Case Priority
 Test Priority is a way to prioritise and schedule your test cases. You can modify the priority options in the [Lookup Data](administration/lookup_data) section. By default, TestQuality comes with the following priority modes: Lowest, Low, Medium, High, Highest. This can help you plan your testing schedules, and also help you view your testing efforts by  [filtering](/filtering) those tests that you consider a higher priority. 
 ### Assigned to
-Assigning a test to a user in your organisation will help you identify the tests that are handled by different members of your team, but also when a [Run](run) is made that includes the assigned test, the Test in executable mode will be added to the assigned user's [ToDo list](/todo_list).  
+Assigning a test to a user in your organisation will help you identify the tests that are handled by different members of your team, but also when a [Run](run) is made that includes the assigned test, the Test in executable mode will be added to the assigned user's ToDo list.  
 
 ### Attachments
 A list of any attachments that have been linked to the test.
