@@ -109,11 +109,6 @@ Test cases are the building blocks of TestQuality. You’ll define what you’re
 
 🎥 [Watch video](https://youtu.be/HpgHJrP8gow) (1 min)
 
-<details>
-<summary>Show Instructions</summary>
-
-<br />
-
 1. Go to the **Test Cases** tab  
 2. Click **Create Test Case**  
 3. Fill in:
@@ -125,8 +120,6 @@ Test cases are the building blocks of TestQuality. You’ll define what you’re
 ![Creating a Test Case](img/img2/create_testcase.png)
 
 > You can also add extra details like priority, tags, or assignee — totally optional at this stage.
-
-</details>
 
 ### Step 3: Create a Run
 
