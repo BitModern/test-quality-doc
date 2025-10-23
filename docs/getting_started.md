@@ -121,6 +121,26 @@ Test cases are the building blocks of TestQuality. You’ll define what you’re
 
 > You can also add extra details like priority, tags, or assignee — totally optional at this stage.
 
+### 💡 Smarter Test Case Generation with TestStory.ai
+
+[**TestStory.ai**](https://app.teststory.ai) is our in-house AI-powered test case generator — built by TestQuality’s co-founder, Michael — to make test design faster, smarter, and fully customizable.
+
+Unlike other AI tools that produce generic cases, **TestStory.ai fine-tunes results based on your chosen Test Settings** — including testing strategy, user perspective, and output format — so you get only the test cases that fit your real project needs.
+
+**With TestStory.ai, you can:**
+- Import issues and stories directly from Jira, GitHub, or Linear  
+- Guide AI through **Test Settings** for accurate, context-aware results  
+- Save and reuse **custom preset packs** for different projects or teams  
+- Export or share test cases (PDF, CSV, or Markdown)  
+- Seamlessly **sync with TestQuality** — just click the *TestQuality* button, choose your project, and your generated tests appear instantly  
+- Submit feedback and bug reports directly in the app  
+
+**Who can use it?**
+- **TestQuality customers:** Log in with your existing TestQuality email — it’s included in your subscription with **500 free credits/month**  
+- **Not a TestQuality user yet?** Try it for free with **50 credits/month** — no setup required  
+
+👉 [Try TestStory.ai](https://app.teststory.ai) — generate the *right* test cases, not just any test cases.  
+
 ### Step 3: Create a Run
 
 A **Run** is where you actually execute your test case and record the results. Every time you execute a test — manually or through CI — a Run is created.
