@@ -147,5 +147,58 @@ Additionally, you can re-run or finish a run directly from the PR check.
 
 ![img_109.png](img/img_109.png)
 
+### Auto-Create Test Run from GitHub Pull Request
+
+TestQuality can automatically create a Test Run when a GitHub Pull Request (PR) is associated with a Story.
+
+To enable this:
+
+- Ensure the **"Pull Request Testing"** toggle is enabled in the repository settings under **Integrations → GitHub**.
+- The Story in TestQuality must already be created and linked to the corresponding GitHub Issue before the PR is opened.
+
+---
+
+#### How it Works — Step by Step
+
+1. In GitHub, create an **Issue** (e.g., `#45`)
+
+2. In TestQuality, go to **Stories**  
+   - Create a new Story by selecting the GitHub issue `#45` from the synced list  
+   - Attach one or more Test Cases to complete the Story
+
+   ![Story with Linked Test](img/Story-Tests.png)
+
+3. Back in GitHub, open a **Pull Request** and reference the issue using any supported keyword in the description, such as:
+
+Closes #45
+Resolves #45
+Fixes #45
+
+![PR Check Shows Linked Story](img/pr-check.png)
+
+4. After opening the PR, go to the **Runs** tab in TestQuality.  
+A new Run should be automatically created and linked to the Story.
+
+![Auto-Generated Run](img/pr-run.png)
+
+---
+
+#### 🔁 Re-runs & Status
+
+- If you push new commits to the PR, TestQuality will automatically re-trigger the test run.
+- The Run status will update from **Pending** to **Completed** once the results are available.
+
+![Pending Run](img/pr-pending.png)  
+![Completed Run](img/pr-completed-run.png)
+
+---
+
+### ⚠️ Notes & Tips
+
+- **Timing matters:** The Story must exist in TestQuality *before* the PR is opened for the auto-trigger to work.
+- **Valid PR keywords:** GitHub supports multiple linking keywords (`closes`, `resolves`, `fixes`) — all are accepted by TQ.
+<!--
+> 💡 Tip: While not required by TestQuality, creating a branch from the issue can help organize your GitHub workflow.
+-->
 
 
