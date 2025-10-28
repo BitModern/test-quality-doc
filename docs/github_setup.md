@@ -197,8 +197,6 @@ A new Run should be automatically created and linked to the Story.
 
 - **Timing matters:** The Story must exist in TestQuality *before* the PR is opened for the auto-trigger to work.
 - **Valid PR keywords:** GitHub supports multiple linking keywords (`closes`, `resolves`, `fixes`) — all are accepted by TQ.
-<!--
-> 💡 Tip: While not required by TestQuality, creating a branch from the issue can help organize your GitHub workflow.
--->
+
 
 
