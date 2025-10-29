@@ -170,9 +170,9 @@ To enable this:
 
 3. Back in GitHub, open a **Pull Request** and reference the issue using any supported keyword in the description, such as:
 
-Closes #45
-Resolves #45
-Fixes #45
+- Closes #45
+- Resolves #45
+- Fixes #45
 
 ![PR Check Shows Linked Story](img/pr-check.png)
 
