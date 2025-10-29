@@ -183,7 +183,7 @@ A new Run should be automatically created and linked to the Story.
 
 ---
 
-#### 🔁 Re-runs & Status
+#### Re-runs & Status
 
 - If you push new commits to the PR, TestQuality will automatically re-trigger the test run.
 - The Run status will update from **Pending** to **Completed** once the results are available.
