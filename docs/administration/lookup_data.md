@@ -10,7 +10,7 @@ Items can be scoped to **All Projects** or restricted to specific projects. This
 
 Click **Add Item** to create a new value in any category. Click the edit icon to modify an existing item, or the delete icon to remove it.
 
-![Lookup data](img/Screens/img_4.png)
+![Lookup data](/img/Screens/img_4.png)
 
 ## Status
 
