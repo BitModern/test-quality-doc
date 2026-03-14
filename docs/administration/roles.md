@@ -1,77 +1,61 @@
 ---
 title: Roles
-
 ---
 
-Roles in TestQuality are predefined sets of permissions that determine what users can do on the platform. Here's how you can manage roles and understand their distinctions.
+# Roles
 
-### Accessing Roles
+Roles define what users can do in TestQuality. Each user must have at least one role assigned.
 
-To access Roles in TestQuality, follow these steps:
+## Built-in roles
 
-1. Click on your profile icon in the top right corner.
-2. Choose **'User Management'** from the dropdown menu.
-3. Select **'Roles'**  from the left-hand menu in the User Management page.
+TestQuality includes the following roles by default:
 
-### Managing Roles
+- **Administrator** — Full access to all features and settings
+- **Project Manager** — Manages projects and configurations, cannot manage users or site settings
+- **Test Developer** — Creates and manages tests and test data
+- **Tester** — Executes tests, adds bugs and labels, authorizes integrations
+- **Viewer** — View-only access to projects, tests, runs, and milestones
 
-Each role in TestQuality has specific permissions and responsibilities. Here are the built-in roles and their distinctions:
+> Watches are accessible to all roles regardless of other permissions.
 
-- **Administrator:** Has full access to all TestQuality features and settings.
-- **Project Manager:** Manages projects, assigns tasks, and oversees project progress.
-- **Test Developer:** Creates and updates tests and test setups.
-- **Tester:** Runs tests and reports issues found during testing.
-- **Viewer:** Can view but not modify information within TestQuality.
+## Add a role
 
-### Customizing Roles
+Click **Add Role** in the top right to create a custom role. In the Role details dialog:
 
-You can customize roles in TestQuality to better fit your organization's needs. Here's how:
+- **Name** — Required
+- **Projects** — Restrict the role to specific projects, or select **All Projects** for global access
+- **Description** — Optional
+- **Is default** — Check this to make the role the default for new users signing up to your site
+- **Permissions** — Toggle **View** and **Edit** per section. Blue indicates the permission is active.
 
-- **Modify Permissions:** Change the default permissions associated with a role to align with your workflow.
-- **Create New Roles:** Tailor roles to specific requirements within your organization.
+Permissions are grouped into two areas:
 
-### Project-Level Access
+**Administration:** Company, User Management, Customizations, Integrations
 
-In TestQuality, project-level access can be restricted by specifying relevant projects in the **'Projects'** field on the **'Role Details'** popup. When **'All Projects'** is selected, it grants global access to all projects within TestQuality.
+**Project:** Project, Test, Run, Milestone
 
-### Grant-Based Model
+Click **Save** when done.
 
-TestQuality operates on a grant-based model for roles and permissions. This means that access permissions are granted to users based on specific actions or requests rather than being restricted by default. Permissions are granted on a need-to-have basis, ensuring that users only have access to what is required for their roles or tasks.
+## Edit a role
 
-### Default Role
+Click any role in the list to open the Role details dialog and modify its settings or permissions.
 
-In TestQuality, one role always serves as the default role. This default role acts as a fallback if you delete roles that are still in use. Additionally, the default role is automatically preselected when adding new users to TestQuality.
+## Default role
 
-**Warning:** Deleting a role in TestQuality will remove associated permissions for all users with that role, unless those permissions are also assigned from another role.
+One role acts as the default — it is automatically assigned when new users sign up. The default role is marked with a `default` badge in the list. To change it, open a role and check **Is default**.
 
-### Role Permissions Overview
+**WARNING:** Deleting a role removes its permissions from all users assigned to that role, unless those permissions are covered by another role.
 
-| Role            | Can Do... (Summary)                                             | Cannot Do... (Summary)                                    |
-|-----------------|-----------------------------------------------------------------|-----------------------------------------------------------|
-| Administrator   | • Everything                                                    | • Not Applicable                                          |
-| Project Manager | • Add or modify configurations.                                 | • Edit site details or delete site                         |
-|                 | • Add or modify customizations.                                 | • Add/update SSO or OpenID.                               |
-|                 | • Assign tests.                                                 | • Add users.                                              |
-|                 | • Add milestones.                                               | • View or modify roles.                                   |
-|                 |                                                                 | • Create projects.                                        |
-|                 |                                                                 | • Modify integrations.                                    |
-|                 |                                                                 | • View/add lookup data.                                   |
-|                 |                                                                 | • Modify subscriptions.                                   |
-|                 |                                                                 | • View space used.                                        |
-| Test Developer  | • Create, modify and manage tests.                              | • Everything that a Project Manager can't do PLUS         |
-|                 | • Create and manage test-related data.                           | • Add or modify configurations.                           |
-|                 | • Add or modify milestones.                                     | • Add or modify customizations.                           |
-| Tester          | • Execute tests (in stories, cycles, and runs).                  | • Everything that a Test Developer can't do PLUS           |
-|                 | • Authorize users for integration.                              | • Modify runs                                             |
-|                 | • Add bugs.                                                     |                                                           |
-|                 | • Add labels.                                                   |                                                           |
-| Viewer          | • View Project                                                  | • Everything that a Tester can't do                  |
-|                 | • View Tests                                                    |                                                           |
-|                 | • View Runs                                                     |                                                           |
-|                 | • View Milestones                                               |                                                           |
+## Delete a role
 
+Click the delete icon next to the role you want to remove. You cannot delete a role that is currently set as the default.
 
-**Note:** Watches are accessible to all roles within TestQuality, regardless of their permissions. This means that all users, regardless of their role or level of access, can utilize the watch feature to manage their watched items.
+## Role permissions overview
 
-
-
+| Role | Can do | Cannot do |
+|---|---|---|
+| Administrator | Everything | — |
+| Project Manager | Modify configurations, customizations, assign tests, add milestones | Edit site details, manage SSO, add users, manage roles, create projects, modify integrations, view lookup data, manage subscriptions, view space used |
+| Test Developer | Create and manage tests and test data, add milestones | Everything Project Manager cannot do, plus: modify configurations and customizations |
+| Tester | Execute tests, authorize integrations, add bugs and labels | Everything Test Developer cannot do, plus: modify runs |
+| Viewer | View projects, tests, runs, milestones | Everything Tester cannot do |

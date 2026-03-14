@@ -1,212 +1,145 @@
 ---
 title: GitHub
-
 ---
 
-[GitHub](https://github.com/) serves as a central hub for developers, offering version control, collaboration tools, and project management features. Integrating TestQuality with GitHub brings together the power of test case creation, defect management, and test coverage analysis within your GitHub environment.
-Additionally, TestQuality's integration with [GitHub Pull Requests (PR)](#github-prpull-request-integration) ensures that every PR is thoroughly tested before being merged into the main branch, maintaining the integrity of your codebase.
+# GitHub
 
-## Leveraging Two-Way Integration
+Integrate GitHub with TestQuality to sync defects and requirements between both platforms. Changes made in either platform are reflected in real time.
 
-The core advantage of TestQuality's integration with GitHub lies in its live two-way synchronization. This means that changes made in either platform, whether it's updating [defect priorities](https://doc.testquality.com/defect_management) or [adding new stories](https://doc.testquality.com/stories), are reflected instantly across both TestQuality and GitHub. This real-time synchronization ensures that your teams and tools are always in sync, leading to enhanced productivity and collaboration.
+## Prerequisites
 
-## Setting up your GitHub Integration
+- Active TestQuality and GitHub accounts
+- Admin rights on the GitHub repository you are connecting
 
-To set up GitHub integration, follow these steps:
+## Setup
 
-**Step 1: Begin Integration** 
-- Navigate to the 'Create New Project' -> 'Project Details' screen -> 'Add GitHub Repo' or via the Settings menu -> Integrations.
+You can set up the GitHub integration in two ways:
 
-**Via Create New Project**
+**Via a new project:**
+1. Go to **Create New Project → Project Details → Add GitHub Repo**
 
-![img_99.png](img/img_99.png)
+   ![img_99.png](img/img_99.png)
 
-**Via Settings**
+**Via Settings:**
+1. Go to **Settings → Integrations**
+2. In the GitHub section, click **Link Repo**
 
-![img_100.png](img/img_100.png)
+   ![img_100.png](img/img_100.png)
 
-- Locate the GitHub section.
-- Click on 'Link on GitHub.'
+3. Click **Link on GitHub**
 
-![img_101.png](img/img_101.png)
+   ![img_101.png](img/img_101.png)
 
- **Note:** Make sure you have admin privileges for the GitHub repository you're connecting to.
+4. Authorize TestQuality to access your GitHub repositories and organizations. Follow the on-screen prompts.
 
-**Step 2: Authorize Access** 
-- During installation, you may be prompted to authorize TestQuality to access your GitHub repositories and organizations. 
-- Follow the on-screen instructions to grant the necessary permissions. 
+   ![img_103.png](img/img_103.png)
 
-![img_103.png](img/img_103.png)
+5. After authorization, you will be returned to TestQuality
+6. Click **Add Project**, select your organization, repository, and TestQuality project, then click **Link**
 
-- You will be navigated back to TestQuality after authorization.
+   ![img_102.png](img/img_102.png)
 
-**Step 3: Add Project** 
-- Click on 'Add Project' to link an existing project to the GitHub integration. 
-- Select the organization, repository, and project, and then click on 'Link.' You can also add a new project here.
-
-![img_102.png](img/img_102.png)
-
-You have the flexibility to link the same project to multiple GitHub repositories and vice versa.
-
-After completing these steps, GitHub will be integrated with TestQuality, allowing for seamless interaction between the two platforms. Once integrated, you can now add stories and log defects from TestQuality.
+> You can link the same project to multiple GitHub repositories and vice versa.
 
 ![img_104.png](img/img_104.png)
 
-### Configuring your Integration:
+## Configuration
 
-You can configure your integration at both the global and project levels by accessing the gear icon.
+Access configuration settings by clicking the gear icon next to a linked repository in **Settings → Integrations**.
 
-**At Global Level**
+**Re-authorize** — Resets and refreshes the connection with your GitHub account. Use this if the authorized user changes or the connection breaks.
 
-- Manage default tags
-- Edit integration templates for creating new stories and bugs
-- Enable Link Comment
-- Enable Pull Request Testing
-- Delete the integration
-- Disassociate the integration
+**Add Project** — Links an existing TestQuality project to the GitHub integration.
 
-![img_105.png](img/img_105.png)
+**Include TestQuality labels** — When enabled, TestQuality labels are automatically added to issues created in GitHub.
 
-**At Project Level**
+**Default labels management** — Click **Manage** to customize the labels automatically created alongside defects and stories.
 
-- Enable Pull Request Testing
-- Delete the integration
+**Templates** — Click **Edit Templates** to customize the format of defects and stories created in GitHub. Supports static content and dynamic variables using [Handlebars/Mustache syntax](https://handlebarsjs.com/guide/). Click **Revert to defaults** to reset.
 
-**Note:** Proceed with caution when deleting an integration. It will remove all defect and story integrations from TestQuality but not from GitHub.
+**Link comment** — When enabled, a comment is automatically added when linking defects and stories.
 
-## GitHub PR(Pull Request) Integration
+**Pull request testing** — When enabled, test runs can be linked to GitHub pull requests. Results appear under Checks in the PR.
 
-TestQuality's integration with [GitHub PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ensures that every PR is thoroughly tested before being merged into the main branch. This integration helps streamline the development workflow by ensuring that all changes made in a PR are tested before being merged, maintaining the integrity of the main branch.
+**Pull request initial check** — When enabled, an initial PR check is added indicating there is no run yet.
 
-### Why Add Manual Test Runs to a Pull Request?
+**Delete integration** — Removes the integration across all your projects, including all linked defects and requirements.
 
-A GitHub [pull request check](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) is an automated process that runs tests, validations, or other scripts to ensure that the changes proposed in a pull request meet specific criteria before the pull request is merged into the main codebase. These checks help maintain code quality and prevent errors from being introduced. TestQuality adds to this by providing manual testing as a PR check to ensure that only high-quality, tested, and validated code is merged into the main codebase.
+**WARNING:** This action cannot be undone.
 
-Running manual tests on pull requests before they get merged is essential for many reasons. Here are just a few:
+**Disassociation** — Removes your user as the authorized admin for this integration. Another admin will need to re-authorize to restore the connection.
 
-1. **Catch Edge Cases**
-    - Automated tests are excellent for catching predictable issues and ensuring code meets specific criteria. However, they may not cover all possible edge cases or unexpected behaviors. Manual testing allows testers to explore and identify these edge cases.
+## Pull request testing
 
-2. **Human Insight**
-    - Manual testers can use their intuition and experience to identify potential usability issues, user experience problems, and other subtle issues that automated tests might miss. This human insight is invaluable in assessing how real users might interact with the software.
+### Why link manual tests to a PR?
 
-3. **Complex Scenarios**
-    - Some complex scenarios, especially those involving multiple systems or integrations, might be challenging to replicate in automated tests. Manual testing can help verify these complex workflows and ensure that all parts of the system work together as expected.
+Automated checks catch predictable issues but miss things that require human judgment — usability problems, edge cases, complex workflows, and UI/UX issues. Linking manual test runs to a PR adds a quality gate before merge, ensuring:
 
-4. **UI/UX Validation**
-    - User interface and user experience aspects often require a human touch to evaluate correctly. Manual testing allows testers to assess the look and feel, ease of use, and overall user experience, which is crucial for end-user satisfaction.
+- **Edge cases are covered** — exploratory testing surfaces issues automated tests miss
+- **Complex workflows are verified** — multi-system scenarios that are hard to automate can be checked manually
+- **Acceptance criteria are met** — new features are validated against real requirements before they ship
+- **Immediate feedback** — developers get test results before the PR is merged, not after
 
-5. **Acceptance Criteria**
-    - When new features are introduced or significant changes are made, it’s essential to manually test these to ensure they meet the intended functionality and business requirements. This can help catch issues early and provide feedback for improvements.
+TestQuality surfaces these results directly in the GitHub PR checks, keeping everything in one place.
 
-6. **Integration Testing**
-    - Manual testing is beneficial for checking integrations with third-party services, ensuring that APIs and other external dependencies work correctly with the changes introduced in the pull request.
+### Link a run to a PR
 
-7. **Exploratory Testing**
-    - Manual testing allows for exploratory testing, where testers can investigate the application without predefined test cases. This can lead to the discovery of unexpected bugs and issues that would otherwise go unnoticed.
-
-8. **Immediate Feedback**
-    - Manual testing provides immediate feedback on the pull request, allowing developers to make necessary adjustments before the code is merged. This can prevent issues from propagating to the main codebase and affecting other parts of the application.
-
-9. **Quality Assurance**
-    - Ultimately, manual testing ensures a higher level of quality assurance. It complements automated testing by providing an additional layer of scrutiny, reducing the likelihood of bugs reaching production.
-
-By running manual tests on pull requests, development teams can ensure that code changes are thoroughly vetted, leading to more stable, reliable, and user-friendly software.
-
-### Associate the Run to a PR
-
-Once the PR testing setting is enabled, you can link specific test runs to the PR when creating a run. Note that you can link only one run at a time to a PR in this workflow. While multiple runs can be linked to the same PR, each must be done individually. 
+When creating a run, select the PR you want to associate it with. You can link multiple runs to the same PR but each must be linked individually.
 
 ![img_106.png](img/img_106.png)
-
 ![img_107.png](img/img_107.png)
 
-Once a Run is assoiated with a PR in TestQuality, it will be displayed under 'Checks' in GitHub. This ensures that test results are visible directly within the PR in GitHub.
- 
+Once linked, the run appears under **Checks** in the GitHub PR.
+
 ![img_108.png](img/img_108.png)
 
-### Configuration Options
-#### Enabling/disabling PR Testing
+### Execute tests
 
-By default, PR testing is enabled.
-
-You can enable or disable PR testing at both the global and project levels by accessing the gear icon.
-Refer to [Configuration](#configuring-your-integration).
-
-#### Associate the Cycle to a Repo
-
-At the Project level, you can link the Cycle to a Repo so runs get created automatically when new PRs are created.
-
-![img_110.png](img/img_110.png)
-
-### Executing Tests in a Run
-
-You can execute the run in TestQuality, and the results will be synced with the associated PR check. 
+Run your tests in TestQuality — results sync automatically with the PR check.
 
 ![img_111.png](img/img_111.png)
 
-Additionally, you can re-run or finish a run directly from the PR check. 
+You can also re-run or finish a run directly from the PR check in GitHub.
 
 ![img_109.png](img/img_109.png)
-
-When you click on 'Finish Run',
-
 ![img_112.png](img/img_112.png)
-
-the results will be synched with TestQuality.
-
 ![img_113.png](img/img_113.png)
 
-### Auto-Create Test Run from GitHub Pull Request
+### Link a cycle to a repo
 
-TestQuality can automatically create a Test Run when a GitHub Pull Request (PR) is associated with a Story.
+At the project level, you can link a cycle to a repository so runs are created automatically when new PRs are opened.
 
-To enable this:
+![img_110.png](img/img_110.png)
 
-- Ensure the **"Pull Request Testing"** toggle is enabled in the repository settings under **Integrations → GitHub**.
-- The Story in TestQuality must already be created and linked to the corresponding GitHub Issue before the PR is opened.
+### Auto-create a run from a PR
 
----
+TestQuality can automatically create a run when a PR is linked to a story.
 
-#### How it Works — Step by Step
+**Requirements:**
+- Pull request testing toggle must be enabled
+- The story must exist in TestQuality and be linked to the GitHub issue before the PR is opened
 
-1. In GitHub, create an **Issue** (e.g., `#45`)
+**Steps:**
 
-2. In TestQuality, go to **Stories**  
-   - Create a new Story by selecting the GitHub issue `#45` from the synced list  
-   - Attach one or more Test Cases to complete the Story
+1. In GitHub, create an issue (e.g. `#45`)
+2. In TestQuality, go to **Stories**, create a new story linked to issue `#45`, and attach test cases
 
-   ![Story with Linked Test](img/Story-Tests.png)
+   ![Story with linked test](img/Story-Tests.png)
 
-3. Back in GitHub, open a **Pull Request** and reference the issue using any supported keyword in the description, such as:
+3. In GitHub, open a PR and reference the issue in the description using any supported keyword:
+   - `Closes #45`
+   - `Resolves #45`
+   - `Fixes #45`
 
-- Closes #45
-- Resolves #45
-- Fixes #45
+   ![PR check shows linked story](img/pr-check.png)
 
-![PR Check Shows Linked Story](img/pr-check.png)
+4. Go to the **Runs** tab in TestQuality — a run is automatically created and linked to the story
 
-4. After opening the PR, go to the **Runs** tab in TestQuality.  
-A new Run should be automatically created and linked to the Story.
+   ![Auto-generated run](img/pr-run.png)
 
-![Auto-Generated Run](img/pr-run.png)
+If you push new commits to the PR, TestQuality automatically re-triggers the run. Status updates from **Pending** to **Completed** once results are available.
 
----
+![Pending run](img/pr-pending.png)
+![Completed run](img/pr-completed-run.png)
 
-#### Re-runs & Status
-
-- If you push new commits to the PR, TestQuality will automatically re-trigger the test run.
-- The Run status will update from **Pending** to **Completed** once the results are available.
-
-![Pending Run](img/pr-pending.png)  
-![Completed Run](img/pr-completed-run.png)
-
----
-
-### ⚠️ Notes & Tips
-
-- **Timing matters:** The Story must exist in TestQuality *before* the PR is opened for the auto-trigger to work.
-- **Valid PR keywords:** GitHub supports multiple linking keywords (`closes`, `resolves`, `fixes`) — all are accepted by TQ.
-
-
-
+> The story must exist in TestQuality before the PR is opened for auto-triggering to work.

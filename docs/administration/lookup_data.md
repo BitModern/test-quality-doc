@@ -1,25 +1,33 @@
 ---
-title: Lookup Data
-
+title: Lookup data
 ---
-<div class="img-with-text">
-    <img src="\img\Screens\img_4.png" alt="Lookup data Screen image" width="800"/>
-    <p></p> 
-</div>
 
-# Changing your Lookup Data
+# Lookup data
 
-On the Lookup Data page you can customize different items within your site that classify your tests. When filtering your test views, the Lookup Data fields allow you to view your tests with different use cases in mind. Perhaps you would like to list by priority, so you can ensure your most important tests are executed first. Maybe your UI tests are vital to your Milestone, tailoring your Lookup Data ensures your testing efforts are efficient, and your team is effective. 
+Lookup data defines the classification values used across your tests — statuses, purposes, case types, priorities, and labels. Each category ships with a set of defaults but can be extended with custom values to match your workflow.
 
-## Status 
-When a test is in 'executable mode' the status can be changed to represent the result of executing the test. Pass, Pending, Fail, Block, Retest, or skip are all the default status types. Should you wish to add a different status, you can add a custom status to match your use case. 
+Items can be scoped to **All Projects** or restricted to specific projects. This lets you tailor classification options per team or project without affecting the rest of your site.
+
+Click **Add Item** to create a new value in any category. Click the edit icon to modify an existing item, or the delete icon to remove it.
+
+![Lookup data](img/Screens/img_4.png)
+
+## Status
+
+The result of executing a test step. Used when marking test results during a run. Custom statuses can be added to match your team's workflow.
+
 ## Purpose
-You can mark a test with the reason for testing, such as UI, Unit, Installation, Acceptance, Regression, System, Smoke, Sanity, Integration, Component Interface Test, are the default types. Should you wish to add your own, you can add a custom test purpose. 
-## Case Type
-There are 8 standard test case types Accessibility, Compatibility, Destuctive, Funcionality Performance, Security, Usability, Internationalisation. Should you wish to include another case type to match your use case, custom types can be added in this screen.
-## Case Priority
-Add a priority to your test cases gives your testers an idea of which are the most important tests. The default priorities are from Lowest, Low, Medium, High to Highest, however if you would like to include your own priorities, you can add custom priorties here.
+
+The reason a test exists. Used to classify what kind of testing a test case is designed for. Custom purposes can be added alongside the defaults.
+
+## Case type
+
+The category of testing the test case covers. Used to group and filter tests by the type of testing they perform. Custom case types can be added as needed.
+
+## Case priority
+
+Indicates the importance of a test case. Used to help testers prioritize execution order. Custom priorities can be added to reflect your team's severity scale.
+
 ## Label
-Labels can be added by typing in the label field in a test, or by adding the in the Lookup Data page. In the Lookup Data page you can also edit labels. 
 
-
+Free-form tags applied to test cases for filtering and organization. Labels can be added directly in the test case editor or managed here. The Label tab shows all labels currently in use across your site.
