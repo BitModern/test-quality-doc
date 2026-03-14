@@ -1,5 +1,6 @@
 ---
 title: Quick start
+slug: /
 ---
 
 # Quick start
