@@ -24,7 +24,7 @@ Test cases are the building blocks of TestQuality. Define what you're testing an
    - **Expected Result**: Dashboard loads  
 4. Click **Create**
 
-![Creating a Test Case](/img/img2/create_testcase.png)
+![Creating a Test Case](../img/img2/create_testcase.png)
 
 > You can also add extra details like priority, tags, or assignee — totally optional at this stage.
 
@@ -55,7 +55,7 @@ A run is where you execute your test case and record results. Every time you exe
    - You can leave the defaults as-is for now
    - Click **Create** to launch the run
 
-![Create a Run](/img/img2/create_run.png)
+![Create a Run](../img/img2/create_run.png)
 
 > 💡 A Run captures the context and results of your test execution. You can create runs manually, from cycles, or even through automation later.
 
@@ -71,7 +71,7 @@ Now that you've created a run, it's time to perform the actual test and record w
    - Choose the **Status** (Pass, Fail, Blocked, etc.)
    - Click **Save**
 
-![Execute a Run](/img/img2/execute_tests.png)
+![Execute a Run](../img/img2/execute_tests.png)
 
 > 💡 You can also add attachments, comments, or defect links here — but they’re optional for now.
 
@@ -87,7 +87,7 @@ After executing the last test, click **Complete run** in the popup.
 2. Click the **⋯** menu
 3. Select **Finish run**
 
-![Complete Run](/img/img2/Complete_a_run.png)
+![Complete Run](../img/img2/Complete_a_run.png)
 
 > 💡 You can still reopen the run later if you need to make changes — unless your team enforces run locking via settings.
 
@@ -100,7 +100,7 @@ Once a run is completed, you can export a professional PDF report — perfect fo
 3. Click the **three-dot menu (⋯)** in the top right  
 4. Select **PDF Report**
 
-![Generate PDF Report](/img/img2/Generate_run_pdf.png)
+![Generate PDF Report](../img/img2/Generate_run_pdf.png)
 
 > The report includes all test results, execution timestamps, status breakdown, and any comments or attachments.
 
@@ -115,7 +115,7 @@ Once you've generated a run report, you can easily share it with your team or st
    - **Copy shareable link** to send directly
 4. (Optional) Adjust **permissions** to control who can view or edit the report
 
-![Share Report](/img/img2/share_run.png)
+![Share Report](../img/img2/share_run.png)
 
 > All shared reports respect your project’s permission settings to ensure secure access.
 
@@ -130,7 +130,7 @@ The **Insights** tab gives you real-time visibility into test performance, quali
    - Flaky test indicators
 3. Use filters to zoom in on specific tests, cycles, or tags
 
-![Viewing Test Insights](/img/img2/insights_overview.png)
+![Viewing Test Insights](../img/img2/insights_overview.png)
 
 > 💡 You don’t need to configure anything — data flows in automatically as you run tests.
 
