@@ -1,93 +1,90 @@
 ---
 title: Company
-
 ---
-![img_10.png](admin_img/img_10.png)
 
-### Site Details
+# Company
 
-#### Site Name
+Manage your site details, single sign-on, and automatic sign-up from this page.
 
-This is your TestQuality site's name. It appears in the web address. If you change it, update saved links elsewhere to match the new address.
+![Company page](admin_img/img_10.png)
 
-### Contact Details
+## Site details
 
-#### Email 
-Your company's contact email.
+**Site** — Required. Your TestQuality site name, used in your site's URL. If you change it, update any saved links to match the new address.
 
-#### Phone
-Your company's phone number.
+**Email** — Your company's contact email.
 
-#### Company
-Your company's name.
+**Phone** — Your company's phone number.
 
-#### Website
-Your company's website.
+**Company** — Your company's name.
 
-### Single Sign On (SSO)
+**Website** — Your company's website.
 
-Single Sign-On (SSO) is an authentication process that allows users to access multiple enterprise applications with a single set of login credentials. This combines several application logins into one, where you use credentials once and get access to all applications without individually logging into each application. 
+Click **Update** to save changes.
 
-![img_32.png](admin_img/img_32.png)
+## Single sign-on (SSO)
 
-#### OpenID Connect
+SSO lets users access TestQuality using existing credentials from an identity provider. TestQuality supports OpenID Connect and GitHub.
 
-To use single sign on with applications that support OpenID, you can use this section to configure your organisations SSO. 
+![SSO settings](admin_img/img_32.png)
 
-The following example is how to use *Microsoft Azure* as your SSO provider.
+### OpenID Connect
 
-**Azure AD**
-1. Go to "App Registrations" and click "New Registration".
-   2 Fill a new application form.
-   Introduce a name.
-   "Under Redirect URI" select platform Web and introduce the following url https://api.testquality.com/api/sso/openid/callback
-   Click "Register"
-3. Go to "Authentication" and select "ID tokens (used for implicit and hybrid flows)"
-   ![img_27.png](admin_img/img_27.png)
-4. Save the changes.
+To configure OpenID Connect SSO using Microsoft Azure AD:
 
-5. In the application overview Under Endpoints copy "OpenID Connect metadata document"
-   will be something like https://login.microsoftonline.com/{{tenant-id}}/v2.0/.well-known/openid-configuration and the "Application (client) ID" from overview page.
-   We will need those later during azure id setup on testQuality.
-   
-6. Go to "Company" in the administration Area in TestQuality.
+1. In Azure, go to **App registrations** and click **New registration**
+2. Fill in the form:
+   - Enter a name
+   - Under **Redirect URI**, select platform **Web** and enter: `https://api.testquality.com/api/sso/openid/callback`
+   - Click **Register**
+3. Go to **Authentication** and enable **ID tokens (used for implicit and hybrid flows)**
 
-![img_28.png](admin_img/img_28.png)
-   
-7. Paste "OpenID Connect metadata document" from Azure AD onto "OpenID Connect Discovery" and "Application (client) ID" onto "OpenID Client ID".
+   ![Azure authentication settings](admin_img/img_27.png)
 
-#### Automatic Sign Up
+4. Click **Save**
+5. From the application overview, copy:
+   - **OpenID Connect metadata document** (under Endpoints) — e.g. `https://login.microsoftonline.com/{{tenant-id}}/v2.0/.well-known/openid-configuration`
+   - **Application (client) ID**
+6. In TestQuality, go to **Settings → Company**
 
-To allow automatic signup to your TestQuality site, add your domain under "Automatic Sign up". Adding a domain to the automatic sign up means that any user with an email address from your domain will be able to sign up to TestQuality and will join your site automatically.
+   ![TestQuality company settings](admin_img/img_28.png)
 
-![img_29.png](admin_img/img_29.png)
+7. Paste the values:
+   - **OpenID Connect metadata document** → **OpenID Connect Discovery**
+   - **Application (client) ID** → **OpenID Client ID**
+8. Click **Update**
 
+### GitHub SSO
 
-To configure GitHub as your SSO provider, you will need to have a valid integration set up. 
+To use GitHub as your SSO provider, you need an active GitHub integration first.
 
-1. In TestQuality in the top right corner menu select "Integrations".
-   
-   ![img_30.png](admin_img/img_30.png)
-   
-2. Click on the GitHub gear icon to set up the integration and grant permissions to the organizations we want to have access to TestQuality.
+1. In TestQuality, click your name in the top right and select **Integrations**
 
-![img_31.png](admin_img/img_31.png)
+   ![Integrations menu](admin_img/img_30.png)
 
-3. Click Authorise and follow the wizard to allow GitHub to link to TestQuality. 
+2. Click the GitHub gear icon and grant permissions to the organizations you want to connect
 
-Important note: You need to be the administrator of the repository that you are linking. The reason for this is during the setup of the integration, the system configures webhooks to send information. 
-Once the integration is configured, the admin rights are no longer required. 
+   ![GitHub integration setup](admin_img/img_31.png)
 
+3. Click **Authorise** and follow the prompts
 
-Next we are going to add organizations to testQuality to allow users that belong to the organization to sign up.
+> You must be an administrator of the repository you are linking. This is required to configure webhooks during setup. Admin rights are not required after setup is complete.
 
-4. Under "Company" in the administration area click on the 'Add Sign up' in the Automatic Sign up section.
-5. Select the sign up type as "GitHub" and Select an organization within your GitHub account.
+4. Go to **Settings → Company** and click **Add sign up** in the Automatic sign-up section
+5. Select **GitHub** as the sign-up type and choose an organization from your GitHub account
 
+   ![Add sign up](admin_img/img_26.png)
 
+## Automatic sign-up
 
-![img_26.png](admin_img/img_26.png)
+Adding a domain here allows any user with a matching email address to sign up and join your site automatically. Click **Add sign up** to add a domain or GitHub organization.
 
-### Delete 
+Existing sign-up configurations are listed here. Each entry shows the site name and provider. Click the delete icon to remove a configuration.
 
-**WARNING** This will remove your site entirely. This action is not reversible. 
+![Automatic sign-up](admin_img/img_29.png)
+
+## Delete your site
+
+Removes your entire site and all related data (users, projects, test plans).
+
+**WARNING:** This action cannot be reversed.

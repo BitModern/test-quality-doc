@@ -1,35 +1,42 @@
 ---
 title: Profile
-
 ---
-![img_9.png](admin_img/img_9.png)
 
+# Profile
 
-### Profile Details
+Access your profile by clicking your name or photo in the top right of any page.
 
-#### Accessing Profile
+![Profile page](admin_img/img_9.png)
 
-Click your name or picture at the top right of any page to see and change your account details.
+## Profile details
 
-#### Change Picture
+Update your name, email, photo, and roles from this screen. Click **Update** to save changes.
 
-To use a new picture, click 'Upload Photo' next to your current one.
+**First name / Last name** — Both fields are required.
 
-#### Important Fields
+**Email** — Required. Used for:
+- Password reset
+- Notifications for test cases assigned to you
+- Invoice notifications (if your account is set up to receive them)
 
-First Name & Last Name - Both fields are needed
+**Roles** — Controls what you can do in TestQuality. You must have at least one role assigned. See [Roles](roles) for details.
 
-Email - Your email may be used for notifications from the TestQuality app, either for status changes for tests cases assigned to you, or for invoices if you have your account set up to be the account to receive invoices notifications. It is a required field as it may also be needed to reset your password. 
+**Photo** — Click **Upload photo** to replace your current one. Minimum size: 256 x 256px, PNG or JPG.
 
-[Roles](roles)
+## Getting started wizard
 
-Roles decide what you can do on this site. Change them in the 'Roles' section. You must have at least one role.
+Click **Open** next to **Open TestQuality getting started** to run through the setup wizard again.
 
+## Checklist
 
-### Change Password
-This will popup a change password dialogue. We recommend changing your password every few months.
+Click **Show** next to **Open TestQuality checklist** to view the onboarding checklist again.
 
-### Delete User Account
-Deleting your user account will remove ALL of your comments and interactions with your projects. You will no longer have access to the projects and will be removed from the site. 
+## Change password
 
-**WARNING** This action cannot be reversed!
+Click **Change** to open the change password dialog. We recommend updating your password every 3 months.
+
+## Delete user account
+
+Permanently removes your account, all your comments, and your access to all projects. You will be logged out immediately.
+
+**WARNING:** This action cannot be reversed.
