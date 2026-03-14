@@ -1,6 +1,13 @@
 module.exports = {
   docs: [
-      'getting_started',
+      {
+       type: 'category',
+      label: 'Getting started',
+      items: [
+            'getting-started/quick-start',
+            'getting-started/key-concepts',
+           ]
+},
       {
         type: 'category',
         label: 'Migration & Imports',
