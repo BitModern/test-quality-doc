@@ -30,7 +30,9 @@ SSO lets users access TestQuality using existing credentials from an identity pr
 
 ### OpenID Connect
 
-To configure OpenID Connect SSO using Microsoft Azure AD:
+TestQuality works with any standard OpenID Connect provider. The examples below use Microsoft Azure AD and OneLogin, but the same approach applies to other OIDC providers: register an application, then paste two values into TestQuality.
+
+#### Microsoft Azure AD
 
 1. In Azure, go to **App registrations** and click **New registration**
 2. Fill in the form:
@@ -53,6 +55,23 @@ To configure OpenID Connect SSO using Microsoft Azure AD:
    - **OpenID Connect metadata document** → **OpenID Connect Discovery**
    - **Application (client) ID** → **OpenID Client ID**
 8. Click **Update**
+
+#### OneLogin
+
+1. In OneLogin, sign in to the admin portal and go to **Applications → Applications**, then click **Add App**
+2. In the search box, enter **openid** and select the **OpenId Connect (OIDC)** application
+3. Enter a **Display Name** (for example, "TestQuality"), then click **Save**
+4. Go to the **Configuration** tab. In the **Redirect URI's** field, enter: `https://api.testquality.com/api/sso/openid/callback`
+5. Leave **Post Logout Redirect URIs** blank, then click **Save**
+6. Go to the **SSO** tab and copy:
+   - **Client ID**
+   - **Well-known Configuration** URL (right-click and copy the link) — e.g. `https://<your-subdomain>.onelogin.com/oidc/2/.well-known/openid-configuration`
+7. Assign the users or roles who should have access to the application
+8. In TestQuality, go to **Settings → Company**
+9. Paste the values:
+   - **Well-known Configuration** URL → **OpenID Connect Discovery**
+   - **Client ID** → **OpenID Client ID**
+10. Click **Update**
 
 ### GitHub SSO
 
