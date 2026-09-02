@@ -20,3 +20,6 @@ yarn-debug.log*
 yarn-error.log*
 
 /.idea
+
+# credentials now live in AWS Secrets Manager (testquality/ci/algolia-docsearch, ENG-45)
+docsearch/.env
