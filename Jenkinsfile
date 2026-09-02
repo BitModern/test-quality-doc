@@ -103,7 +103,18 @@ pipeline {
                     set -eo pipefail
                     set -u
                     cd docsearch
-                    docker run --rm --env-file=.env \
+
+                    # Credentials come from AWS Secrets Manager, not from the
+                    # committed docsearch/.env (ENG-45). The scraper PUSHES the
+                    # index, so API_KEY is write-capable -- it is a real
+                    # credential, not a search-only key.
+                    trap 'rm -f .env.ci' EXIT
+                    aws secretsmanager get-secret-value \
+                        --region us-east-1 \
+                        --secret-id testquality/ci/algolia-docsearch \
+                        --query SecretString --output text > .env.ci
+
+                    docker run --rm --env-file=.env.ci \
                         -e "CONFIG=$(jq -r tostring < ./algolia.json)" \
                         algolia/docsearch-scraper
                 '''
